@@ -1,37 +1,68 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect } from 'react';
-import { Dimensions, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Animated, {
+    Easing,
     useAnimatedStyle,
     useSharedValue,
     withDelay,
+    withRepeat,
+    withSequence,
     withSpring,
     withTiming
 } from 'react-native-reanimated';
 
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 const IntroScreen = () => {
     const navigation = useNavigation();
 
     // Animation values
+    const iconScale = useSharedValue(0);
+    const iconRotate = useSharedValue(0);
     const titleTranslateY = useSharedValue(50);
     const titleOpacity = useSharedValue(0);
     const subtitleTranslateY = useSharedValue(50);
     const subtitleOpacity = useSharedValue(0);
     const buttonScale = useSharedValue(0);
+    const floatingY = useSharedValue(0);
 
     useEffect(() => {
-        // Start animations sequence
-        titleTranslateY.value = withDelay(300, withSpring(0));
-        titleOpacity.value = withDelay(300, withTiming(1, { duration: 800 }));
+        // Entrance Animations
+        iconScale.value = withSpring(1, { damping: 12, stiffness: 90 });
+        iconRotate.value = withDelay(200, withSpring(1));
 
-        subtitleTranslateY.value = withDelay(600, withSpring(0));
-        subtitleOpacity.value = withDelay(600, withTiming(1, { duration: 800 }));
+        titleTranslateY.value = withDelay(400, withSpring(0));
+        titleOpacity.value = withDelay(400, withTiming(1, { duration: 800 }));
 
-        buttonScale.value = withDelay(1200, withSpring(1, { damping: 12 }));
+        subtitleTranslateY.value = withDelay(700, withSpring(0));
+        subtitleOpacity.value = withDelay(700, withTiming(1, { duration: 800 }));
+
+        buttonScale.value = withDelay(1400, withSpring(1, { damping: 12 }));
+
+        // Continuous Floating Animation for Icon
+        floatingY.value = withDelay(
+            1500,
+            withRepeat(
+                withSequence(
+                    withTiming(-15, { duration: 1500, easing: Easing.inOut(Easing.quad) }),
+                    withTiming(0, { duration: 1500, easing: Easing.inOut(Easing.quad) })
+                ),
+                -1,
+                true
+            )
+        );
     }, []);
+
+    const animatedIconStyle = useAnimatedStyle(() => ({
+        transform: [
+            { scale: iconScale.value },
+            { rotate: `${iconRotate.value * 10}deg` }, // Subtle rotation
+            { translateY: floatingY.value }
+        ]
+    }));
 
     const animatedTitleStyle = useAnimatedStyle(() => ({
         opacity: titleOpacity.value,
@@ -48,49 +79,61 @@ const IntroScreen = () => {
     }));
 
     return (
-        <ImageBackground
-            source={require('../../../assets/intro-bg.jpg')}
+        <LinearGradient
+            colors={['#1c1e21', '#2c3e50', '#4ca1af']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
             style={styles.container}
-            resizeMode="cover"
         >
-            <View style={styles.overlay}>
-                <View style={styles.contentContainer}>
-                    {/* Text Section */}
-                    <Animated.View style={[styles.textContainer, animatedTitleStyle]}>
-                        <Text style={styles.title}>SmartAdvisor</Text>
-                    </Animated.View>
+            <View style={styles.contentContainer}>
+                {/* Floating 3D-like Icon */}
+                <Animated.View style={[styles.iconContainer, animatedIconStyle]}>
+                    <View style={styles.iconCircle}>
+                        <Ionicons name="school" size={100} color="#fff" />
+                    </View>
+                    <View style={styles.glow} />
+                </Animated.View>
 
-                    <Animated.View style={[styles.textContainer, animatedSubtitleStyle]}>
-                        <Text style={styles.subtitle}>
-                            Système de recommandation de parcours universitaire
-                        </Text>
-                    </Animated.View>
-                </View>
+                {/* Typography */}
+                <Animated.View style={[styles.textWrapper, animatedTitleStyle]}>
+                    <Text style={styles.title}>SmartAdvisor</Text>
+                </Animated.View>
 
-                {/* Button Section */}
-                <Animated.View style={[styles.buttonContainer, animatedButtonStyle]}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => navigation.replace('Login')}
-                    >
-                        <Text style={styles.buttonText}>Commencer</Text>
-                        <Ionicons name="arrow-forward" size={24} color="#0a4da2" />
-                    </TouchableOpacity>
+                <Animated.View style={[styles.textWrapper, animatedSubtitleStyle]}>
+                    <Text style={styles.subtitle}>
+                        Votre avenir académique commence ici.
+                    </Text>
+                    <Text style={styles.description}>
+                        Découvrez les meilleures recommandations de parcours basées sur l'intelligence artificielle.
+                    </Text>
                 </Animated.View>
             </View>
-        </ImageBackground>
+
+            {/* Glassmorphism Button */}
+            <Animated.View style={[styles.footer, animatedButtonStyle]}>
+                <TouchableOpacity
+                    activeOpacity={0.8}
+                    style={styles.button}
+                    onPress={() => navigation.replace('Login')}
+                >
+                    <LinearGradient
+                        colors={['#4ca1af', '#2c3e50']}
+                        start={{ x: 0, y: 0 }}
+                        end={{ x: 1, y: 0 }}
+                        style={styles.buttonGradient}
+                    >
+                        <Text style={styles.buttonText}>Commencer l'expérience</Text>
+                        <Ionicons name="arrow-forward-circle" size={28} color="#fff" />
+                    </LinearGradient>
+                </TouchableOpacity>
+            </Animated.View>
+        </LinearGradient>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        width: '100%',
-        height: '100%',
-    },
-    overlay: {
-        flex: 1,
-        backgroundColor: 'rgba(0, 20, 60, 0.4)', // Dark blue overlay for better text contrast
         justifyContent: 'space-between',
         alignItems: 'center',
         paddingVertical: 80,
@@ -98,62 +141,95 @@ const styles = StyleSheet.create({
     contentContainer: {
         alignItems: 'center',
         width: '100%',
-        paddingHorizontal: 20,
-        marginTop: 60,
+        paddingHorizontal: 30,
+        marginTop: 40,
     },
-    textContainer: {
+    iconContainer: {
         alignItems: 'center',
-        marginBottom: 15,
+        justifyContent: 'center',
+        marginBottom: 50,
+        position: 'relative',
+    },
+    iconCircle: {
+        width: 180,
+        height: 180,
+        borderRadius: 90,
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderWidth: 1,
+        borderColor: 'rgba(255, 255, 255, 0.2)',
+        zIndex: 2,
+        shadowColor: '#4ca1af',
+        shadowOffset: { width: 0, height: 10 },
+        shadowOpacity: 0.5,
+        shadowRadius: 20,
+    },
+    glow: {
+        position: 'absolute',
+        width: 220,
+        height: 220,
+        borderRadius: 110,
+        backgroundColor: 'rgba(76, 161, 175, 0.3)',
+        filter: 'blur(40px)', // Note: standard CSS blur, might behave differently on Native but adds web effect
+        zIndex: 1,
+    },
+    textWrapper: {
+        alignItems: 'center',
+        marginBottom: 10,
     },
     title: {
-        fontSize: 48,
-        fontWeight: 'bold',
+        fontSize: 46,
+        fontWeight: '800',
         color: '#ffffff',
         textAlign: 'center',
-        letterSpacing: 1,
-        textShadowColor: 'rgba(0, 0, 0, 0.75)',
-        textShadowOffset: { width: 0, height: 2 },
-        textShadowRadius: 6,
+        letterSpacing: 2,
+        textTransform: 'uppercase',
     },
     subtitle: {
-        fontSize: 20,
-        color: '#f0f0f0',
+        fontSize: 22,
+        fontWeight: '600',
+        color: '#76efff', // Cyan touch
         textAlign: 'center',
-        lineHeight: 28,
-        maxWidth: '90%',
         marginTop: 10,
-        textShadowColor: 'rgba(0, 0, 0, 0.75)',
-        textShadowOffset: { width: 0, height: 1 },
-        textShadowRadius: 4,
-        fontWeight: '500',
+        marginBottom: 15,
+        letterSpacing: 0.5,
     },
-    buttonContainer: {
+    description: {
+        fontSize: 16,
+        color: 'rgba(255, 255, 255, 0.7)',
+        textAlign: 'center',
+        lineHeight: 24,
+        marginHorizontal: 10,
+    },
+    footer: {
         width: '100%',
         alignItems: 'center',
-        marginBottom: 40,
+        paddingHorizontal: 30,
     },
     button: {
-        flexDirection: 'row',
-        backgroundColor: '#ffffff',
-        paddingVertical: 18,
-        paddingHorizontal: 45,
-        borderRadius: 50,
-        alignItems: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 4,
-        },
+        width: '100%',
+        borderRadius: 15,
+        overflow: 'hidden',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 10 },
         shadowOpacity: 0.3,
-        shadowRadius: 4.65,
-        elevation: 8,
+        shadowRadius: 10,
+        elevation: 10,
+    },
+    buttonGradient: {
+        paddingVertical: 18,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: 10,
     },
     buttonText: {
-        color: '#0a4da2',
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: 'bold',
-        marginRight: 10,
-    },
+        color: '#ffffff',
+        letterSpacing: 1,
+    }
 });
 
 export default IntroScreen;
