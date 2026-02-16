@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { useEffect } from 'react';
-import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Animated, {
     useAnimatedStyle,
     useSharedValue,
@@ -16,7 +16,6 @@ const IntroScreen = () => {
     const navigation = useNavigation();
 
     // Animation values
-    const logoOpacity = useSharedValue(0);
     const logoScale = useSharedValue(0.3);
     const titleTranslateY = useSharedValue(50);
     const titleOpacity = useSharedValue(0);
@@ -26,7 +25,6 @@ const IntroScreen = () => {
 
     useEffect(() => {
         // Start animations sequence
-        logoOpacity.value = withTiming(1, { duration: 1000 });
         logoScale.value = withSpring(1, { damping: 10, stiffness: 100 });
 
         titleTranslateY.value = withDelay(500, withSpring(0));
@@ -38,8 +36,7 @@ const IntroScreen = () => {
         buttonScale.value = withDelay(1500, withSpring(1, { damping: 12 }));
     }, []);
 
-    const animatedLogoStyle = useAnimatedStyle(() => ({
-        opacity: logoOpacity.value,
+    const animatedImageStyle = useAnimatedStyle(() => ({
         transform: [{ scale: logoScale.value }]
     }));
 
@@ -59,14 +56,16 @@ const IntroScreen = () => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.contentContainer}>
-                {/* Logo Section */}
-                <Animated.View style={[styles.logoContainer, animatedLogoStyle]}>
-                    <View style={styles.logoCircle}>
-                        <Ionicons name="school" size={80} color="#fff" />
-                    </View>
-                </Animated.View>
+            {/* Background Image/Illustration */}
+            <Animated.View style={[styles.imageContainer, animatedImageStyle]}>
+                <Image
+                    source={require('../../../assets/intro-bg.jpg')}
+                    style={styles.introImage}
+                    resizeMode="contain"
+                />
+            </Animated.View>
 
+            <View style={styles.contentContainer}>
                 {/* Text Section */}
                 <Animated.View style={[styles.textContainer, animatedTitleStyle]}>
                     <Text style={styles.title}>SmartAdvisor</Text>
@@ -76,11 +75,6 @@ const IntroScreen = () => {
                     <Text style={styles.subtitle}>
                         Système de recommandation de parcours universitaire
                     </Text>
-                </Animated.View>
-
-                {/* Illustration Placeholder (Optional) */}
-                <Animated.View style={[styles.illustrationContainer, animatedSubtitleStyle]}>
-                    {/* You can add an image here later if needed */}
                 </Animated.View>
             </View>
 
@@ -101,41 +95,31 @@ const IntroScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#4c669f', // Primary blue color
+        backgroundColor: '#0a4da2', // Matching the blue from the image
         justifyContent: 'space-between',
         alignItems: 'center',
         paddingVertical: 60,
     },
-    contentContainer: {
-        alignItems: 'center',
-        marginTop: 60,
-        width: '100%',
-        paddingHorizontal: 20,
-    },
-    logoContainer: {
-        marginBottom: 30,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 10,
-        },
-        shadowOpacity: 0.3,
-        shadowRadius: 20,
-        elevation: 10,
-    },
-    logoCircle: {
-        width: 140,
-        height: 140,
-        borderRadius: 70,
-        backgroundColor: 'rgba(255,255,255,0.2)',
+    imageContainer: {
+        width: width * 0.9,
+        height: height * 0.45,
+        marginTop: 20,
         justifyContent: 'center',
         alignItems: 'center',
-        borderWidth: 2,
-        borderColor: 'rgba(255,255,255,0.5)'
+    },
+    introImage: {
+        width: '100%',
+        height: '100%',
+    },
+    contentContainer: {
+        alignItems: 'center',
+        width: '100%',
+        paddingHorizontal: 20,
+        marginTop: -20,
     },
     textContainer: {
         alignItems: 'center',
-        marginBottom: 15,
+        marginBottom: 10,
     },
     title: {
         fontSize: 42,
@@ -143,18 +127,17 @@ const styles = StyleSheet.create({
         color: '#ffffff',
         textAlign: 'center',
         letterSpacing: 1,
+        textShadowColor: 'rgba(0, 0, 0, 0.3)',
+        textShadowOffset: { width: 0, height: 2 },
+        textShadowRadius: 3,
     },
     subtitle: {
         fontSize: 18,
         color: '#e0e0e0',
         textAlign: 'center',
         lineHeight: 24,
-        maxWidth: '80%',
-    },
-    illustrationContainer: {
-        marginTop: 40,
-        alignItems: 'center',
-        justifyContent: 'center',
+        maxWidth: '90%',
+        marginTop: 10,
     },
     buttonContainer: {
         width: '100%',
@@ -178,7 +161,7 @@ const styles = StyleSheet.create({
         elevation: 8,
     },
     buttonText: {
-        color: '#4c669f',
+        color: '#0a4da2',
         fontSize: 18,
         fontWeight: 'bold',
         marginRight: 10,
