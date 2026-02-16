@@ -1,8 +1,8 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import { BlurView } from 'expo-blur';
+import { LinearGradient } from 'expo-linear-gradient';
 import { useEffect } from 'react';
-import { Dimensions, ImageBackground, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Animated, {
     useAnimatedStyle,
     useSharedValue,
@@ -11,7 +11,7 @@ import Animated, {
     withTiming
 } from 'react-native-reanimated';
 
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 const IntroScreen = () => {
     const navigation = useNavigation();
@@ -51,28 +51,26 @@ const IntroScreen = () => {
             style={styles.container}
             resizeMode="cover"
         >
-            {/* Dark Blur Overlay for the whole background */}
-            <BlurView intensity={Platform.OS === 'ios' ? 30 : 100} tint="dark" style={StyleSheet.absoluteFill}>
+            {/* Blue Gradient Overlay */}
+            <LinearGradient
+                colors={['rgba(10, 77, 162, 0.85)', 'rgba(76, 102, 159, 0.9)']} // Strong Blue Gradient
+                style={styles.overlay}
+            >
                 <View style={styles.safeArea}>
 
-                    {/* Top Content */}
-                    <View style={styles.topSection}>
-                        <Animated.View style={[styles.iconContainer, animatedIconStyle]}>
-                            <View style={styles.iconGlass}>
-                                <Ionicons name="school" size={80} color="#fff" />
-                            </View>
-                        </Animated.View>
-                    </View>
+                    {/* Icon Section */}
+                    <Animated.View style={[styles.iconContainer, animatedIconStyle]}>
+                        <View style={styles.iconCircle}>
+                            <Ionicons name="school" size={90} color="#0a4da2" />
+                        </View>
+                    </Animated.View>
 
-                    {/* Middle Glass Card */}
-                    <Animated.View style={[styles.glassCard, animatedContentStyle]}>
-                        <BlurView intensity={Platform.OS === 'ios' ? 60 : 80} tint="light" style={styles.cardBlur}>
-                            <Text style={styles.title}>SmartAdvisor</Text>
-                            <View style={styles.separator} />
-                            <Text style={styles.subtitle}>
-                                Votre guide intelligent pour un parcours universitaire réussi.
-                            </Text>
-                        </BlurView>
+                    {/* Text Content */}
+                    <Animated.View style={[styles.contentContainer, animatedContentStyle]}>
+                        <Text style={styles.title}>SmartAdvisor</Text>
+                        <Text style={styles.subtitle}>
+                            Optimisez votre parcours universitaire avec l'intelligence artificielle.
+                        </Text>
                     </Animated.View>
 
                     {/* Bottom Button */}
@@ -80,16 +78,15 @@ const IntroScreen = () => {
                         <TouchableOpacity
                             activeOpacity={0.8}
                             onPress={() => navigation.replace('Login')}
+                            style={styles.button}
                         >
-                            <BlurView intensity={80} tint="default" style={styles.glassButton}>
-                                <Text style={styles.buttonText}>Commencer</Text>
-                                <Ionicons name="arrow-forward" size={24} color="#000" />
-                            </BlurView>
+                            <Text style={styles.buttonText}>Commencer</Text>
+                            <Ionicons name="arrow-forward" size={22} color="#0a4da2" />
                         </TouchableOpacity>
                     </Animated.View>
 
                 </View>
-            </BlurView>
+            </LinearGradient>
         </ImageBackground>
     );
 };
@@ -100,88 +97,79 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
     },
+    overlay: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+    },
     safeArea: {
         flex: 1,
-        justifyContent: 'space-between',
+        justifyContent: 'space-between', // Distribute space
         alignItems: 'center',
-        paddingVertical: 60,
+        paddingVertical: 80,
         paddingHorizontal: 20,
     },
-    topSection: {
-        marginTop: 40,
-        alignItems: 'center',
-    },
     iconContainer: {
+        marginTop: 40,
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 10 },
+        shadowOffset: { width: 0, height: 8 },
         shadowOpacity: 0.3,
-        shadowRadius: 20,
-        elevation: 15,
+        shadowRadius: 15,
+        elevation: 10,
     },
-    iconGlass: {
-        width: 140,
-        height: 140,
-        borderRadius: 70,
-        backgroundColor: 'rgba(255, 255, 255, 0.15)', // Semi-transparent
-        borderWidth: 1,
-        borderColor: 'rgba(255, 255, 255, 0.3)',
+    iconCircle: {
+        width: 160,
+        height: 160,
+        borderRadius: 80,
+        backgroundColor: '#ffffff',
         justifyContent: 'center',
         alignItems: 'center',
-        backdropFilter: 'blur(10px)', // Web support
     },
-    glassCard: {
-        width: '100%',
-        borderRadius: 25,
-        overflow: 'hidden',
-        borderWidth: 1,
-        borderColor: 'rgba(255, 255, 255, 0.2)',
-        backgroundColor: 'rgba(255, 255, 255, 0.1)', // Slight white tint
-    },
-    cardBlur: {
-        padding: 30,
+    contentContainer: {
         alignItems: 'center',
+        width: '100%',
+        paddingHorizontal: 10,
     },
     title: {
-        fontSize: 36,
+        fontSize: 42,
         fontWeight: 'bold',
-        color: '#fff', // Dark text for contrast on light glass
+        color: '#ffffff',
         textAlign: 'center',
+        marginBottom: 15,
         letterSpacing: 1,
-        textShadowColor: 'rgba(0,0,0,0.3)',
-        textShadowOffset: { width: 0, height: 2 },
-        textShadowRadius: 4,
-    },
-    separator: {
-        width: 60,
-        height: 4,
-        backgroundColor: 'rgba(255,255,255,0.5)',
-        borderRadius: 2,
-        marginVertical: 15,
     },
     subtitle: {
         fontSize: 18,
-        color: '#f0f0f0',
+        color: '#e0e0e0', // Light gray for readability on blue
         textAlign: 'center',
         lineHeight: 26,
+        maxWidth: '85%',
     },
     bottomSection: {
         width: '100%',
         alignItems: 'center',
         marginBottom: 20,
     },
-    glassButton: {
+    button: {
         flexDirection: 'row',
-        alignItems: 'center',
+        backgroundColor: '#ffffff',
         paddingVertical: 18,
         paddingHorizontal: 50,
         borderRadius: 40,
-        backgroundColor: 'rgba(255, 255, 255, 0.8)', // More opaque for button
-        overflow: 'hidden',
+        alignItems: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 4,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
     },
     buttonText: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: 'bold',
-        color: '#000',
+        color: '#0a4da2', // Blue text to match theme
         marginRight: 10,
     },
 });
