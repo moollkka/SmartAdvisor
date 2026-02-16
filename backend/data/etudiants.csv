@@ -1,0 +1,1001 @@
+etudiant_id,prenom,nom,age,specialite,preferences,moyenne,email,password
+1,Emna,Ben Romdhane,25,Sciences des données,exercices moyens,11.75,emna.benromdhane1@univ.tn,78tIapMW1Z
+2,Sana,Daafous,21,Génie civil,projets pratiques,17.51,sana.daafous2@univ.tn,4ROUHLW7sl
+3,Jamel,Jouini,19,Comptabilité,exercices faciles,15.32,jamel.jouini3@univ.tn,QlkFxAIiKp
+4,Khaled,Chebbi,20,Sciences des données,exercices difficiles,13.99,khaled.chebbi4@univ.tn,uSjjud5MPE
+5,Abdelwahab,Ben Abdallah,19,Réseaux,exercices difficiles,9.56,abdelwahab.ben abdallah5@univ.tn,JwWtnleFzH
+6,Zeinab,Khairi,25,Génie civil,exercices faciles,9.56,zeinab.khairi6@univ.tn,fnnuwnUG9Z
+7,Karim,Khairallah,20,Réseaux,projets pratiques,8.58,karim.khairallah7@univ.tn,8aPB4MM7Qt
+8,Nour,Jouini,25,Économie,exercices faciles,16.66,nour.jouini8@univ.tn,46xHr4YxXB
+9,Yasmine,Jouini,19,Finance,exercices faciles,14.01,yasmine.jouini9@univ.tn,c3lF6k7Hae
+10,Youssef,Zidi,23,Réseaux,vidéos,15.08,youssef.zidi10@univ.tn,PV1AgHR8WO
+11,Sana,Trabelsi,23,Réseaux,vidéos,8.21,sana.trabelsi11@univ.tn,6UjCufdXIJ
+12,Nour,Khairi,19,Gestion,projets pratiques,17.7,nour.khairi12@univ.tn,oqyNAbPHNM
+13,Malek,Bilkhire,26,Physique,vidéos,16.32,malek.bilkhire13@univ.tn,UKRe5gWsfV
+14,Abdelwahab,Gharbi,26,Économie,exercices moyens,10.12,abdelwahab.gharbi14@univ.tn,ByODHiyXH7
+15,Moez,Ferchichi,22,Mécanique,vidéos,9.82,moez.ferchichi15@univ.tn,iP4XTx6IIh
+16,Sana,Mzoughi,22,Informatique,vidéos,9.83,sana.mzoughi16@univ.tn,aKH6sU4vzO
+17,Houneida,Ben Said,20,Physique,vidéos,11.04,houneida.ben said17@univ.tn,FjnZmlX005
+18,Jasser,Khairi,20,Gestion,exercices difficiles,13.25,jasser.khairi18@univ.tn,9CIsegSEuh
+19,Abdelwahab,Chaari,23,Informatique,QCM,12.32,abdelwahab.chaari19@univ.tn,OgM3tBMsKJ
+20,Sarra,Trabelsi,26,Économie,vidéos,10.91,sarra.trabelsi20@univ.tn,wtAapnTB0i
+21,Jamel,Chebbi,21,Réseaux,exercices faciles,14.12,jamel.chebbi21@univ.tn,T2CwsIkL01
+22,Ahmed,Ben Romdhane,19,Mathématiques,vidéos,9.39,ahmed.ben romdhane22@univ.tn,iHq2eebFbK
+23,Molka,Bouazizi,21,Physique,QCM,10.92,molka.bouazizi23@univ.tn,zK4IH9DWwn
+24,Yasmine,Nebli,20,Biologie,projets pratiques,11.66,yasmine.nebli24@univ.tn,VTsCFyFP0Y
+25,Ines,Nebli,21,Génie civil,projets pratiques,12.56,ines.nebli25@univ.tn,MkFBl6O7TD
+26,Jamel,Miled,25,Génie civil,exercices moyens,15.85,jamel.miled26@univ.tn,wnEdwcm4wD
+27,Walid,Sassi,18,Sciences des données,exercices moyens,10.0,walid.sassi27@univ.tn,Cc8uRGZZqH
+28,Malek,Ben Romdhane,23,Économie,vidéos,13.14,malek.ben romdhane28@univ.tn,kOwOZGx4Gv
+29,Ines,Gharbi,26,Biologie,exercices faciles,13.92,ines.gharbi29@univ.tn,1EDLFikeNn
+30,Karim,Daafous,23,Sciences des données,exercices faciles,8.46,karim.daafous30@univ.tn,lwShoYSDDn
+31,Nour,Ben Romdhane,25,Économie,exercices difficiles,14.08,nour.ben romdhane31@univ.tn,jZbcJjNcJd
+32,Salma,Ben Abdallah,26,Biologie,exercices faciles,9.71,salma.ben abdallah32@univ.tn,ql7LIbSPrf
+33,Karim,Trabelsi,20,Comptabilité,exercices difficiles,8.65,karim.trabelsi33@univ.tn,B91kZLXYlO
+34,Hana,Bilkhire,19,Physique,exercices difficiles,17.49,hana.bilkhire34@univ.tn,qSvCKoxgm1
+35,Hana,Ben Romdhane,19,Économie,exercices faciles,17.66,hana.ben romdhane35@univ.tn,FAjfDMcWFh
+36,Aya,Trabelsi,22,Économie,exercices faciles,16.08,aya.trabelsi36@univ.tn,DiLZ3WOGwc
+37,Youssef,Sassi,24,Réseaux,exercices difficiles,11.05,youssef.sassi37@univ.tn,GoXWxKTVRg
+38,Amine,Chaari,25,Génie logiciel,exercices moyens,8.98,amine.chaari38@univ.tn,iDo1r2zlRW
+39,Emna,Bouazizi,26,Mécanique,vidéos,14.84,emna.bouazizi39@univ.tn,JhaOQtwjOp
+40,Salma,Gharbi,24,Informatique,exercices moyens,12.4,salma.gharbi40@univ.tn,1AwrQUzWDw
+41,Nour,Sassi,24,Chimie,projets pratiques,9.22,nour.sassi41@univ.tn,IptvRT1OUB
+42,Imane,Ferchichi,19,Chimie,exercices faciles,12.95,imane.ferchichi42@univ.tn,RknyuIRRj7
+43,Rania,Nebli,20,Mathématiques,QCM,8.34,rania.nebli43@univ.tn,afj5Adnecx
+44,Houneida,Fakhfakh,23,Finance,exercices faciles,17.09,houneida.fakhfakh44@univ.tn,9MGSL6YNBm
+45,Omar,Daafous,19,Informatique,exercices difficiles,10.59,omar.daafous45@univ.tn,OXrcLFokco
+46,Youssef,Bouazizi,25,Finance,QCM,14.63,youssef.bouazizi46@univ.tn,aj9WvyKGTe
+47,Abdelwahab,Bilkhire,25,Mathématiques,QCM,11.12,abdelwahab.bilkhire47@univ.tn,frZ4v7rLm5
+48,Imane,Bilkhire,26,Génie civil,vidéos,13.2,imane.bilkhire48@univ.tn,Jqzges6X72
+49,Nour,Ben Said,23,Finance,projets pratiques,13.47,nour.ben said49@univ.tn,YJR7IVU7CC
+50,Abdelwahab,Ben Ali,20,Réseaux,exercices faciles,9.85,abdelwahab.ben ali50@univ.tn,KbheN9Pot7
+51,Karim,Trabelsi,26,Chimie,vidéos,17.7,karim.trabelsi51@univ.tn,GaZpfPYe5D
+52,Salma,Bouzid,20,Économie,projets pratiques,15.75,salma.bouzid52@univ.tn,v3q6Q4EmT2
+53,Jamel,Ayari,20,Mécanique,exercices moyens,17.39,jamel.ayari53@univ.tn,mmpMjg5PPM
+54,Amine,Miled,24,Comptabilité,QCM,16.95,amine.miled54@univ.tn,VHcDME931E
+55,Rania,Zidi,26,Chimie,vidéos,13.98,rania.zidi55@univ.tn,94rnJdXDHF
+56,Molka,Bouzid,18,Chimie,exercices moyens,17.22,molka.bouzid56@univ.tn,yQk8RCQanK
+57,Rania,Khairallah,19,Économie,exercices faciles,8.88,rania.khairallah57@univ.tn,uLqIoDMwEn
+58,Hana,Bouazizi,26,Génie civil,exercices faciles,9.96,hana.bouazizi58@univ.tn,Rx0rliJogq
+59,Malek,Fakhfakh,20,Génie civil,exercices difficiles,8.45,malek.fakhfakh59@univ.tn,oAxj7jXkE9
+60,Jamel,Ferchichi,22,Génie logiciel,exercices moyens,11.25,jamel.ferchichi60@univ.tn,0GSWsIJyQd
+61,Omar,Ouni,20,Mécanique,exercices moyens,11.89,omar.ouni61@univ.tn,YDNBuwI5pb
+62,Molka,Ben Abdallah,20,Génie logiciel,vidéos,10.71,molka.ben abdallah62@univ.tn,h17mJOkWwP
+63,Khaled,Bouazizi,23,Finance,projets pratiques,16.29,khaled.bouazizi63@univ.tn,ET3xrNikYu
+64,Molka,Khairallah,21,Chimie,QCM,11.57,molka.khairallah64@univ.tn,NJ0ekotsqN
+65,Amine,Bouazizi,23,Génie civil,projets pratiques,10.81,amine.bouazizi65@univ.tn,qB1wK7zlbT
+66,Salma,Ferchichi,26,Physique,projets pratiques,13.43,salma.ferchichi66@univ.tn,P6Rekgd2Ib
+67,Jamel,Sassi,22,Gestion,QCM,9.41,jamel.sassi67@univ.tn,yVfqjO2tpr
+68,Abdelwahab,Miled,19,Génie civil,exercices difficiles,16.02,abdelwahab.miled68@univ.tn,MiZbP1uD8H
+69,Mohamed Dhya,Ayari,22,Physique,projets pratiques,8.75,mohamed dhya.ayari69@univ.tn,qB8RkLNNIG
+70,Mariem,Ouni,21,Chimie,exercices difficiles,17.87,mariem.ouni70@univ.tn,NtvHXBwqsa
+71,Abdelwahab,Zidi,26,Informatique,exercices difficiles,15.72,abdelwahab.zidi71@univ.tn,Y0vDa56DaA
+72,Youssef,Bouzid,22,Chimie,exercices moyens,9.99,youssef.bouzid72@univ.tn,soaxzIykTy
+73,Mohamed Dhya,Trabelsi,20,Comptabilité,exercices faciles,8.06,mohamed dhya.trabelsi73@univ.tn,xqAoV4YQrU
+74,Houssem,Ben Said,22,Économie,exercices faciles,16.15,houssem.ben said74@univ.tn,Yz0lrNMqMl
+75,Jamel,Ben Ali,26,Génie civil,vidéos,15.07,jamel.ben ali75@univ.tn,bdHlgqSToj
+76,Omar,Chaari,19,Mathématiques,QCM,15.29,omar.chaari76@univ.tn,EvtX9CXu07
+77,Malek,Sassi,26,Biologie,QCM,15.71,malek.sassi77@univ.tn,dWeDl0YZhV
+78,Mohamed Dhya,Zidi,20,Génie logiciel,vidéos,8.74,mohamed dhya.zidi78@univ.tn,pVBTcCVG8D
+79,Malek,Zidi,20,Comptabilité,exercices moyens,11.58,malek.zidi79@univ.tn,QtuNc6GpNm
+80,Hassan,Ben Abdallah,20,Physique,exercices faciles,9.16,hassan.ben abdallah80@univ.tn,31nhNukrhW
+81,Houssem,Chaari,23,Sciences des données,exercices difficiles,16.63,houssem.chaari81@univ.tn,acWDKxfjfM
+82,Amine,Bouzid,18,Chimie,exercices faciles,14.23,amine.bouzid82@univ.tn,59MdNRXho8
+83,Walid,Ben Youssef,18,Mathématiques,vidéos,11.31,walid.ben youssef83@univ.tn,WUXBlQwi3E
+84,Aya,Gharbi,19,Finance,exercices faciles,8.64,aya.gharbi84@univ.tn,BsRllvTrZ4
+85,Zeinab,Daafous,18,Physique,exercices difficiles,11.11,zeinab.daafous85@univ.tn,IejsqwaNxl
+86,Khaled,Sassi,22,Informatique,projets pratiques,11.25,khaled.sassi86@univ.tn,b1WoSOHyGE
+87,Aya,Ben Ali,21,Économie,projets pratiques,15.3,aya.ben ali87@univ.tn,IMuNgGeZi2
+88,Yasmine,Zidi,24,Finance,QCM,14.38,yasmine.zidi88@univ.tn,mEgJZOGRpw
+89,Houssem,Ben Ali,18,Gestion,vidéos,16.87,houssem.ben ali89@univ.tn,Le5mE3eXdI
+90,Rania,Ben Romdhane,25,Physique,exercices moyens,12.72,rania.ben romdhane90@univ.tn,6zwRZqces6
+91,Abdelwahab,Bouzid,26,Physique,exercices faciles,9.2,abdelwahab.bouzid91@univ.tn,7gSGlGpMlU
+92,Zeinab,Bouzid,22,Génie logiciel,exercices faciles,15.13,zeinab.bouzid92@univ.tn,zgNwCP2kly
+93,Moez,Miled,22,Économie,exercices moyens,15.61,moez.miled93@univ.tn,uj9Bvt9uxV
+94,Hassan,Khairallah,25,Physique,exercices moyens,13.61,hassan.khairallah94@univ.tn,ATLInV5p7B
+95,Nour,Ayari,21,Génie logiciel,projets pratiques,15.71,nour.ayari95@univ.tn,yT8KG9ssn1
+96,Mariem,Ben Ali,24,Chimie,exercices difficiles,12.94,mariem.ben ali96@univ.tn,bYQrII5jcw
+97,Emna,Ben Youssef,22,Chimie,exercices faciles,13.23,emna.ben youssef97@univ.tn,iwKoYfy4TS
+98,Walid,Chaari,25,Mathématiques,vidéos,12.28,walid.chaari98@univ.tn,XkZQJ4KsTJ
+99,Molka,Trabelsi,19,Mathématiques,exercices faciles,8.25,molka.trabelsi99@univ.tn,edVvYz11oO
+100,Yasmine,Zidi,18,Chimie,exercices difficiles,9.08,yasmine.zidi100@univ.tn,LaWxscHjFn
+101,Omar,Jouini,20,Comptabilité,vidéos,8.31,omar.jouini101@univ.tn,dTyBKFnryi
+102,Salma,Khairi,25,Mécanique,vidéos,14.36,salma.khairi102@univ.tn,fJdyfFViiI
+103,Salma,Hmani,24,Comptabilité,vidéos,11.14,salma.hmani103@univ.tn,EOmMTpeWu5
+104,Amine,Gharbi,25,Gestion,projets pratiques,13.09,amine.gharbi104@univ.tn,fPAvtKbs9M
+105,Aya,Jouini,25,Physique,exercices difficiles,17.08,aya.jouini105@univ.tn,9BjcYmxU0g
+106,Ahmed,Fakhfakh,21,Comptabilité,exercices faciles,10.49,ahmed.fakhfakh106@univ.tn,d651YaRgBb
+107,Emna,Mzoughi,23,Mécanique,projets pratiques,12.1,emna.mzoughi107@univ.tn,mHmGqDTiRb
+108,Jamel,Nebli,20,Sciences des données,QCM,15.56,jamel.nebli108@univ.tn,KPckrWMdOa
+109,Ines,Ouni,23,Biologie,vidéos,10.29,ines.ouni109@univ.tn,yq0O1b1Oox
+110,Emna,Ben Romdhane,23,Réseaux,exercices moyens,8.77,emna.ben romdhane110@univ.tn,8gt1GlFC5b
+111,Imane,Hmani,23,Mécanique,exercices difficiles,10.9,imane.hmani111@univ.tn,pGuyjvvMo8
+112,Yasmine,Khairallah,24,Réseaux,vidéos,9.61,yasmine.khairallah112@univ.tn,FYM23YbIrj
+113,Molka,Gharbi,20,Chimie,exercices difficiles,17.3,molka.gharbi113@univ.tn,3Ofx7LMooj
+114,Amine,Nebli,23,Mathématiques,exercices moyens,16.08,amine.nebli114@univ.tn,84uHmiHX1t
+115,Ahmed,Hmani,26,Physique,vidéos,14.33,ahmed.hmani115@univ.tn,RGi98i54tI
+116,Aya,Miled,26,Mathématiques,exercices faciles,16.71,aya.miled116@univ.tn,6ht2TV2zzB
+117,Moez,Ben Said,19,Chimie,exercices difficiles,16.04,moez.ben said117@univ.tn,535qWglVLq
+118,Mdalela,Trabelsi,23,Informatique,vidéos,9.87,mdalela.trabelsi118@univ.tn,JooQwQDFLS
+119,Moez,Jouini,21,Mécanique,vidéos,16.93,moez.jouini119@univ.tn,x0EilbVaqz
+120,Karim,Bouzid,25,Gestion,exercices difficiles,13.39,karim.bouzid120@univ.tn,U9Ue591EuC
+121,Jihed,Sassi,19,Génie civil,exercices moyens,16.07,jihed.sassi121@univ.tn,pzcTxtLUKG
+122,Moez,Daafous,22,Finance,exercices difficiles,16.96,moez.daafous122@univ.tn,2WGBZc9GyT
+123,Houneida,Hmani,25,Mécanique,QCM,11.18,houneida.hmani123@univ.tn,IFNdsysZCA
+124,Walid,Jaziri,21,Génie civil,exercices faciles,9.1,walid.jaziri124@univ.tn,MdGiZCShW6
+125,Rania,Nebli,20,Réseaux,exercices moyens,10.28,rania.nebli125@univ.tn,RizBlKSmCp
+126,Molka,Bilkhire,19,Gestion,projets pratiques,12.27,molka.bilkhire126@univ.tn,Q4XShhBwGx
+127,Ahmed,Ben Ali,18,Comptabilité,projets pratiques,16.18,ahmed.ben ali127@univ.tn,XF6xxV4JOj
+128,Mohamed Dhya,Trabelsi,22,Finance,exercices faciles,16.61,mohamed dhya.trabelsi128@univ.tn,1lSAtVBMhi
+129,Hassan,Mzoughi,24,Finance,exercices faciles,8.07,hassan.mzoughi129@univ.tn,mMpC1Ha2oK
+130,Sana,Sassi,24,Mécanique,projets pratiques,13.11,sana.sassi130@univ.tn,DzeLpHMIZd
+131,Emna,Sassi,21,Finance,exercices difficiles,12.17,emna.sassi131@univ.tn,jOc0PZs5dz
+132,Rania,Khairi,20,Physique,QCM,10.22,rania.khairi132@univ.tn,lPLQKWkCJ5
+133,Jihed,Daafous,23,Génie civil,vidéos,9.2,jihed.daafous133@univ.tn,fswxeAIsiR
+134,Khaled,Gharbi,23,Sciences des données,QCM,11.38,khaled.gharbi134@univ.tn,rGGRLgTM9D
+135,Mariem,Mzoughi,21,Physique,exercices moyens,17.43,mariem.mzoughi135@univ.tn,Q59rLtG9vi
+136,Khaled,Chebbi,20,Génie logiciel,QCM,11.23,khaled.chebbi136@univ.tn,IGNElLR8ab
+137,Nour,Nebli,25,Réseaux,exercices faciles,13.19,nour.nebli137@univ.tn,Mh0X9zuINa
+138,Nour,Fakhfakh,26,Chimie,vidéos,15.03,nour.fakhfakh138@univ.tn,mrWtFuaQvS
+139,Hassan,Trabelsi,25,Chimie,QCM,11.64,hassan.trabelsi139@univ.tn,MbkuuP4XOD
+140,Omar,Fakhfakh,25,Biologie,vidéos,17.72,omar.fakhfakh140@univ.tn,M3HuWzUZsS
+141,Zeinab,Ayari,22,Informatique,QCM,17.62,zeinab.ayari141@univ.tn,tHmQX3v8rb
+142,Zeinab,Ben Said,25,Finance,projets pratiques,10.52,zeinab.ben said142@univ.tn,8M0JyK1URt
+143,Skander,Zidi,18,Physique,vidéos,12.97,skander.zidi143@univ.tn,bzEoC6nsgW
+144,Molka,Fakhfakh,19,Sciences des données,QCM,11.01,molka.fakhfakh144@univ.tn,W4BbDFl5TG
+145,Aya,Zidi,24,Réseaux,exercices moyens,10.85,aya.zidi145@univ.tn,Wi2Y6PiSCS
+146,Yasmine,Chaari,26,Comptabilité,vidéos,8.37,yasmine.chaari146@univ.tn,Ga5QKfCcGO
+147,Malek,Ben Said,25,Physique,exercices difficiles,14.1,malek.ben said147@univ.tn,tJt3tlrtBh
+148,Houneida,Bilkhire,21,Réseaux,exercices faciles,13.03,houneida.bilkhire148@univ.tn,jqaMFmvtiR
+149,Jihed,Khairallah,21,Mathématiques,vidéos,8.51,jihed.khairallah149@univ.tn,rpeMvBiDPg
+150,Houssem,Ben Abdallah,23,Réseaux,projets pratiques,10.79,houssem.ben abdallah150@univ.tn,dAlKKZRMtY
+151,Rania,Chebbi,18,Comptabilité,exercices faciles,17.08,rania.chebbi151@univ.tn,SPH8UCiY5D
+152,Sarra,Ayari,18,Gestion,QCM,10.4,sarra.ayari152@univ.tn,CQSCon1M4y
+153,Sarra,Sassi,22,Physique,QCM,9.45,sarra.sassi153@univ.tn,RPW2CbDvCk
+154,Emna,Ben Said,25,Mathématiques,QCM,12.89,emna.ben said154@univ.tn,VLhgYXuOXH
+155,Khaled,Hmani,25,Chimie,QCM,17.86,khaled.hmani155@univ.tn,yzMH8xvYKW
+156,Abdelwahab,Jaziri,22,Physique,projets pratiques,10.42,abdelwahab.jaziri156@univ.tn,AWHoPe5JEK
+157,Omar,Nebli,26,Sciences des données,QCM,14.72,omar.nebli157@univ.tn,CIYk7egYVx
+158,Ines,Hmani,18,Biologie,exercices moyens,15.62,ines.hmani158@univ.tn,EOfY34Najj
+159,Sana,Ben Said,19,Économie,exercices faciles,10.38,sana.ben said159@univ.tn,GyJmQtJ4s6
+160,Abdelwahab,Khairi,24,Réseaux,vidéos,15.28,abdelwahab.khairi160@univ.tn,A8vfa9zhsw
+161,Abdelwahab,Gharbi,20,Mécanique,exercices moyens,11.68,abdelwahab.gharbi161@univ.tn,IdRYw11oRy
+162,Ahmed,Bouzid,22,Sciences des données,exercices moyens,14.32,ahmed.bouzid162@univ.tn,txxHPDlx50
+163,Omar,Chebbi,23,Finance,exercices moyens,14.34,omar.chebbi163@univ.tn,j9PieaSEB9
+164,Mariem,Gharbi,24,Sciences des données,exercices moyens,13.36,mariem.gharbi164@univ.tn,fNzCWLAlFI
+165,Abdelwahab,Sassi,23,Biologie,exercices moyens,8.9,abdelwahab.sassi165@univ.tn,BwlLJ0oFzH
+166,Omar,Bilkhire,18,Biologie,exercices faciles,16.35,omar.bilkhire166@univ.tn,w8JRhDQiT8
+167,Youssef,Bilkhire,24,Économie,vidéos,11.21,youssef.bilkhire167@univ.tn,8WCe3fDT7e
+168,Ines,Trabelsi,18,Génie logiciel,exercices faciles,9.87,ines.trabelsi168@univ.tn,NXtdvWDFDT
+169,Omar,Ouni,26,Sciences des données,projets pratiques,8.41,omar.ouni169@univ.tn,A7Xrc5UTId
+170,Moez,Ben Abdallah,21,Chimie,vidéos,13.91,moez.ben abdallah170@univ.tn,Dkd9YMrfF0
+171,Khaled,Jouini,23,Chimie,exercices moyens,14.78,khaled.jouini171@univ.tn,rir1agkKjB
+172,Jamel,Sassi,26,Génie logiciel,projets pratiques,8.17,jamel.sassi172@univ.tn,YqREX1vfi5
+173,Hassan,Bouazizi,22,Biologie,exercices moyens,13.12,hassan.bouazizi173@univ.tn,jE9VoBNnTv
+174,Malek,Khairi,19,Génie civil,QCM,10.26,malek.khairi174@univ.tn,NUhkysUUHx
+175,Zeinab,Nebli,24,Comptabilité,exercices difficiles,14.45,zeinab.nebli175@univ.tn,RDi1a5BQ7Q
+176,Skander,Trabelsi,26,Finance,exercices difficiles,9.74,skander.trabelsi176@univ.tn,c4N7A41uqg
+177,Khaled,Miled,25,Comptabilité,projets pratiques,14.91,khaled.miled177@univ.tn,OyVUTKmuQl
+178,Skander,Khairi,26,Gestion,exercices faciles,11.87,skander.khairi178@univ.tn,HPZaggBnrl
+179,Jasser,Ayari,22,Économie,exercices faciles,17.37,jasser.ayari179@univ.tn,bf6OZ6NRh1
+180,Houneida,Ferchichi,19,Économie,vidéos,9.38,houneida.ferchichi180@univ.tn,iO3J73RpC6
+181,Karim,Nebli,20,Gestion,QCM,11.41,karim.nebli181@univ.tn,N5rA4VukeW
+182,Karim,Sassi,19,Mécanique,vidéos,9.13,karim.sassi182@univ.tn,xud7qBE5Ll
+183,Yasmine,Khairi,24,Informatique,QCM,17.25,yasmine.khairi183@univ.tn,EiVnN4SgeJ
+184,Hana,Jouini,23,Physique,exercices difficiles,16.77,hana.jouini184@univ.tn,pB3jN5PqR4
+185,Yasmine,Gharbi,23,Chimie,exercices difficiles,10.58,yasmine.gharbi185@univ.tn,JF6EB0WWHa
+186,Jasser,Ayari,26,Physique,QCM,14.6,jasser.ayari186@univ.tn,7YDJ5wQyN7
+187,Amine,Khairi,23,Comptabilité,vidéos,16.17,amine.khairi187@univ.tn,fH7eCVOkcx
+188,Mariem,Ayari,20,Génie logiciel,exercices faciles,13.55,mariem.ayari188@univ.tn,lR3NwfNTil
+189,Karim,Daafous,21,Comptabilité,projets pratiques,13.3,karim.daafous189@univ.tn,SKEdHtHZB9
+190,Mariem,Chaari,26,Économie,QCM,10.42,mariem.chaari190@univ.tn,cdWchYPCQ2
+191,Houssem,Ben Romdhane,24,Sciences des données,QCM,8.93,houssem.ben romdhane191@univ.tn,jJ5ciOD4cR
+192,Ines,Zidi,26,Sciences des données,QCM,16.97,ines.zidi192@univ.tn,ikdtXCkKYg
+193,Karim,Daafous,18,Comptabilité,vidéos,17.0,karim.daafous193@univ.tn,EXnXAY8Qu8
+194,Khaled,Mzoughi,18,Gestion,exercices faciles,14.33,khaled.mzoughi194@univ.tn,JiZXVKuhiz
+195,Houneida,Fakhfakh,18,Physique,vidéos,11.39,houneida.fakhfakh195@univ.tn,RIB5cg0LWa
+196,Houneida,Fakhfakh,20,Génie logiciel,exercices moyens,11.49,houneida.fakhfakh196@univ.tn,EalfO2zYVQ
+197,Sarra,Ferchichi,23,Chimie,exercices moyens,15.26,sarra.ferchichi197@univ.tn,mNGz6LclE6
+198,Zeinab,Fakhfakh,25,Génie civil,QCM,16.97,zeinab.fakhfakh198@univ.tn,MWvaohGfwV
+199,Yasmine,Fakhfakh,26,Biologie,QCM,16.87,yasmine.fakhfakh199@univ.tn,HnVOrmXQ8D
+200,Mdalela,Khairi,25,Mathématiques,QCM,15.8,mdalela.khairi200@univ.tn,kPcNrAuXVc
+201,Jamel,Gharbi,20,Biologie,exercices faciles,14.42,jamel.gharbi201@univ.tn,T5kWEh3SKu
+202,Amine,Jouini,26,Physique,exercices faciles,8.84,amine.jouini202@univ.tn,mPuWugT1xn
+203,Khaled,Jouini,20,Mathématiques,QCM,9.62,khaled.jouini203@univ.tn,DE3i5CyiSN
+204,Omar,Ben Romdhane,23,Économie,exercices faciles,16.99,omar.ben romdhane204@univ.tn,8mhQdi0Ckv
+205,Sarra,Bouzid,23,Finance,exercices difficiles,14.06,sarra.bouzid205@univ.tn,2LWNLk81f1
+206,Karim,Zidi,20,Gestion,QCM,8.09,karim.zidi206@univ.tn,E9KZrTTpuJ
+207,Mariem,Ben Abdallah,24,Physique,exercices difficiles,9.01,mariem.ben abdallah207@univ.tn,3KjJa8cDVc
+208,Ahmed,Trabelsi,22,Finance,vidéos,14.64,ahmed.trabelsi208@univ.tn,GDXYCoIaT6
+209,Nour,Khairallah,23,Gestion,exercices difficiles,8.05,nour.khairallah209@univ.tn,isOfDsR1Ub
+210,Khaled,Ben Abdallah,26,Génie civil,vidéos,9.61,khaled.ben abdallah210@univ.tn,CV2zWwCN1e
+211,Molka,Ben Abdallah,26,Mécanique,projets pratiques,13.49,molka.ben abdallah211@univ.tn,3ucAq6HXWf
+212,Jasser,Ayari,26,Réseaux,vidéos,14.92,jasser.ayari212@univ.tn,2Td6P3gwMw
+213,Hassan,Daafous,25,Mécanique,QCM,14.52,hassan.daafous213@univ.tn,kIeRm8ohD6
+214,Skander,Gharbi,22,Physique,QCM,10.24,skander.gharbi214@univ.tn,J7nUnvqQrd
+215,Malek,Khairi,25,Économie,vidéos,15.12,malek.khairi215@univ.tn,vEGhSQHsMX
+216,Houssem,Ben Romdhane,18,Chimie,exercices faciles,10.37,houssem.ben romdhane216@univ.tn,6Y6e3Ce3r7
+217,Mariem,Sassi,23,Gestion,exercices moyens,11.25,mariem.sassi217@univ.tn,grRE2GMs8H
+218,Molka,Daafous,23,Sciences des données,exercices difficiles,15.46,molka.daafous218@univ.tn,ivBNsd2o6N
+219,Salma,Ouni,19,Chimie,vidéos,14.5,salma.ouni219@univ.tn,zvOuKR0Bsi
+220,Ahmed,Khairi,24,Informatique,exercices moyens,16.49,ahmed.khairi220@univ.tn,WkqE8VcvCk
+221,Salma,Sassi,22,Informatique,QCM,14.58,salma.sassi221@univ.tn,5Sr80QPjoc
+222,Aya,Jouini,18,Génie logiciel,QCM,13.68,aya.jouini222@univ.tn,thqlIctvxH
+223,Amine,Trabelsi,25,Sciences des données,projets pratiques,8.94,amine.trabelsi223@univ.tn,ks5zEjCtaT
+224,Imane,Jaziri,22,Chimie,projets pratiques,11.68,imane.jaziri224@univ.tn,8uRDr68JjJ
+225,Yasmine,Ben Said,21,Physique,vidéos,10.65,yasmine.ben said225@univ.tn,4BQT3iIty0
+226,Hassan,Jaziri,18,Économie,exercices faciles,10.44,hassan.jaziri226@univ.tn,BfdNKn6rbH
+227,Walid,Ben Romdhane,25,Informatique,vidéos,17.73,walid.ben romdhane227@univ.tn,BPfFmtL64w
+228,Houneida,Gharbi,20,Génie logiciel,exercices difficiles,11.93,houneida.gharbi228@univ.tn,j0wxrv82fT
+229,Imane,Khairallah,26,Physique,projets pratiques,16.92,imane.khairallah229@univ.tn,B9XrX8A3iK
+230,Malek,Hmani,24,Réseaux,exercices moyens,14.31,malek.hmani230@univ.tn,fmD19e7Ufz
+231,Mariem,Bouazizi,20,Économie,exercices faciles,15.95,mariem.bouazizi231@univ.tn,4zISUilxIc
+232,Mariem,Zidi,21,Économie,projets pratiques,13.03,mariem.zidi232@univ.tn,ZZsICbaq7Z
+233,Mohamed Dhya,Daafous,18,Informatique,vidéos,13.77,mohamed dhya.daafous233@univ.tn,DO3zEQphr9
+234,Mariem,Mzoughi,19,Biologie,exercices difficiles,12.93,mariem.mzoughi234@univ.tn,eUKJ1MDRhF
+235,Mariem,Miled,21,Mathématiques,exercices difficiles,9.95,mariem.miled235@univ.tn,J0kdt2ikqA
+236,Skander,Sassi,18,Comptabilité,exercices faciles,15.22,skander.sassi236@univ.tn,4wrG6FVlfU
+237,Moez,Gharbi,25,Réseaux,exercices difficiles,10.81,moez.gharbi237@univ.tn,H2ZQsQQfJZ
+238,Molka,Ben Romdhane,23,Sciences des données,exercices difficiles,8.24,molka.ben romdhane238@univ.tn,aGxEv4gjnl
+239,Mariem,Sassi,24,Finance,exercices difficiles,14.45,mariem.sassi239@univ.tn,3MZGGIUhCe
+240,Moez,Ben Abdallah,20,Réseaux,exercices difficiles,9.77,moez.ben abdallah240@univ.tn,Y5DtwY3LVv
+241,Nour,Ben Romdhane,24,Physique,vidéos,17.4,nour.ben romdhane241@univ.tn,SbYn1iohie
+242,Mdalela,Gharbi,21,Finance,projets pratiques,17.54,mdalela.gharbi242@univ.tn,QWeWUcgXFd
+243,Omar,Ouni,24,Génie logiciel,projets pratiques,17.15,omar.ouni243@univ.tn,hpePUW5m3l
+244,Omar,Chaari,26,Sciences des données,exercices faciles,11.7,omar.chaari244@univ.tn,vf066vjFTo
+245,Khaled,Khairallah,25,Gestion,exercices moyens,8.15,khaled.khairallah245@univ.tn,JgJanlr3H8
+246,Houssem,Miled,18,Finance,exercices moyens,17.28,houssem.miled246@univ.tn,gnFRwKB7lv
+247,Emna,Bouzid,20,Génie logiciel,exercices difficiles,12.28,emna.bouzid247@univ.tn,xnog9hgiVR
+248,Khaled,Khairi,26,Gestion,projets pratiques,17.67,khaled.khairi248@univ.tn,IcuhrLt8BI
+249,Youssef,Sassi,21,Sciences des données,vidéos,17.64,youssef.sassi249@univ.tn,s1le0DQl9E
+250,Nour,Ben Abdallah,26,Sciences des données,exercices difficiles,16.53,nour.ben abdallah250@univ.tn,gBOfiyKg58
+251,Jasser,Ouni,23,Réseaux,exercices difficiles,10.94,jasser.ouni251@univ.tn,e8uK9hZSrS
+252,Mohamed Dhya,Ferchichi,25,Informatique,projets pratiques,11.85,mohamed dhya.ferchichi252@univ.tn,KqWNyDLzEr
+253,Aya,Ben Said,26,Biologie,vidéos,16.51,aya.ben said253@univ.tn,VgpEMigdeQ
+254,Malek,Ben Said,24,Sciences des données,QCM,11.17,malek.ben said254@univ.tn,8xQjMfeUVX
+255,Mohamed Dhya,Daafous,23,Finance,projets pratiques,9.69,mohamed dhya.daafous255@univ.tn,mPEqv1H7bA
+256,Khaled,Bilkhire,20,Comptabilité,exercices faciles,13.57,khaled.bilkhire256@univ.tn,4xtxCcI1sR
+257,Aya,Ben Abdallah,25,Comptabilité,exercices moyens,17.36,aya.ben abdallah257@univ.tn,EiSEgPOQJD
+258,Houssem,Ben Ali,26,Chimie,vidéos,14.96,houssem.ben ali258@univ.tn,0FyE8Mv8tb
+259,Zeinab,Ben Said,23,Mathématiques,exercices moyens,13.7,zeinab.ben said259@univ.tn,cZvUb3vgvw
+260,Jihed,Daafous,26,Biologie,vidéos,8.97,jihed.daafous260@univ.tn,vOpOK4esub
+261,Amine,Ferchichi,23,Sciences des données,projets pratiques,14.15,amine.ferchichi261@univ.tn,uC1J3qRK9x
+262,Mohamed Dhya,Chebbi,22,Génie logiciel,vidéos,17.9,mohamed dhya.chebbi262@univ.tn,yJYgPuFVvM
+263,Omar,Chaari,25,Comptabilité,QCM,9.4,omar.chaari263@univ.tn,wBE0W0Hrc9
+264,Ahmed,Ben Ali,21,Génie logiciel,exercices difficiles,13.18,ahmed.ben ali264@univ.tn,yoUf0fueXD
+265,Amine,Ben Youssef,21,Informatique,exercices faciles,16.77,amine.ben youssef265@univ.tn,nXOsXAHmyM
+266,Karim,Chaari,22,Mathématiques,QCM,15.41,karim.chaari266@univ.tn,CVlbR1Jn7U
+267,Omar,Chebbi,26,Économie,exercices moyens,14.97,omar.chebbi267@univ.tn,C6HMVAJMGw
+268,Malek,Ouni,22,Génie logiciel,exercices faciles,15.02,malek.ouni268@univ.tn,jjQsAtZdmz
+269,Moez,Jaziri,21,Réseaux,exercices difficiles,11.59,moez.jaziri269@univ.tn,ZOpLzhlpZC
+270,Aya,Ayari,22,Mécanique,projets pratiques,10.94,aya.ayari270@univ.tn,IBOcjiqXOk
+271,Zeinab,Ben Romdhane,22,Mathématiques,QCM,16.09,zeinab.ben romdhane271@univ.tn,07Eb1fL13z
+272,Hana,Ben Ali,21,Génie civil,vidéos,16.1,hana.ben ali272@univ.tn,wOf6SigT5G
+273,Omar,Ben Youssef,25,Sciences des données,exercices moyens,16.67,omar.ben youssef273@univ.tn,Z65p2ohYuK
+274,Khaled,Sassi,23,Économie,QCM,17.13,khaled.sassi274@univ.tn,yUoAik8BpK
+275,Rania,Zidi,25,Informatique,QCM,13.11,rania.zidi275@univ.tn,Ex6tAQ726w
+276,Imane,Khairallah,23,Informatique,exercices faciles,13.02,imane.khairallah276@univ.tn,SYb7L0P6QW
+277,Molka,Daafous,26,Comptabilité,exercices moyens,15.98,molka.daafous277@univ.tn,oIt7wYh11y
+278,Sarra,Sassi,22,Gestion,exercices moyens,14.5,sarra.sassi278@univ.tn,4y8pfZon34
+279,Jihed,Fakhfakh,22,Physique,exercices moyens,15.02,jihed.fakhfakh279@univ.tn,N2Vzc1Z6Dz
+280,Ahmed,Zidi,19,Génie logiciel,exercices faciles,15.96,ahmed.zidi280@univ.tn,0S2YZRFvLY
+281,Jihed,Jouini,26,Physique,exercices moyens,16.9,jihed.jouini281@univ.tn,TCbdNNXiyM
+282,Karim,Bilkhire,24,Biologie,exercices faciles,11.38,karim.bilkhire282@univ.tn,tfjG8ZV0QX
+283,Zeinab,Ben Ali,24,Comptabilité,vidéos,11.76,zeinab.ben ali283@univ.tn,tDTqQZXmzl
+284,Aya,Fakhfakh,23,Réseaux,exercices faciles,8.94,aya.fakhfakh284@univ.tn,262n65OM48
+285,Emna,Jouini,20,Économie,exercices difficiles,13.78,emna.jouini285@univ.tn,mRkyAqfw6h
+286,Karim,Hmani,22,Génie logiciel,projets pratiques,8.36,karim.hmani286@univ.tn,SA5CPhSl1W
+287,Walid,Bouazizi,18,Mathématiques,exercices moyens,12.66,walid.bouazizi287@univ.tn,rEi1L9rPzz
+288,Jamel,Sassi,22,Biologie,exercices difficiles,13.43,jamel.sassi288@univ.tn,jrqM4wQCai
+289,Imane,Khairi,19,Génie logiciel,exercices difficiles,10.87,imane.khairi289@univ.tn,uQQSRTpfdu
+290,Malek,Nebli,23,Comptabilité,vidéos,13.91,malek.nebli290@univ.tn,o4967LUcpM
+291,Ines,Ayari,25,Chimie,QCM,8.31,ines.ayari291@univ.tn,syw8IJqF52
+292,Malek,Ben Youssef,22,Génie logiciel,vidéos,8.37,malek.ben youssef292@univ.tn,itGihch2ZU
+293,Aya,Ben Romdhane,25,Génie logiciel,projets pratiques,16.23,aya.ben romdhane293@univ.tn,5r2MVqt3t9
+294,Moez,Jaziri,21,Gestion,exercices faciles,11.6,moez.jaziri294@univ.tn,Vj0OXdjocq
+295,Hassan,Jouini,21,Gestion,projets pratiques,9.27,hassan.jouini295@univ.tn,RB95cwREE0
+296,Aya,Ayari,26,Finance,exercices faciles,13.22,aya.ayari296@univ.tn,1hf1lkFq3K
+297,Mariem,Ouni,22,Réseaux,exercices moyens,15.7,mariem.ouni297@univ.tn,K8GJzeVP3b
+298,Nour,Khairallah,26,Biologie,exercices difficiles,10.16,nour.khairallah298@univ.tn,QQyK6ZjfZO
+299,Yasmine,Ben Said,22,Chimie,vidéos,14.23,yasmine.ben said299@univ.tn,C7Ka8O6uTT
+300,Jamel,Fakhfakh,20,Physique,QCM,8.85,jamel.fakhfakh300@univ.tn,7JndNude7x
+301,Youssef,Trabelsi,19,Chimie,vidéos,8.52,youssef.trabelsi301@univ.tn,yl71f0kWrU
+302,Ahmed,Trabelsi,21,Physique,exercices moyens,13.31,ahmed.trabelsi302@univ.tn,OhEAXtQiPZ
+303,Ines,Zidi,21,Réseaux,vidéos,13.41,ines.zidi303@univ.tn,FE2DIAUYMA
+304,Zeinab,Ben Youssef,18,Sciences des données,QCM,14.37,zeinab.ben youssef304@univ.tn,AcvCnQjENG
+305,Aya,Ouni,26,Sciences des données,QCM,15.26,aya.ouni305@univ.tn,sB4Djh30Gs
+306,Molka,Ben Said,21,Réseaux,exercices difficiles,17.76,molka.ben said306@univ.tn,cecgAfOJpp
+307,Sarra,Trabelsi,21,Génie logiciel,exercices difficiles,13.16,sarra.trabelsi307@univ.tn,fFhPllyf2s
+308,Yasmine,Daafous,18,Génie civil,exercices moyens,11.23,yasmine.daafous308@univ.tn,KCPMq72llU
+309,Ahmed,Fakhfakh,19,Mécanique,exercices difficiles,15.95,ahmed.fakhfakh309@univ.tn,L2gHahkDQ1
+310,Emna,Chaari,24,Informatique,projets pratiques,10.71,emna.chaari310@univ.tn,7LEM8wPQys
+311,Omar,Nebli,23,Mécanique,projets pratiques,12.39,omar.nebli311@univ.tn,haga81mOOB
+312,Walid,Daafous,25,Sciences des données,exercices faciles,8.78,walid.daafous312@univ.tn,MWlsCDbkjR
+313,Youssef,Khairi,19,Réseaux,exercices difficiles,8.25,youssef.khairi313@univ.tn,7D1KmJZdaN
+314,Rania,Mzoughi,20,Économie,exercices faciles,17.63,rania.mzoughi314@univ.tn,S80TKIsEEK
+315,Walid,Ben Said,18,Gestion,vidéos,16.36,walid.ben said315@univ.tn,LQYESGAtd3
+316,Yasmine,Nebli,26,Comptabilité,exercices faciles,14.96,yasmine.nebli316@univ.tn,zDE6vRbrlv
+317,Zeinab,Khairi,20,Mathématiques,exercices moyens,12.09,zeinab.khairi317@univ.tn,on4vL0OisS
+318,Youssef,Chaari,24,Sciences des données,QCM,9.73,youssef.chaari318@univ.tn,7ZPTXX0MrU
+319,Jihed,Bouazizi,25,Comptabilité,exercices moyens,9.56,jihed.bouazizi319@univ.tn,PimLgz9smc
+320,Rania,Ouni,25,Réseaux,exercices moyens,10.5,rania.ouni320@univ.tn,b2wjZ3bdAM
+321,Youssef,Hmani,21,Biologie,projets pratiques,13.49,youssef.hmani321@univ.tn,hnpvwc2qjQ
+322,Hana,Gharbi,22,Mécanique,exercices moyens,15.15,hana.gharbi322@univ.tn,FPR5BC0ggL
+323,Malek,Ben Romdhane,23,Sciences des données,projets pratiques,14.6,malek.ben romdhane323@univ.tn,W6ZcgN14js
+324,Khaled,Khairi,22,Économie,exercices moyens,10.8,khaled.khairi324@univ.tn,BFTgOui0Bz
+325,Karim,Gharbi,18,Physique,exercices difficiles,17.55,karim.gharbi325@univ.tn,VpYvFfxUwP
+326,Hana,Jaziri,19,Mathématiques,projets pratiques,15.38,hana.jaziri326@univ.tn,jUAoXzzC0X
+327,Jasser,Daafous,21,Génie logiciel,vidéos,13.54,jasser.daafous327@univ.tn,wbjaX6ft8k
+328,Walid,Daafous,26,Génie logiciel,QCM,14.12,walid.daafous328@univ.tn,dVON3dNSOG
+329,Khaled,Khairallah,18,Réseaux,exercices faciles,12.2,khaled.khairallah329@univ.tn,syQIsU4arG
+330,Molka,Mzoughi,20,Chimie,projets pratiques,10.48,molka.mzoughi330@univ.tn,5RBmHWOR3W
+331,Mdalela,Hmani,24,Génie logiciel,exercices faciles,11.56,mdalela.hmani331@univ.tn,zmscuSTh9r
+332,Jasser,Daafous,20,Mécanique,vidéos,15.58,jasser.daafous332@univ.tn,fIGUjbXKoV
+333,Sana,Jaziri,18,Comptabilité,exercices moyens,8.14,sana.jaziri333@univ.tn,T9gdxMvcOh
+334,Mdalela,Trabelsi,24,Biologie,projets pratiques,9.16,mdalela.trabelsi334@univ.tn,sTC8X9J3MH
+335,Ines,Miled,25,Gestion,exercices moyens,8.46,ines.miled335@univ.tn,KvrWSPSGpu
+336,Jasser,Sassi,20,Biologie,QCM,8.41,jasser.sassi336@univ.tn,KZwgSZfd3D
+337,Khaled,Ben Said,22,Gestion,exercices faciles,16.55,khaled.ben said337@univ.tn,BwGKGyqEAB
+338,Jamel,Trabelsi,18,Chimie,exercices moyens,15.04,jamel.trabelsi338@univ.tn,5E8ZihSiR1
+339,Molka,Ben Ali,18,Réseaux,exercices difficiles,12.74,molka.ben ali339@univ.tn,hnDU6w7Lzh
+340,Karim,Bouazizi,22,Mathématiques,QCM,8.98,karim.bouazizi340@univ.tn,Jcjx9sEXiK
+341,Salma,Jaziri,19,Finance,exercices difficiles,12.92,salma.jaziri341@univ.tn,d33nYEhv1z
+342,Youssef,Bouazizi,23,Sciences des données,projets pratiques,12.73,youssef.bouazizi342@univ.tn,JJ3WDSLVFC
+343,Skander,Ouni,22,Génie logiciel,projets pratiques,9.73,skander.ouni343@univ.tn,BB1uXPzoyH
+344,Abdelwahab,Zidi,25,Mathématiques,projets pratiques,12.34,abdelwahab.zidi344@univ.tn,73TO1RJXRI
+345,Houneida,Ouni,26,Génie civil,exercices difficiles,11.99,houneida.ouni345@univ.tn,hIlMJdJlD3
+346,Amine,Chaari,26,Mécanique,vidéos,14.16,amine.chaari346@univ.tn,h6lbWpR3BY
+347,Hana,Jaziri,25,Mécanique,vidéos,14.35,hana.jaziri347@univ.tn,Lyc1bBz1tp
+348,Jihed,Ayari,20,Comptabilité,exercices difficiles,8.45,jihed.ayari348@univ.tn,hgkipftzkM
+349,Abdelwahab,Gharbi,26,Mécanique,vidéos,11.75,abdelwahab.gharbi349@univ.tn,ubdytzuxZh
+350,Abdelwahab,Ben Ali,25,Finance,exercices difficiles,14.26,abdelwahab.ben ali350@univ.tn,mUKEUxhdCz
+351,Sana,Mzoughi,22,Chimie,exercices moyens,13.03,sana.mzoughi351@univ.tn,Ezo2q7PpIW
+352,Houneida,Jouini,21,Comptabilité,vidéos,16.56,houneida.jouini352@univ.tn,szfNm8x9WH
+353,Houssem,Khairi,19,Informatique,exercices difficiles,14.59,houssem.khairi353@univ.tn,A4CaCZr8a5
+354,Ines,Ben Youssef,23,Physique,projets pratiques,9.63,ines.ben youssef354@univ.tn,DL0xvNKFcT
+355,Jamel,Zidi,20,Physique,QCM,8.71,jamel.zidi355@univ.tn,IsyhiIrAL7
+356,Omar,Sassi,25,Sciences des données,QCM,14.42,omar.sassi356@univ.tn,tQvqUCp8vC
+357,Jamel,Ben Abdallah,22,Finance,vidéos,8.27,jamel.ben abdallah357@univ.tn,LaQOaD3Pz3
+358,Hana,Chebbi,20,Mathématiques,QCM,13.86,hana.chebbi358@univ.tn,RVHWOebZPP
+359,Moez,Miled,18,Génie civil,exercices faciles,17.4,moez.miled359@univ.tn,vYZwkVRaC6
+360,Houssem,Hmani,23,Mécanique,exercices faciles,13.75,houssem.hmani360@univ.tn,Bnbr5wfMsS
+361,Ines,Ben Abdallah,22,Génie civil,QCM,11.88,ines.ben abdallah361@univ.tn,oEwr4RmmYy
+362,Sana,Ferchichi,21,Mathématiques,projets pratiques,14.43,sana.ferchichi362@univ.tn,1JEIOJQJeh
+363,Emna,Daafous,20,Comptabilité,exercices difficiles,12.58,emna.daafous363@univ.tn,eqJoGWlQ9Q
+364,Aya,Bouzid,24,Biologie,QCM,13.46,aya.bouzid364@univ.tn,HpIC6N6d6A
+365,Mdalela,Ben Romdhane,24,Finance,projets pratiques,17.41,mdalela.ben romdhane365@univ.tn,9qQCwV2nrA
+366,Aya,Fakhfakh,26,Sciences des données,QCM,11.86,aya.fakhfakh366@univ.tn,BamfJbT8Ae
+367,Youssef,Sassi,23,Informatique,QCM,17.61,youssef.sassi367@univ.tn,pktMfDYKMu
+368,Karim,Sassi,19,Chimie,exercices difficiles,17.05,karim.sassi368@univ.tn,pgovduX6WM
+369,Yasmine,Jouini,24,Chimie,exercices difficiles,9.96,yasmine.jouini369@univ.tn,VMJfdct0eh
+370,Hana,Trabelsi,19,Mathématiques,projets pratiques,8.69,hana.trabelsi370@univ.tn,4BsMeQIsxf
+371,Mohamed Dhya,Khairi,20,Économie,exercices faciles,9.01,mohamed dhya.khairi371@univ.tn,UoLOaxX2Mv
+372,Yasmine,Ben Ali,20,Biologie,vidéos,8.18,yasmine.ben ali372@univ.tn,6WCulgKeWm
+373,Moez,Nebli,25,Génie logiciel,exercices faciles,8.94,moez.nebli373@univ.tn,JNpASBpXdt
+374,Emna,Fakhfakh,23,Mathématiques,exercices difficiles,14.83,emna.fakhfakh374@univ.tn,B7Ut2Wjtvw
+375,Salma,Sassi,21,Économie,exercices difficiles,8.71,salma.sassi375@univ.tn,aKQdFZ1Amm
+376,Houneida,Ayari,18,Sciences des données,projets pratiques,11.19,houneida.ayari376@univ.tn,4WvPR8LuJ7
+377,Aya,Khairallah,22,Mécanique,exercices difficiles,16.45,aya.khairallah377@univ.tn,MzkCWcnano
+378,Youssef,Khairi,24,Génie logiciel,exercices difficiles,8.23,youssef.khairi378@univ.tn,MoT7uTml9w
+379,Yasmine,Khairallah,21,Génie civil,exercices difficiles,16.14,yasmine.khairallah379@univ.tn,ebhsmKVcbm
+380,Ahmed,Sassi,25,Informatique,projets pratiques,10.82,ahmed.sassi380@univ.tn,k2SvIlb04b
+381,Houneida,Chebbi,22,Gestion,projets pratiques,9.18,houneida.chebbi381@univ.tn,QxWg6soYO6
+382,Rania,Bilkhire,23,Gestion,projets pratiques,14.97,rania.bilkhire382@univ.tn,8922ei5Xlx
+383,Yasmine,Khairi,22,Réseaux,exercices difficiles,14.29,yasmine.khairi383@univ.tn,xL8pcMlHWu
+384,Omar,Jaziri,18,Biologie,exercices moyens,16.77,omar.jaziri384@univ.tn,dX2082mfDP
+385,Ines,Gharbi,22,Physique,exercices moyens,15.35,ines.gharbi385@univ.tn,eFUNFECtxR
+386,Mohamed Dhya,Sassi,23,Physique,QCM,16.03,mohamed dhya.sassi386@univ.tn,SEqy5Kcnm1
+387,Emna,Ben Ali,21,Mécanique,exercices moyens,10.82,emna.ben ali387@univ.tn,ys3J6xIifB
+388,Jihed,Ayari,18,Biologie,exercices faciles,9.77,jihed.ayari388@univ.tn,vKCMACzXtx
+389,Moez,Ben Youssef,19,Gestion,QCM,15.51,moez.ben youssef389@univ.tn,loOwf0FNW5
+390,Jihed,Bouzid,25,Génie civil,vidéos,16.07,jihed.bouzid390@univ.tn,gecmmusYQr
+391,Jasser,Ben Said,22,Sciences des données,projets pratiques,17.91,jasser.ben said391@univ.tn,R99UT4asYW
+392,Mohamed Dhya,Nebli,20,Réseaux,exercices difficiles,12.13,mohamed dhya.nebli392@univ.tn,zzJODFVjyo
+393,Houssem,Ferchichi,24,Chimie,projets pratiques,11.72,houssem.ferchichi393@univ.tn,UDFWUSCXtl
+394,Imane,Chebbi,26,Économie,exercices moyens,15.76,imane.chebbi394@univ.tn,VRmBIxJh6a
+395,Zeinab,Ben Romdhane,22,Chimie,projets pratiques,11.41,zeinab.ben romdhane395@univ.tn,YZvzQzWHub
+396,Houneida,Fakhfakh,19,Génie logiciel,exercices faciles,17.31,houneida.fakhfakh396@univ.tn,W5j7uNLL18
+397,Jasser,Khairi,22,Informatique,projets pratiques,16.58,jasser.khairi397@univ.tn,myHlgJB3fg
+398,Salma,Sassi,23,Mécanique,vidéos,12.29,salma.sassi398@univ.tn,IbQEle7roO
+399,Mdalela,Gharbi,21,Génie logiciel,exercices difficiles,15.51,mdalela.gharbi399@univ.tn,edGk1zjgHD
+400,Jihed,Miled,21,Informatique,exercices difficiles,15.55,jihed.miled400@univ.tn,e71imARDL6
+401,Houssem,Khairi,20,Finance,vidéos,9.03,houssem.khairi401@univ.tn,KFQraidyYG
+402,Ahmed,Khairallah,25,Mathématiques,vidéos,17.03,ahmed.khairallah402@univ.tn,42CJTr2CRS
+403,Jihed,Sassi,20,Informatique,vidéos,13.05,jihed.sassi403@univ.tn,sMYkp3TC4l
+404,Imane,Hmani,25,Informatique,projets pratiques,16.26,imane.hmani404@univ.tn,Jy6o1qMs4R
+405,Malek,Fakhfakh,23,Chimie,exercices faciles,11.2,malek.fakhfakh405@univ.tn,SnE9I9egVu
+406,Yasmine,Sassi,24,Biologie,QCM,16.96,yasmine.sassi406@univ.tn,BpFCeRUxU1
+407,Mohamed Dhya,Sassi,26,Génie civil,projets pratiques,11.89,mohamed dhya.sassi407@univ.tn,yah4uUEeIp
+408,Amine,Jaziri,25,Finance,QCM,8.11,amine.jaziri408@univ.tn,6iY0kbgsHy
+409,Sarra,Jouini,26,Sciences des données,exercices moyens,17.05,sarra.jouini409@univ.tn,eVPjwncPnR
+410,Sarra,Ayari,21,Comptabilité,exercices difficiles,8.91,sarra.ayari410@univ.tn,ZYNS3ytdaV
+411,Malek,Miled,21,Génie civil,projets pratiques,11.19,malek.miled411@univ.tn,V5xofA9ulP
+412,Moez,Ayari,19,Chimie,projets pratiques,17.5,moez.ayari412@univ.tn,n2XZkkzguI
+413,Skander,Ouni,26,Biologie,exercices moyens,17.51,skander.ouni413@univ.tn,lmH6hnwkyt
+414,Molka,Ben Youssef,25,Biologie,projets pratiques,13.73,molka.ben youssef414@univ.tn,yCeYOwensL
+415,Nour,Fakhfakh,26,Comptabilité,QCM,14.32,nour.fakhfakh415@univ.tn,8gH90k7L8R
+416,Imane,Hmani,23,Biologie,projets pratiques,12.48,imane.hmani416@univ.tn,Q8RuN2t0Du
+417,Moez,Bilkhire,19,Génie logiciel,vidéos,10.93,moez.bilkhire417@univ.tn,LKxNoK9oM3
+418,Ines,Gharbi,19,Sciences des données,projets pratiques,11.29,ines.gharbi418@univ.tn,tTUMdxsjmc
+419,Nour,Hmani,18,Génie civil,exercices difficiles,14.73,nour.hmani419@univ.tn,5L6TurNVG8
+420,Khaled,Hmani,26,Génie civil,QCM,15.52,khaled.hmani420@univ.tn,Orb0upH4Pp
+421,Jihed,Bouazizi,26,Mécanique,exercices difficiles,15.92,jihed.bouazizi421@univ.tn,QSLxtBa1el
+422,Abdelwahab,Trabelsi,21,Réseaux,exercices moyens,15.9,abdelwahab.trabelsi422@univ.tn,NimfKZ5oeS
+423,Houneida,Ouni,26,Finance,projets pratiques,8.91,houneida.ouni423@univ.tn,tSpkprBNqW
+424,Walid,Ben Romdhane,20,Génie logiciel,QCM,12.94,walid.ben romdhane424@univ.tn,e8ykBFTVYX
+425,Sana,Ben Romdhane,20,Finance,exercices moyens,8.58,sana.ben romdhane425@univ.tn,bx0V5KjTpC
+426,Youssef,Jouini,23,Génie logiciel,exercices difficiles,13.5,youssef.jouini426@univ.tn,CxLeiDjlaF
+427,Khaled,Ferchichi,26,Génie civil,exercices faciles,12.42,khaled.ferchichi427@univ.tn,SE568xENKz
+428,Skander,Bilkhire,25,Mathématiques,vidéos,16.88,skander.bilkhire428@univ.tn,c5xJmBp4SF
+429,Omar,Ferchichi,19,Chimie,exercices moyens,11.51,omar.ferchichi429@univ.tn,EQRO5TpcYN
+430,Amine,Zidi,21,Réseaux,projets pratiques,9.17,amine.zidi430@univ.tn,PROqCQpL70
+431,Jasser,Miled,25,Génie civil,exercices difficiles,9.43,jasser.miled431@univ.tn,aVN4yK3GlA
+432,Houneida,Gharbi,19,Gestion,projets pratiques,15.62,houneida.gharbi432@univ.tn,Zps7Oxtz2T
+433,Salma,Zidi,26,Biologie,QCM,14.18,salma.zidi433@univ.tn,fNWviU5yt9
+434,Hassan,Chaari,25,Mécanique,exercices moyens,9.01,hassan.chaari434@univ.tn,YaeRGOTkxR
+435,Houssem,Bouazizi,18,Sciences des données,projets pratiques,8.84,houssem.bouazizi435@univ.tn,ml6BYldlVq
+436,Khaled,Ben Youssef,25,Chimie,exercices difficiles,15.01,khaled.ben youssef436@univ.tn,3zMM1ksxrv
+437,Walid,Ben Said,20,Physique,projets pratiques,8.73,walid.ben said437@univ.tn,KDPgdUaK9g
+438,Ahmed,Zidi,26,Sciences des données,exercices faciles,16.22,ahmed.zidi438@univ.tn,GaL9V5DuAw
+439,Karim,Ouni,24,Sciences des données,exercices moyens,15.06,karim.ouni439@univ.tn,39Y6Pxdwug
+440,Yasmine,Ouni,25,Sciences des données,exercices difficiles,8.81,yasmine.ouni440@univ.tn,CRS3iL1rRY
+441,Abdelwahab,Bilkhire,18,Génie logiciel,exercices moyens,8.85,abdelwahab.bilkhire441@univ.tn,wMODzl97Yb
+442,Mdalela,Fakhfakh,26,Finance,projets pratiques,17.87,mdalela.fakhfakh442@univ.tn,wcYuBLyLfA
+443,Amine,Ben Youssef,25,Comptabilité,exercices difficiles,11.74,amine.ben youssef443@univ.tn,55914TsmiG
+444,Mariem,Ouni,22,Biologie,vidéos,11.71,mariem.ouni444@univ.tn,J1FhXsPI2k
+445,Khaled,Bilkhire,18,Comptabilité,exercices difficiles,16.13,khaled.bilkhire445@univ.tn,BhPonUOfAS
+446,Emna,Mzoughi,24,Physique,exercices difficiles,17.47,emna.mzoughi446@univ.tn,j53VnpD3hi
+447,Amine,Nebli,22,Mathématiques,exercices difficiles,17.86,amine.nebli447@univ.tn,HSfQ25VLNx
+448,Zeinab,Ouni,18,Informatique,QCM,15.53,zeinab.ouni448@univ.tn,STxNI1Ynhf
+449,Amine,Khairallah,21,Mathématiques,exercices difficiles,11.76,amine.khairallah449@univ.tn,fT6Uhw07Ja
+450,Mohamed Dhya,Ouni,19,Génie logiciel,vidéos,8.84,mohamed dhya.ouni450@univ.tn,dH08twQXGL
+451,Sarra,Khairallah,18,Biologie,exercices faciles,15.77,sarra.khairallah451@univ.tn,nyHCi6ZECL
+452,Moez,Nebli,24,Génie logiciel,vidéos,13.58,moez.nebli452@univ.tn,jPXRLt9h9R
+453,Yasmine,Daafous,23,Économie,exercices faciles,12.24,yasmine.daafous453@univ.tn,DZERx8uZnT
+454,Sarra,Trabelsi,19,Mécanique,projets pratiques,17.06,sarra.trabelsi454@univ.tn,YRd1lEy9O0
+455,Molka,Khairallah,26,Mécanique,QCM,9.11,molka.khairallah455@univ.tn,9HuQ9UyGrR
+456,Skander,Bilkhire,18,Informatique,QCM,12.93,skander.bilkhire456@univ.tn,m1yiUJX0RC
+457,Sarra,Bilkhire,19,Finance,QCM,8.11,sarra.bilkhire457@univ.tn,kiRsinUTaT
+458,Aya,Ben Said,25,Sciences des données,exercices faciles,12.69,aya.ben said458@univ.tn,JQ9j6A05f8
+459,Khaled,Ayari,18,Comptabilité,vidéos,8.56,khaled.ayari459@univ.tn,ld8OK8Mzco
+460,Jamel,Sassi,22,Sciences des données,exercices moyens,9.19,jamel.sassi460@univ.tn,EQ7OxQXOW1
+461,Hassan,Bilkhire,24,Comptabilité,QCM,9.18,hassan.bilkhire461@univ.tn,OrOwhfEPFb
+462,Khaled,Ayari,20,Réseaux,exercices faciles,14.49,khaled.ayari462@univ.tn,JJqUXlENAJ
+463,Jamel,Zidi,20,Génie logiciel,projets pratiques,15.46,jamel.zidi463@univ.tn,gd4XlYbIHY
+464,Sarra,Nebli,24,Informatique,vidéos,13.83,sarra.nebli464@univ.tn,EGKSWhU73l
+465,Omar,Fakhfakh,23,Comptabilité,QCM,17.62,omar.fakhfakh465@univ.tn,LlIXhhmjI0
+466,Imane,Mzoughi,24,Réseaux,exercices difficiles,11.75,imane.mzoughi466@univ.tn,c8FwHA6as6
+467,Khaled,Nebli,25,Comptabilité,vidéos,10.86,khaled.nebli467@univ.tn,GWOBJRG9vH
+468,Jamel,Bilkhire,24,Informatique,exercices faciles,16.69,jamel.bilkhire468@univ.tn,ngYolsZ7Ln
+469,Ines,Jaziri,24,Réseaux,exercices moyens,10.24,ines.jaziri469@univ.tn,whMepx4yfp
+470,Mohamed Dhya,Bouzid,19,Économie,exercices moyens,17.63,mohamed dhya.bouzid470@univ.tn,ARHeT9RlxO
+471,Nour,Chaari,26,Gestion,exercices moyens,8.12,nour.chaari471@univ.tn,YLAj9AbLeh
+472,Zeinab,Khairallah,20,Génie civil,exercices difficiles,17.7,zeinab.khairallah472@univ.tn,gHeNwuq1na
+473,Walid,Trabelsi,23,Génie civil,vidéos,8.43,walid.trabelsi473@univ.tn,x8xg5kTtYE
+474,Abdelwahab,Ben Romdhane,19,Chimie,QCM,16.91,abdelwahab.ben romdhane474@univ.tn,GR1IL3k6yv
+475,Salma,Hmani,20,Physique,vidéos,13.28,salma.hmani475@univ.tn,T8GK0DhaFj
+476,Walid,Fakhfakh,26,Comptabilité,exercices moyens,17.93,walid.fakhfakh476@univ.tn,hxTdS8RpLR
+477,Malek,Jaziri,24,Finance,exercices difficiles,8.74,malek.jaziri477@univ.tn,l9XFrA62Ys
+478,Omar,Nebli,26,Réseaux,projets pratiques,13.54,omar.nebli478@univ.tn,16ztfeT6kd
+479,Jasser,Nebli,20,Gestion,exercices moyens,17.69,jasser.nebli479@univ.tn,UIE27AFTDF
+480,Jasser,Trabelsi,21,Réseaux,exercices faciles,13.23,jasser.trabelsi480@univ.tn,93RzM4USRU
+481,Ines,Trabelsi,18,Comptabilité,vidéos,14.29,ines.trabelsi481@univ.tn,pT6Z2GLL7P
+482,Amine,Ben Romdhane,18,Chimie,exercices difficiles,14.96,amine.ben romdhane482@univ.tn,2Gne0F7Axx
+483,Jasser,Ferchichi,22,Physique,projets pratiques,12.55,jasser.ferchichi483@univ.tn,h4pHVhssnT
+484,Mariem,Jaziri,25,Finance,exercices moyens,14.28,mariem.jaziri484@univ.tn,Jns5NZcCME
+485,Malek,Fakhfakh,26,Comptabilité,exercices difficiles,13.84,malek.fakhfakh485@univ.tn,wMuva3lvgE
+486,Jasser,Bilkhire,24,Génie logiciel,projets pratiques,17.01,jasser.bilkhire486@univ.tn,fFjhEjOoys
+487,Salma,Sassi,26,Chimie,exercices faciles,8.45,salma.sassi487@univ.tn,AlYgB0kvAw
+488,Sana,Sassi,24,Informatique,exercices faciles,10.81,sana.sassi488@univ.tn,1mlcyU3jmD
+489,Salma,Fakhfakh,21,Gestion,vidéos,17.5,salma.fakhfakh489@univ.tn,PqAIXSuV2F
+490,Skander,Ben Said,21,Chimie,exercices difficiles,16.9,skander.ben said490@univ.tn,50yggbjFVo
+491,Ahmed,Ben Said,25,Biologie,exercices moyens,12.56,ahmed.ben said491@univ.tn,Qv8TArEVpj
+492,Hana,Hmani,23,Finance,exercices moyens,14.2,hana.hmani492@univ.tn,FpV19pYmRY
+493,Jihed,Sassi,20,Génie civil,QCM,10.77,jihed.sassi493@univ.tn,RFl9KNoic9
+494,Salma,Nebli,22,Génie logiciel,exercices moyens,9.88,salma.nebli494@univ.tn,5AMfdzsNou
+495,Jasser,Khairallah,21,Finance,vidéos,12.64,jasser.khairallah495@univ.tn,DFNsqrvztc
+496,Abdelwahab,Ben Abdallah,19,Comptabilité,exercices faciles,11.53,abdelwahab.ben abdallah496@univ.tn,cdUnD4gl6w
+497,Hassan,Bouzid,18,Mécanique,exercices moyens,13.84,hassan.bouzid497@univ.tn,sgaI1uTwWG
+498,Abdelwahab,Jouini,24,Sciences des données,QCM,8.78,abdelwahab.jouini498@univ.tn,xOnx3iUhK4
+499,Jamel,Trabelsi,18,Génie logiciel,vidéos,17.74,jamel.trabelsi499@univ.tn,OlR5eHvS9m
+500,Yasmine,Trabelsi,21,Économie,projets pratiques,17.86,yasmine.trabelsi500@univ.tn,SclIp20483
+501,Hassan,Nebli,21,Économie,vidéos,14.98,hassan.nebli501@univ.tn,BS4ez5FbLR
+502,Sana,Bouzid,19,Génie civil,vidéos,13.36,sana.bouzid502@univ.tn,hcJXRTyQ18
+503,Salma,Khairallah,19,Gestion,vidéos,11.1,salma.khairallah503@univ.tn,kUxWyqljnR
+504,Ines,Bilkhire,18,Informatique,vidéos,16.14,ines.bilkhire504@univ.tn,2XCRGsnRIk
+505,Houssem,Bouazizi,25,Économie,vidéos,14.85,houssem.bouazizi505@univ.tn,cocj25qXNp
+506,Molka,Ayari,18,Physique,exercices faciles,9.63,molka.ayari506@univ.tn,ZHavLwfRIS
+507,Amine,Ben Said,21,Mécanique,exercices faciles,17.11,amine.ben said507@univ.tn,zLudYZn7k8
+508,Zeinab,Mzoughi,18,Réseaux,QCM,16.23,zeinab.mzoughi508@univ.tn,H8WWgUxO1N
+509,Sana,Hmani,24,Gestion,exercices moyens,17.5,sana.hmani509@univ.tn,IYnqKYUjoT
+510,Houssem,Zidi,25,Réseaux,projets pratiques,15.26,houssem.zidi510@univ.tn,w3fll1lETO
+511,Sana,Trabelsi,21,Finance,exercices difficiles,14.13,sana.trabelsi511@univ.tn,bklyLeep48
+512,Nour,Nebli,26,Chimie,exercices faciles,12.18,nour.nebli512@univ.tn,gGTYLxbZVN
+513,Yasmine,Gharbi,21,Génie logiciel,exercices difficiles,17.33,yasmine.gharbi513@univ.tn,cpfiMa77gT
+514,Zeinab,Bouzid,18,Mécanique,QCM,16.66,zeinab.bouzid514@univ.tn,uRmDIBkujd
+515,Amine,Trabelsi,20,Sciences des données,exercices moyens,8.45,amine.trabelsi515@univ.tn,QMhZgsFZi4
+516,Mdalela,Ferchichi,26,Comptabilité,exercices faciles,8.26,mdalela.ferchichi516@univ.tn,bAjOo2x2Zg
+517,Mariem,Ayari,22,Génie logiciel,projets pratiques,11.76,mariem.ayari517@univ.tn,kgg7wMh553
+518,Aya,Chebbi,21,Mathématiques,exercices faciles,16.11,aya.chebbi518@univ.tn,LlGLQjPsYv
+519,Salma,Fakhfakh,23,Comptabilité,projets pratiques,17.87,salma.fakhfakh519@univ.tn,g4P5YSea5j
+520,Mohamed Dhya,Hmani,23,Génie civil,projets pratiques,9.5,mohamed dhya.hmani520@univ.tn,OtySWDeJ7r
+521,Malek,Bilkhire,21,Informatique,exercices moyens,13.94,malek.bilkhire521@univ.tn,f9lxtAQzXu
+522,Amine,Ben Youssef,22,Informatique,exercices moyens,11.81,amine.ben youssef522@univ.tn,XOpzEHHYxK
+523,Mohamed Dhya,Trabelsi,20,Physique,projets pratiques,17.7,mohamed dhya.trabelsi523@univ.tn,AJQURoa9bI
+524,Ines,Miled,26,Physique,exercices difficiles,16.42,ines.miled524@univ.tn,75dv01Ysi0
+525,Salma,Chebbi,21,Informatique,exercices difficiles,16.38,salma.chebbi525@univ.tn,84pZdi7Rxb
+526,Jamel,Nebli,24,Mathématiques,exercices moyens,12.69,jamel.nebli526@univ.tn,7xRPeZ1bwe
+527,Jasser,Nebli,22,Informatique,exercices faciles,12.15,jasser.nebli527@univ.tn,eJYjlUURsz
+528,Aya,Hmani,22,Économie,vidéos,10.73,aya.hmani528@univ.tn,uWRrj2bUFa
+529,Nour,Hmani,18,Gestion,QCM,8.56,nour.hmani529@univ.tn,ZQ2IZ4FRAj
+530,Skander,Ben Said,26,Biologie,QCM,16.65,skander.ben said530@univ.tn,8G8hnMnlUI
+531,Sana,Ben Youssef,20,Réseaux,exercices difficiles,16.13,sana.ben youssef531@univ.tn,0YDtNZkXOm
+532,Mariem,Ben Romdhane,24,Réseaux,exercices moyens,18.0,mariem.ben romdhane532@univ.tn,geL0brHeLU
+533,Hana,Ben Romdhane,26,Physique,exercices faciles,17.97,hana.ben romdhane533@univ.tn,tINcq8JIWc
+534,Abdelwahab,Jaziri,25,Informatique,exercices faciles,13.55,abdelwahab.jaziri534@univ.tn,t6awrymUS8
+535,Omar,Sassi,18,Génie civil,exercices difficiles,15.69,omar.sassi535@univ.tn,RgzTgYjKxK
+536,Youssef,Khairi,23,Chimie,exercices difficiles,17.45,youssef.khairi536@univ.tn,0rjC2fS2YO
+537,Sana,Ouni,24,Comptabilité,vidéos,16.5,sana.ouni537@univ.tn,Vj7GTO5vWv
+538,Khaled,Ayari,26,Comptabilité,projets pratiques,10.47,khaled.ayari538@univ.tn,w1A3VymLej
+539,Houneida,Daafous,23,Sciences des données,QCM,12.51,houneida.daafous539@univ.tn,MEXi1H8Wff
+540,Sana,Ben Said,24,Biologie,QCM,9.29,sana.ben said540@univ.tn,t5krwflVpD
+541,Walid,Trabelsi,24,Mathématiques,QCM,17.54,walid.trabelsi541@univ.tn,p2OihJc1y1
+542,Khaled,Bouzid,20,Gestion,exercices difficiles,14.06,khaled.bouzid542@univ.tn,4hw07xQFq2
+543,Zeinab,Bilkhire,22,Mathématiques,vidéos,10.29,zeinab.bilkhire543@univ.tn,QMNTpYa0sj
+544,Skander,Bilkhire,24,Biologie,projets pratiques,14.72,skander.bilkhire544@univ.tn,yeyCfCN3Cf
+545,Emna,Ayari,20,Comptabilité,exercices moyens,14.18,emna.ayari545@univ.tn,T45Vmut9ER
+546,Malek,Fakhfakh,26,Gestion,exercices difficiles,11.58,malek.fakhfakh546@univ.tn,DrcjDNtbLx
+547,Amine,Ayari,25,Finance,vidéos,9.14,amine.ayari547@univ.tn,6wADd17QqN
+548,Aya,Gharbi,21,Physique,exercices difficiles,14.72,aya.gharbi548@univ.tn,fezsS2GPqZ
+549,Rania,Ben Abdallah,21,Génie logiciel,exercices moyens,13.2,rania.ben abdallah549@univ.tn,f3vUkvzDQj
+550,Molka,Daafous,22,Mécanique,exercices moyens,15.72,molka.daafous550@univ.tn,RvQyaWLePM
+551,Emna,Sassi,20,Gestion,vidéos,13.2,emna.sassi551@univ.tn,u96UTtjCj1
+552,Molka,Jaziri,25,Génie logiciel,exercices faciles,16.52,molka.jaziri552@univ.tn,h8zGaBZhB8
+553,Jihed,Chaari,18,Génie civil,exercices moyens,13.52,jihed.chaari553@univ.tn,gn8AHkxv78
+554,Karim,Jouini,26,Sciences des données,exercices moyens,13.61,karim.jouini554@univ.tn,JaYb3F1ROC
+555,Sana,Sassi,24,Informatique,projets pratiques,16.77,sana.sassi555@univ.tn,zvHGVhkAkK
+556,Jihed,Daafous,24,Réseaux,exercices moyens,12.03,jihed.daafous556@univ.tn,Hx0QBrM519
+557,Salma,Ben Said,26,Mathématiques,exercices moyens,9.34,salma.ben said557@univ.tn,XgOMzEU5gB
+558,Houssem,Sassi,26,Chimie,projets pratiques,8.29,houssem.sassi558@univ.tn,KcrAnCxmDh
+559,Houneida,Zidi,20,Génie civil,exercices faciles,15.55,houneida.zidi559@univ.tn,74zYRTaxnr
+560,Omar,Ayari,24,Informatique,QCM,14.2,omar.ayari560@univ.tn,2qZXzo3zaj
+561,Khaled,Fakhfakh,21,Biologie,QCM,15.04,khaled.fakhfakh561@univ.tn,xYYLu79o8l
+562,Karim,Khairallah,22,Génie logiciel,exercices moyens,10.13,karim.khairallah562@univ.tn,NZXJhN8k4G
+563,Jihed,Daafous,21,Économie,exercices faciles,9.36,jihed.daafous563@univ.tn,BgXFNW0MqI
+564,Emna,Zidi,23,Physique,exercices difficiles,8.15,emna.zidi564@univ.tn,6mfBMKbR5e
+565,Youssef,Ben Romdhane,19,Finance,projets pratiques,11.51,youssef.ben romdhane565@univ.tn,xUiCNwo3sH
+566,Hana,Jaziri,25,Chimie,projets pratiques,13.9,hana.jaziri566@univ.tn,pWWVOr5MNJ
+567,Yasmine,Bilkhire,23,Physique,exercices faciles,11.92,yasmine.bilkhire567@univ.tn,gCKgr3fEwZ
+568,Rania,Chebbi,19,Finance,vidéos,12.37,rania.chebbi568@univ.tn,yEbe7eQxt4
+569,Omar,Daafous,26,Gestion,projets pratiques,17.04,omar.daafous569@univ.tn,YlalJLb89E
+570,Moez,Sassi,21,Génie logiciel,exercices difficiles,11.48,moez.sassi570@univ.tn,MHjT5lbbFj
+571,Ines,Zidi,18,Génie civil,QCM,13.14,ines.zidi571@univ.tn,1hnunT6qD7
+572,Ahmed,Ben Said,22,Économie,QCM,15.84,ahmed.ben said572@univ.tn,vIsUEFylkQ
+573,Jasser,Chebbi,24,Informatique,exercices faciles,11.97,jasser.chebbi573@univ.tn,3ryKVtX7E2
+574,Hassan,Fakhfakh,18,Gestion,QCM,14.22,hassan.fakhfakh574@univ.tn,AUYMLAJxNd
+575,Karim,Jaziri,19,Mathématiques,exercices faciles,16.62,karim.jaziri575@univ.tn,kcFKsZN7vb
+576,Yasmine,Ben Abdallah,21,Finance,projets pratiques,17.5,yasmine.ben abdallah576@univ.tn,luXweOxWht
+577,Rania,Sassi,26,Mécanique,exercices faciles,9.47,rania.sassi577@univ.tn,auCX3IxLGg
+578,Amine,Bilkhire,21,Chimie,projets pratiques,17.27,amine.bilkhire578@univ.tn,rL21e3AUtt
+579,Walid,Bouzid,25,Finance,exercices faciles,12.92,walid.bouzid579@univ.tn,mXE9AhkuxJ
+580,Yasmine,Ayari,21,Comptabilité,exercices faciles,10.58,yasmine.ayari580@univ.tn,rN194r0y34
+581,Mdalela,Ferchichi,23,Mécanique,projets pratiques,12.59,mdalela.ferchichi581@univ.tn,cNefXSrUyI
+582,Jamel,Zidi,22,Mathématiques,exercices faciles,17.8,jamel.zidi582@univ.tn,tLyRC07hxM
+583,Skander,Daafous,18,Économie,vidéos,12.93,skander.daafous583@univ.tn,bcaguQBkl3
+584,Amine,Chebbi,21,Gestion,vidéos,11.29,amine.chebbi584@univ.tn,w3951qWg6e
+585,Yasmine,Ferchichi,21,Mécanique,vidéos,14.33,yasmine.ferchichi585@univ.tn,uLYqkiCh1U
+586,Jamel,Jouini,19,Économie,exercices faciles,10.4,jamel.jouini586@univ.tn,37zBhGJO8t
+587,Mohamed Dhya,Daafous,25,Chimie,QCM,8.76,mohamed dhya.daafous587@univ.tn,ToqsfI2OTm
+588,Khaled,Hmani,21,Chimie,exercices difficiles,9.29,khaled.hmani588@univ.tn,e8danYlgmK
+589,Nour,Fakhfakh,21,Mathématiques,vidéos,9.28,nour.fakhfakh589@univ.tn,G1VtCjF4nw
+590,Jamel,Bilkhire,24,Comptabilité,projets pratiques,9.52,jamel.bilkhire590@univ.tn,81FWlrkt1O
+591,Sarra,Daafous,21,Génie civil,exercices moyens,9.39,sarra.daafous591@univ.tn,j2Uo3lbPCq
+592,Khaled,Khairi,26,Chimie,exercices moyens,14.41,khaled.khairi592@univ.tn,5fAjFFdqgO
+593,Amine,Hmani,23,Chimie,projets pratiques,9.82,amine.hmani593@univ.tn,TAsyKGEAQO
+594,Salma,Ben Romdhane,22,Mathématiques,projets pratiques,11.46,salma.ben romdhane594@univ.tn,7ndcqegoMS
+595,Ines,Ben Ali,24,Réseaux,projets pratiques,16.97,ines.ben ali595@univ.tn,ygT2qmWvrK
+596,Sana,Ben Romdhane,25,Informatique,exercices faciles,12.74,sana.ben romdhane596@univ.tn,TfFRDs4ote
+597,Hassan,Jaziri,26,Biologie,exercices difficiles,14.68,hassan.jaziri597@univ.tn,l3iaDulqeQ
+598,Mohamed Dhya,Ben Youssef,23,Informatique,vidéos,9.72,mohamed dhya.ben youssef598@univ.tn,0K8KEpgYJ9
+599,Mdalela,Bouazizi,22,Mathématiques,projets pratiques,9.92,mdalela.bouazizi599@univ.tn,ZGkjfsTCT9
+600,Hassan,Ayari,22,Génie civil,exercices faciles,8.41,hassan.ayari600@univ.tn,pEwavS3W13
+601,Malek,Ouni,23,Gestion,projets pratiques,9.69,malek.ouni601@univ.tn,KgQTb81OiE
+602,Hana,Mzoughi,26,Sciences des données,QCM,10.79,hana.mzoughi602@univ.tn,pT8wUm7N72
+603,Aya,Bouazizi,25,Physique,exercices difficiles,9.77,aya.bouazizi603@univ.tn,Q3B7GqQ3yz
+604,Ines,Miled,25,Comptabilité,QCM,8.89,ines.miled604@univ.tn,9tcGvLAC8X
+605,Jamel,Zidi,19,Informatique,QCM,9.21,jamel.zidi605@univ.tn,r8EQCj7MPs
+606,Jamel,Zidi,25,Gestion,projets pratiques,12.61,jamel.zidi606@univ.tn,rXacrKdsAO
+607,Ahmed,Fakhfakh,23,Informatique,exercices moyens,10.06,ahmed.fakhfakh607@univ.tn,apvr1PVjfq
+608,Houneida,Jaziri,21,Chimie,vidéos,11.64,houneida.jaziri608@univ.tn,9mKfnDvYNA
+609,Nour,Sassi,23,Sciences des données,exercices faciles,13.03,nour.sassi609@univ.tn,7gqstIQtJQ
+610,Khaled,Bouzid,23,Biologie,QCM,14.9,khaled.bouzid610@univ.tn,miIsfJMHx2
+611,Jasser,Gharbi,24,Physique,projets pratiques,8.39,jasser.gharbi611@univ.tn,BiBt5SDAAz
+612,Hassan,Hmani,18,Comptabilité,QCM,15.99,hassan.hmani612@univ.tn,bI7AUMspFh
+613,Khaled,Ouni,21,Comptabilité,exercices faciles,14.28,khaled.ouni613@univ.tn,HJsUyyaY2C
+614,Skander,Ben Abdallah,20,Finance,exercices difficiles,8.82,skander.ben abdallah614@univ.tn,ddZOugsDud
+615,Hassan,Ferchichi,18,Génie logiciel,exercices faciles,16.74,hassan.ferchichi615@univ.tn,TPTdmiTEnP
+616,Sarra,Jouini,22,Mathématiques,exercices faciles,17.21,sarra.jouini616@univ.tn,0st9aEQhaL
+617,Sana,Trabelsi,26,Génie civil,vidéos,8.61,sana.trabelsi617@univ.tn,hgmDZBdhz8
+618,Nour,Hmani,24,Mathématiques,exercices moyens,10.77,nour.hmani618@univ.tn,Y0HYQ1MANl
+619,Imane,Trabelsi,22,Biologie,QCM,16.06,imane.trabelsi619@univ.tn,YOkTHDrP7E
+620,Abdelwahab,Daafous,20,Économie,exercices moyens,15.48,abdelwahab.daafous620@univ.tn,PyRgzAbCIa
+621,Houssem,Ayari,21,Informatique,exercices difficiles,9.85,houssem.ayari621@univ.tn,sN3Mc47DSr
+622,Khaled,Trabelsi,23,Réseaux,QCM,10.09,khaled.trabelsi622@univ.tn,8w1FvRydOv
+623,Jihed,Ouni,21,Comptabilité,exercices moyens,11.7,jihed.ouni623@univ.tn,SvSWrVsy4N
+624,Rania,Ben Said,24,Finance,exercices difficiles,12.85,rania.ben said624@univ.tn,xDOJ5WGiu7
+625,Skander,Zidi,21,Génie logiciel,projets pratiques,14.18,skander.zidi625@univ.tn,vMzc0jfg5D
+626,Hana,Ben Said,25,Informatique,vidéos,11.69,hana.ben said626@univ.tn,V8YTo3k3UA
+627,Yasmine,Sassi,26,Mathématiques,exercices difficiles,12.63,yasmine.sassi627@univ.tn,dLh0eVL05t
+628,Ines,Zidi,23,Physique,exercices moyens,15.47,ines.zidi628@univ.tn,Rx9JmpBrmk
+629,Hana,Ben Youssef,22,Génie civil,exercices faciles,8.37,hana.ben youssef629@univ.tn,YYlKNPmY3w
+630,Amine,Ben Youssef,25,Biologie,QCM,10.52,amine.ben youssef630@univ.tn,zHelT4NEZJ
+631,Jamel,Ferchichi,25,Comptabilité,vidéos,15.13,jamel.ferchichi631@univ.tn,DvMIieAxee
+632,Jihed,Chebbi,25,Gestion,exercices moyens,16.95,jihed.chebbi632@univ.tn,WshoLun65p
+633,Aya,Ouni,20,Économie,projets pratiques,13.12,aya.ouni633@univ.tn,Re28eJ05Fy
+634,Abdelwahab,Ben Said,23,Comptabilité,vidéos,13.32,abdelwahab.ben said634@univ.tn,dRgD4qbuqu
+635,Emna,Bouzid,20,Génie logiciel,exercices difficiles,9.07,emna.bouzid635@univ.tn,ViHT5P2oe6
+636,Houneida,Trabelsi,20,Mécanique,exercices moyens,12.47,houneida.trabelsi636@univ.tn,4RVc86LLeI
+637,Mohamed Dhya,Ben Youssef,26,Génie logiciel,exercices faciles,13.33,mohamed dhya.ben youssef637@univ.tn,6qccFOAs08
+638,Emna,Jouini,25,Génie civil,exercices faciles,10.42,emna.jouini638@univ.tn,bdVYH1QTId
+639,Mdalela,Nebli,20,Réseaux,projets pratiques,10.69,mdalela.nebli639@univ.tn,VRAAiB38wm
+640,Houneida,Trabelsi,26,Sciences des données,exercices faciles,11.77,houneida.trabelsi640@univ.tn,BdoKoU3XJ9
+641,Malek,Khairi,18,Physique,exercices faciles,8.2,malek.khairi641@univ.tn,aSYehlcvOp
+642,Skander,Ben Romdhane,26,Biologie,QCM,11.22,skander.ben romdhane642@univ.tn,sLDhepHETw
+643,Jamel,Daafous,18,Génie logiciel,projets pratiques,10.11,jamel.daafous643@univ.tn,4nS6WsOGqR
+644,Imane,Jouini,19,Mécanique,vidéos,11.27,imane.jouini644@univ.tn,Fd3RMrmi8o
+645,Karim,Miled,18,Mécanique,exercices moyens,9.2,karim.miled645@univ.tn,TnxYi8ROCh
+646,Houneida,Nebli,18,Informatique,exercices faciles,16.91,houneida.nebli646@univ.tn,EcrxZfrLE1
+647,Imane,Ben Said,24,Biologie,QCM,13.94,imane.ben said647@univ.tn,xcmlAdsHvb
+648,Abdelwahab,Jaziri,20,Sciences des données,exercices faciles,14.79,abdelwahab.jaziri648@univ.tn,L354YKUvZA
+649,Rania,Ouni,21,Réseaux,projets pratiques,15.89,rania.ouni649@univ.tn,ATTdgySQ16
+650,Mdalela,Jouini,19,Mathématiques,projets pratiques,12.98,mdalela.jouini650@univ.tn,CJJGkxU5ia
+651,Jihed,Bouzid,20,Finance,exercices faciles,8.87,jihed.bouzid651@univ.tn,X6fpHuyMwO
+652,Ahmed,Nebli,18,Finance,exercices difficiles,13.37,ahmed.nebli652@univ.tn,WYLhJtqlCB
+653,Zeinab,Miled,21,Physique,projets pratiques,13.87,zeinab.miled653@univ.tn,C7D0nd6rLt
+654,Jamel,Ben Abdallah,26,Gestion,exercices moyens,15.45,jamel.ben abdallah654@univ.tn,dlVr1hNjMd
+655,Youssef,Miled,25,Chimie,vidéos,12.32,youssef.miled655@univ.tn,hcQ1JcSdSq
+656,Mariem,Jaziri,23,Biologie,exercices difficiles,9.28,mariem.jaziri656@univ.tn,pQ1vSLveBF
+657,Imane,Bouzid,18,Comptabilité,exercices difficiles,10.84,imane.bouzid657@univ.tn,ouxZzN2iuW
+658,Zeinab,Bouzid,25,Physique,vidéos,11.63,zeinab.bouzid658@univ.tn,uzOD8Mjc54
+659,Hassan,Mzoughi,25,Comptabilité,exercices faciles,14.46,hassan.mzoughi659@univ.tn,bLYFWFKvnZ
+660,Karim,Trabelsi,18,Gestion,exercices faciles,13.71,karim.trabelsi660@univ.tn,cTx9ee6nFJ
+661,Ahmed,Ferchichi,18,Gestion,exercices moyens,11.56,ahmed.ferchichi661@univ.tn,HzT0GdDGBq
+662,Imane,Bouazizi,26,Économie,exercices faciles,17.87,imane.bouazizi662@univ.tn,ZsppVwCUho
+663,Skander,Ben Romdhane,26,Finance,exercices difficiles,14.06,skander.ben romdhane663@univ.tn,T2wvF4OLBz
+664,Skander,Daafous,24,Mathématiques,exercices difficiles,10.37,skander.daafous664@univ.tn,JZhHWzKiqr
+665,Sarra,Khairallah,18,Génie logiciel,projets pratiques,9.02,sarra.khairallah665@univ.tn,tfA8JNV32a
+666,Ines,Nebli,18,Mathématiques,exercices difficiles,9.53,ines.nebli666@univ.tn,hqI5UhcAQ9
+667,Mdalela,Nebli,26,Réseaux,vidéos,10.46,mdalela.nebli667@univ.tn,i144vyISh3
+668,Mariem,Ouni,22,Chimie,projets pratiques,9.61,mariem.ouni668@univ.tn,3KM9cTwBzB
+669,Aya,Jaziri,26,Chimie,exercices faciles,9.87,aya.jaziri669@univ.tn,ZrDilV46f3
+670,Skander,Ouni,22,Mécanique,exercices faciles,10.85,skander.ouni670@univ.tn,KwOxBFK6gs
+671,Emna,Sassi,18,Génie logiciel,exercices faciles,9.73,emna.sassi671@univ.tn,vI3J0Autli
+672,Omar,Hmani,26,Réseaux,exercices faciles,16.97,omar.hmani672@univ.tn,YT9nGJMgrh
+673,Houssem,Hmani,24,Génie logiciel,exercices moyens,8.8,houssem.hmani673@univ.tn,qB2r49U5Pi
+674,Hassan,Khairi,20,Réseaux,projets pratiques,13.25,hassan.khairi674@univ.tn,m0Ub37HXaZ
+675,Omar,Ben Youssef,19,Économie,projets pratiques,12.1,omar.ben youssef675@univ.tn,bm6JTGZsgR
+676,Mariem,Ferchichi,19,Économie,exercices moyens,17.82,mariem.ferchichi676@univ.tn,0BAq19Thve
+677,Walid,Bouazizi,26,Gestion,exercices difficiles,9.12,walid.bouazizi677@univ.tn,XTuFrNFWRt
+678,Walid,Bouzid,20,Biologie,exercices difficiles,11.98,walid.bouzid678@univ.tn,5A5Xt0O2cN
+679,Jihed,Ben Said,21,Génie logiciel,vidéos,17.69,jihed.ben said679@univ.tn,aix6PqjYTr
+680,Nour,Zidi,21,Génie civil,QCM,16.66,nour.zidi680@univ.tn,m261UaeIml
+681,Khaled,Sassi,26,Gestion,exercices difficiles,16.17,khaled.sassi681@univ.tn,zqxKNEOlso
+682,Emna,Chaari,22,Chimie,projets pratiques,10.58,emna.chaari682@univ.tn,sEXywDfg2U
+683,Jasser,Trabelsi,23,Mathématiques,exercices faciles,9.71,jasser.trabelsi683@univ.tn,r8uPhCthRR
+684,Abdelwahab,Bilkhire,22,Économie,exercices difficiles,14.69,abdelwahab.bilkhire684@univ.tn,VDXEzosF3W
+685,Salma,Mzoughi,24,Finance,exercices difficiles,17.29,salma.mzoughi685@univ.tn,dVqtyBy4qT
+686,Sarra,Sassi,19,Économie,exercices moyens,13.57,sarra.sassi686@univ.tn,vYtzJkmM6M
+687,Sarra,Ben Romdhane,23,Finance,exercices faciles,13.72,sarra.ben romdhane687@univ.tn,uLbSXfR4VI
+688,Jihed,Ben Abdallah,24,Physique,vidéos,10.8,jihed.ben abdallah688@univ.tn,OGwmjH1oX4
+689,Yasmine,Gharbi,25,Génie logiciel,vidéos,15.69,yasmine.gharbi689@univ.tn,unT6cb6gyE
+690,Jihed,Chebbi,21,Génie logiciel,vidéos,9.87,jihed.chebbi690@univ.tn,jsoVpqhWOi
+691,Mariem,Sassi,21,Réseaux,exercices difficiles,11.24,mariem.sassi691@univ.tn,TqfeSVzaZL
+692,Karim,Hmani,22,Chimie,vidéos,12.25,karim.hmani692@univ.tn,jTXmLtuFbq
+693,Malek,Sassi,19,Sciences des données,projets pratiques,13.08,malek.sassi693@univ.tn,mqODsf7ID4
+694,Malek,Gharbi,18,Finance,vidéos,10.42,malek.gharbi694@univ.tn,HpbEyxHgn8
+695,Aya,Jaziri,19,Physique,vidéos,9.15,aya.jaziri695@univ.tn,yowINuY8fk
+696,Nour,Fakhfakh,24,Comptabilité,projets pratiques,14.11,nour.fakhfakh696@univ.tn,1EpiMDSJoV
+697,Molka,Ouni,24,Comptabilité,exercices moyens,10.89,molka.ouni697@univ.tn,ptujtJzaQU
+698,Khaled,Ben Youssef,24,Mécanique,exercices faciles,13.81,khaled.ben youssef698@univ.tn,XHtOtRF19f
+699,Mdalela,Chaari,26,Informatique,exercices moyens,9.54,mdalela.chaari699@univ.tn,gRxUkUkB8c
+700,Omar,Nebli,25,Mathématiques,projets pratiques,12.81,omar.nebli700@univ.tn,AkXEUHysAs
+701,Molka,Trabelsi,18,Physique,projets pratiques,13.33,molka.trabelsi701@univ.tn,5PGMxOiGmM
+702,Ahmed,Hmani,18,Physique,exercices faciles,8.52,ahmed.hmani702@univ.tn,SGpC65S0iG
+703,Jasser,Zidi,20,Gestion,exercices moyens,11.37,jasser.zidi703@univ.tn,Zazje8tlRH
+704,Sarra,Ferchichi,19,Réseaux,exercices faciles,9.34,sarra.ferchichi704@univ.tn,udDjvIoM5r
+705,Skander,Khairi,25,Génie logiciel,vidéos,8.63,skander.khairi705@univ.tn,Y1KsMzpHOe
+706,Imane,Fakhfakh,24,Comptabilité,QCM,17.9,imane.fakhfakh706@univ.tn,jTrqgXKVuV
+707,Youssef,Miled,23,Mathématiques,vidéos,11.22,youssef.miled707@univ.tn,KrY2PDkW9f
+708,Abdelwahab,Ferchichi,19,Gestion,QCM,16.1,abdelwahab.ferchichi708@univ.tn,Xjk2u3dFBP
+709,Imane,Nebli,26,Biologie,projets pratiques,10.55,imane.nebli709@univ.tn,uFhIxxDtGG
+710,Imane,Trabelsi,18,Génie civil,vidéos,14.82,imane.trabelsi710@univ.tn,2076ZS0IEW
+711,Amine,Ben Romdhane,21,Informatique,exercices moyens,15.6,amine.ben romdhane711@univ.tn,QIAvbwCPTn
+712,Omar,Ben Ali,21,Sciences des données,QCM,13.96,omar.ben ali712@univ.tn,I96xlUaBGa
+713,Abdelwahab,Khairi,25,Finance,vidéos,12.72,abdelwahab.khairi713@univ.tn,tfwp5LcrDc
+714,Aya,Trabelsi,22,Finance,exercices difficiles,12.12,aya.trabelsi714@univ.tn,RpM8Z159NE
+715,Houneida,Sassi,18,Physique,QCM,11.49,houneida.sassi715@univ.tn,D2UYcb3jT1
+716,Yasmine,Hmani,19,Réseaux,exercices faciles,17.3,yasmine.hmani716@univ.tn,iA0dNdgH8m
+717,Emna,Ben Romdhane,22,Informatique,projets pratiques,16.31,emna.ben romdhane717@univ.tn,MbZ0tR4K6G
+718,Abdelwahab,Miled,26,Biologie,projets pratiques,17.65,abdelwahab.miled718@univ.tn,6yZPeZFTfB
+719,Walid,Sassi,18,Physique,exercices moyens,9.24,walid.sassi719@univ.tn,rmFkUZaqvv
+720,Jamel,Fakhfakh,20,Économie,vidéos,15.31,jamel.fakhfakh720@univ.tn,JRJChfTlK7
+721,Walid,Ben Romdhane,23,Génie civil,vidéos,17.38,walid.ben romdhane721@univ.tn,VWnxfSpZN3
+722,Omar,Miled,18,Comptabilité,exercices faciles,9.81,omar.miled722@univ.tn,lUidRlitol
+723,Mariem,Ben Ali,21,Génie civil,vidéos,8.66,mariem.ben ali723@univ.tn,2ksRqEJvNB
+724,Molka,Ayari,20,Mathématiques,vidéos,15.41,molka.ayari724@univ.tn,NZcZxHnRvY
+725,Jihed,Gharbi,24,Génie logiciel,exercices faciles,13.74,jihed.gharbi725@univ.tn,XmRFZXfVqC
+726,Imane,Ferchichi,19,Économie,exercices faciles,16.42,imane.ferchichi726@univ.tn,bhOliKxxKc
+727,Sarra,Chebbi,22,Génie logiciel,exercices difficiles,9.4,sarra.chebbi727@univ.tn,RN1aAuOg4s
+728,Emna,Bilkhire,20,Chimie,projets pratiques,15.95,emna.bilkhire728@univ.tn,ClbYCJAyZp
+729,Amine,Ayari,21,Chimie,exercices difficiles,10.02,amine.ayari729@univ.tn,xuQs82V3FA
+730,Jihed,Bouzid,24,Réseaux,exercices faciles,9.64,jihed.bouzid730@univ.tn,V7ybF5276m
+731,Houssem,Zidi,26,Génie logiciel,projets pratiques,9.64,houssem.zidi731@univ.tn,8Uiu78tVXC
+732,Jamel,Zidi,23,Informatique,projets pratiques,16.15,jamel.zidi732@univ.tn,kaj2seomfp
+733,Moez,Trabelsi,24,Informatique,QCM,14.65,moez.trabelsi733@univ.tn,Q0xDvDQR4P
+734,Hassan,Jaziri,20,Physique,projets pratiques,13.23,hassan.jaziri734@univ.tn,ZRVfhViV3Y
+735,Sarra,Ferchichi,19,Chimie,QCM,11.59,sarra.ferchichi735@univ.tn,TAyeETKnLV
+736,Nour,Mzoughi,26,Mathématiques,projets pratiques,16.77,nour.mzoughi736@univ.tn,wvZLU4Oiln
+737,Youssef,Chebbi,23,Réseaux,QCM,11.92,youssef.chebbi737@univ.tn,AvOArxYc7A
+738,Yasmine,Ferchichi,18,Mathématiques,exercices moyens,16.17,yasmine.ferchichi738@univ.tn,kQZCfQg1Xa
+739,Mohamed Dhya,Zidi,19,Physique,projets pratiques,12.39,mohamed dhya.zidi739@univ.tn,tJxCE7yVsq
+740,Aya,Ouni,24,Biologie,exercices difficiles,11.77,aya.ouni740@univ.tn,NLXBxDuHwW
+741,Sana,Chebbi,21,Gestion,QCM,12.63,sana.chebbi741@univ.tn,8GxPju5KmY
+742,Nour,Mzoughi,19,Sciences des données,QCM,11.01,nour.mzoughi742@univ.tn,TCdrhEw3Qp
+743,Abdelwahab,Nebli,23,Sciences des données,projets pratiques,15.48,abdelwahab.nebli743@univ.tn,usYHlwbuNK
+744,Sana,Ben Said,24,Sciences des données,projets pratiques,13.03,sana.ben said744@univ.tn,wcTpffTNAr
+745,Jamel,Ben Ali,23,Génie logiciel,QCM,10.32,jamel.ben ali745@univ.tn,8QpZZTGCex
+746,Youssef,Trabelsi,18,Mécanique,exercices faciles,17.0,youssef.trabelsi746@univ.tn,j8N2x8e5UA
+747,Mdalela,Fakhfakh,22,Mécanique,vidéos,11.84,mdalela.fakhfakh747@univ.tn,b6pO2ZAhlq
+748,Skander,Ben Ali,25,Finance,projets pratiques,13.44,skander.ben ali748@univ.tn,sF0pXxDVBU
+749,Sarra,Chaari,25,Physique,projets pratiques,17.06,sarra.chaari749@univ.tn,WrPL4Qqzbz
+750,Jamel,Bouazizi,21,Génie logiciel,exercices moyens,14.24,jamel.bouazizi750@univ.tn,iqL8tnbudr
+751,Mdalela,Ferchichi,23,Informatique,vidéos,9.17,mdalela.ferchichi751@univ.tn,SZKNuy5avv
+752,Yasmine,Zidi,26,Génie logiciel,exercices difficiles,17.4,yasmine.zidi752@univ.tn,BCUnRPpc07
+753,Hassan,Ben Abdallah,24,Mathématiques,projets pratiques,14.28,hassan.ben abdallah753@univ.tn,NIvm9wstPb
+754,Nour,Jouini,24,Sciences des données,projets pratiques,11.35,nour.jouini754@univ.tn,MkvA9b8IEo
+755,Skander,Ben Said,20,Économie,projets pratiques,9.39,skander.ben said755@univ.tn,5iL0gn9Jlj
+756,Hana,Hmani,24,Chimie,vidéos,15.94,hana.hmani756@univ.tn,WTyzUzLtwg
+757,Jasser,Khairi,19,Réseaux,exercices moyens,14.2,jasser.khairi757@univ.tn,27VtHy1ECZ
+758,Ines,Gharbi,22,Génie logiciel,QCM,13.33,ines.gharbi758@univ.tn,B5lrHuCk4x
+759,Mohamed Dhya,Ouni,21,Physique,QCM,16.94,mohamed dhya.ouni759@univ.tn,O8zNMiM9LT
+760,Karim,Jaziri,19,Physique,exercices faciles,15.89,karim.jaziri760@univ.tn,6upJDfwU2O
+761,Molka,Miled,19,Chimie,exercices faciles,9.52,molka.miled761@univ.tn,I10kw2k65u
+762,Ines,Jaziri,22,Gestion,projets pratiques,11.12,ines.jaziri762@univ.tn,s3mCpL9X8F
+763,Jasser,Gharbi,20,Génie logiciel,exercices moyens,10.48,jasser.gharbi763@univ.tn,gLu5jC7acP
+764,Hassan,Trabelsi,24,Informatique,QCM,15.44,hassan.trabelsi764@univ.tn,191ezqShWO
+765,Imane,Miled,20,Économie,vidéos,8.34,imane.miled765@univ.tn,HbDTsyYVwS
+766,Houssem,Khairi,24,Informatique,vidéos,13.7,houssem.khairi766@univ.tn,FOAhjqZUgk
+767,Youssef,Bilkhire,23,Réseaux,exercices moyens,15.62,youssef.bilkhire767@univ.tn,zv4XngNe3E
+768,Amine,Bouzid,23,Mécanique,exercices faciles,16.77,amine.bouzid768@univ.tn,pqsBWRJKVj
+769,Nour,Ben Said,19,Biologie,vidéos,11.42,nour.ben said769@univ.tn,rnwws6jNDB
+770,Mohamed Dhya,Nebli,19,Physique,exercices difficiles,16.21,mohamed dhya.nebli770@univ.tn,sURjsxNbns
+771,Aya,Fakhfakh,18,Comptabilité,exercices moyens,9.11,aya.fakhfakh771@univ.tn,KqSU9zMkvj
+772,Mohamed Dhya,Gharbi,22,Biologie,exercices difficiles,16.46,mohamed dhya.gharbi772@univ.tn,0tx1EkGk3a
+773,Emna,Ferchichi,25,Économie,exercices difficiles,9.27,emna.ferchichi773@univ.tn,6vtnrWWOwC
+774,Houssem,Trabelsi,23,Informatique,exercices faciles,11.97,houssem.trabelsi774@univ.tn,4400WGomPy
+775,Moez,Mzoughi,22,Biologie,QCM,15.97,moez.mzoughi775@univ.tn,gueIHT28dJ
+776,Ahmed,Ben Said,19,Sciences des données,exercices moyens,9.5,ahmed.ben said776@univ.tn,ppTQOpQCcL
+777,Amine,Ben Abdallah,20,Biologie,QCM,10.29,amine.ben abdallah777@univ.tn,IflZd3GdoK
+778,Jasser,Ben Ali,19,Réseaux,projets pratiques,15.22,jasser.ben ali778@univ.tn,KCHWtNmhfm
+779,Mariem,Bilkhire,20,Gestion,vidéos,15.2,mariem.bilkhire779@univ.tn,HnEJK1g2Wm
+780,Houneida,Hmani,24,Mathématiques,vidéos,14.41,houneida.hmani780@univ.tn,XMCaULEkFF
+781,Rania,Khairallah,25,Réseaux,exercices moyens,14.94,rania.khairallah781@univ.tn,6s1prItB86
+782,Hassan,Miled,26,Finance,exercices faciles,13.43,hassan.miled782@univ.tn,Et8DkeAs5B
+783,Sarra,Chebbi,26,Finance,vidéos,10.52,sarra.chebbi783@univ.tn,NHlWVnFtGg
+784,Mariem,Zidi,26,Économie,vidéos,11.46,mariem.zidi784@univ.tn,sLJjjVW0Lj
+785,Malek,Jaziri,24,Réseaux,QCM,9.82,malek.jaziri785@univ.tn,78OWWq5D1s
+786,Jamel,Khairi,19,Informatique,vidéos,17.08,jamel.khairi786@univ.tn,iuvUBAyzVz
+787,Zeinab,Ben Ali,18,Mécanique,exercices faciles,13.83,zeinab.ben ali787@univ.tn,8vX8VbRmSs
+788,Imane,Ben Said,19,Mécanique,vidéos,12.01,imane.ben said788@univ.tn,xtXuImnF1g
+789,Sarra,Ben Romdhane,23,Mécanique,vidéos,12.62,sarra.ben romdhane789@univ.tn,puDSD8cOQ4
+790,Hassan,Miled,26,Mathématiques,exercices difficiles,17.47,hassan.miled790@univ.tn,ErLxgNrw5g
+791,Emna,Khairallah,19,Sciences des données,exercices faciles,9.53,emna.khairallah791@univ.tn,iUuWzjjsmf
+792,Sana,Khairi,23,Finance,vidéos,13.86,sana.khairi792@univ.tn,pJVqGsbVeW
+793,Khaled,Ben Youssef,24,Économie,projets pratiques,13.06,khaled.ben youssef793@univ.tn,St04B2lDCu
+794,Molka,Daafous,18,Biologie,projets pratiques,14.11,molka.daafous794@univ.tn,QRpUbhzyEc
+795,Jihed,Daafous,22,Génie civil,exercices faciles,8.18,jihed.daafous795@univ.tn,G4FbBbFXWE
+796,Ahmed,Fakhfakh,24,Économie,exercices faciles,16.72,ahmed.fakhfakh796@univ.tn,JNTJ8WGX0f
+797,Jasser,Hmani,24,Informatique,vidéos,17.32,jasser.hmani797@univ.tn,5L9UVArB2T
+798,Nour,Ben Romdhane,19,Génie logiciel,vidéos,13.65,nour.ben romdhane798@univ.tn,OeOvGQYAbJ
+799,Abdelwahab,Fakhfakh,26,Finance,exercices faciles,14.97,abdelwahab.fakhfakh799@univ.tn,aZbnAqnPuC
+800,Emna,Hmani,21,Biologie,QCM,17.22,emna.hmani800@univ.tn,PVJv21jVml
+801,Amine,Ben Abdallah,26,Réseaux,QCM,15.07,amine.ben abdallah801@univ.tn,bL0WH7utom
+802,Emna,Hmani,20,Biologie,exercices faciles,9.53,emna.hmani802@univ.tn,sAq6nwi3BZ
+803,Walid,Bouzid,24,Mathématiques,exercices faciles,13.76,walid.bouzid803@univ.tn,xBUTxBymxY
+804,Hassan,Hmani,20,Sciences des données,QCM,14.07,hassan.hmani804@univ.tn,fk4ShUhELU
+805,Imane,Ben Abdallah,20,Chimie,QCM,12.24,imane.ben abdallah805@univ.tn,tl9XwpgCaX
+806,Moez,Ben Ali,22,Génie civil,projets pratiques,15.36,moez.ben ali806@univ.tn,y1v6ZA0s9f
+807,Jamel,Sassi,22,Mathématiques,exercices difficiles,17.34,jamel.sassi807@univ.tn,NyD6rOuipJ
+808,Jasser,Sassi,22,Sciences des données,QCM,17.26,jasser.sassi808@univ.tn,hjRVdX1Oxz
+809,Skander,Mzoughi,25,Chimie,QCM,12.51,skander.mzoughi809@univ.tn,jk67UYl2gk
+810,Skander,Trabelsi,20,Génie civil,exercices moyens,9.13,skander.trabelsi810@univ.tn,EsM4qtWu3c
+811,Khaled,Bilkhire,19,Chimie,projets pratiques,17.85,khaled.bilkhire811@univ.tn,24cxLGja3f
+812,Amine,Sassi,20,Informatique,projets pratiques,16.39,amine.sassi812@univ.tn,9gD81HiLNt
+813,Walid,Ben Romdhane,24,Biologie,vidéos,9.25,walid.ben romdhane813@univ.tn,D3hOwMSDU0
+814,Salma,Chaari,22,Chimie,exercices difficiles,17.21,salma.chaari814@univ.tn,mni6nffz2g
+815,Houneida,Jouini,24,Comptabilité,exercices difficiles,16.7,houneida.jouini815@univ.tn,olOu8PGJ2V
+816,Moez,Ben Ali,22,Gestion,exercices faciles,13.19,moez.ben ali816@univ.tn,iAOJ5c4xcm
+817,Zeinab,Ben Romdhane,25,Économie,exercices moyens,13.91,zeinab.ben romdhane817@univ.tn,licXktJDvM
+818,Omar,Bouzid,19,Génie civil,vidéos,11.99,omar.bouzid818@univ.tn,YJCnMHhrV5
+819,Jamel,Fakhfakh,23,Chimie,exercices difficiles,8.55,jamel.fakhfakh819@univ.tn,u3pYEIPPvG
+820,Jasser,Ben Romdhane,22,Économie,QCM,11.35,jasser.ben romdhane820@univ.tn,dwN7hoCgIs
+821,Ines,Miled,21,Gestion,QCM,16.03,ines.miled821@univ.tn,2tB9f1Fy69
+822,Moez,Jouini,25,Mécanique,QCM,8.05,moez.jouini822@univ.tn,m0nbTvLj1G
+823,Jamel,Daafous,21,Génie civil,vidéos,11.33,jamel.daafous823@univ.tn,Xwo6GxgkNM
+824,Ahmed,Bilkhire,25,Gestion,projets pratiques,11.98,ahmed.bilkhire824@univ.tn,0Uj6L1r76s
+825,Imane,Gharbi,19,Biologie,projets pratiques,13.37,imane.gharbi825@univ.tn,383Di6apIt
+826,Jihed,Ouni,20,Finance,exercices difficiles,17.2,jihed.ouni826@univ.tn,5M7dziYVY6
+827,Hassan,Khairallah,22,Réseaux,projets pratiques,11.46,hassan.khairallah827@univ.tn,pWOylZe7r3
+828,Walid,Jouini,18,Informatique,vidéos,11.47,walid.jouini828@univ.tn,hT6jBPVaht
+829,Sarra,Ouni,24,Gestion,exercices faciles,15.38,sarra.ouni829@univ.tn,gMDOshUCe8
+830,Skander,Ayari,23,Mécanique,exercices faciles,12.52,skander.ayari830@univ.tn,4vq9x3gCK2
+831,Hana,Zidi,24,Mathématiques,projets pratiques,10.25,hana.zidi831@univ.tn,QXVng9LLw1
+832,Ines,Trabelsi,23,Informatique,exercices moyens,12.52,ines.trabelsi832@univ.tn,PZ7AN1rSrp
+833,Salma,Ben Romdhane,25,Chimie,exercices faciles,9.41,salma.ben romdhane833@univ.tn,FAZ8fgXpEK
+834,Amine,Ben Abdallah,23,Chimie,exercices difficiles,9.76,amine.ben abdallah834@univ.tn,PgWRIZxG5x
+835,Mohamed Dhya,Ayari,24,Finance,exercices difficiles,12.98,mohamed dhya.ayari835@univ.tn,LKX7JhVwP4
+836,Houneida,Ferchichi,20,Informatique,projets pratiques,12.19,houneida.ferchichi836@univ.tn,AyUvW0JG6Y
+837,Khaled,Bilkhire,22,Chimie,exercices difficiles,17.15,khaled.bilkhire837@univ.tn,MWPbJb6g5X
+838,Salma,Ben Youssef,23,Économie,QCM,11.62,salma.ben youssef838@univ.tn,T0pYv8pBcC
+839,Abdelwahab,Ferchichi,21,Génie civil,QCM,13.81,abdelwahab.ferchichi839@univ.tn,9qXmVHtyvY
+840,Jasser,Ouni,25,Gestion,exercices difficiles,14.32,jasser.ouni840@univ.tn,01uMTZoZgS
+841,Youssef,Daafous,23,Chimie,projets pratiques,8.13,youssef.daafous841@univ.tn,NtElxqRvX3
+842,Mohamed Dhya,Nebli,20,Mécanique,exercices faciles,14.64,mohamed dhya.nebli842@univ.tn,U7ugK4RIUH
+843,Skander,Chebbi,24,Mathématiques,exercices faciles,9.78,skander.chebbi843@univ.tn,yRmfL2zqSH
+844,Salma,Mzoughi,23,Réseaux,exercices moyens,17.61,salma.mzoughi844@univ.tn,y5g7Y3sJf9
+845,Salma,Bilkhire,22,Génie logiciel,vidéos,9.49,salma.bilkhire845@univ.tn,BcHPqEZ8po
+846,Walid,Ben Youssef,25,Mathématiques,exercices moyens,12.15,walid.ben youssef846@univ.tn,OnapbLZzIJ
+847,Hassan,Bouzid,21,Sciences des données,projets pratiques,8.85,hassan.bouzid847@univ.tn,z0KM38UR8X
+848,Youssef,Zidi,23,Mathématiques,projets pratiques,17.97,youssef.zidi848@univ.tn,qw36tw7i19
+849,Zeinab,Fakhfakh,24,Finance,projets pratiques,13.02,zeinab.fakhfakh849@univ.tn,pHh8WFDtYL
+850,Moez,Chebbi,22,Génie civil,vidéos,13.95,moez.chebbi850@univ.tn,SSNI9CJdME
+851,Ines,Ouni,24,Physique,exercices faciles,8.67,ines.ouni851@univ.tn,B7kIIdv1jQ
+852,Karim,Nebli,23,Chimie,exercices difficiles,15.5,karim.nebli852@univ.tn,eSJ6TSER69
+853,Sarra,Trabelsi,19,Comptabilité,QCM,10.1,sarra.trabelsi853@univ.tn,nCHPuJ26iH
+854,Karim,Jaziri,21,Informatique,exercices moyens,16.98,karim.jaziri854@univ.tn,QtaLSwh8MG
+855,Amine,Bouazizi,26,Chimie,exercices moyens,10.05,amine.bouazizi855@univ.tn,TTpLVllOEh
+856,Ahmed,Trabelsi,20,Mathématiques,exercices faciles,9.91,ahmed.trabelsi856@univ.tn,f6J6yzRivf
+857,Walid,Bouzid,26,Mécanique,vidéos,8.37,walid.bouzid857@univ.tn,wR2Elyo9Nv
+858,Jasser,Bouazizi,18,Physique,exercices moyens,12.72,jasser.bouazizi858@univ.tn,UGbL8dxk7G
+859,Walid,Trabelsi,25,Chimie,vidéos,13.65,walid.trabelsi859@univ.tn,axb4I17lMl
+860,Omar,Trabelsi,21,Biologie,exercices moyens,8.66,omar.trabelsi860@univ.tn,nv24LJ3R2l
+861,Skander,Ayari,25,Gestion,projets pratiques,15.76,skander.ayari861@univ.tn,jYbcH76Yts
+862,Aya,Jaziri,22,Physique,exercices difficiles,12.53,aya.jaziri862@univ.tn,vlG3EL9565
+863,Ines,Hmani,19,Physique,exercices faciles,13.24,ines.hmani863@univ.tn,HyBhIuwoYl
+864,Houssem,Sassi,24,Réseaux,vidéos,12.41,houssem.sassi864@univ.tn,zw45Y4R0gG
+865,Nour,Ferchichi,25,Réseaux,exercices faciles,12.01,nour.ferchichi865@univ.tn,PtGJGyHmtB
+866,Ines,Ben Abdallah,20,Mathématiques,projets pratiques,13.6,ines.ben abdallah866@univ.tn,m6AAfbgILs
+867,Salma,Mzoughi,22,Mécanique,projets pratiques,9.55,salma.mzoughi867@univ.tn,9VVRGc6tK3
+868,Mohamed Dhya,Chaari,21,Gestion,QCM,9.82,mohamed dhya.chaari868@univ.tn,HNTHcsl7dZ
+869,Hassan,Trabelsi,22,Chimie,exercices faciles,16.62,hassan.trabelsi869@univ.tn,2TGlwR4g63
+870,Youssef,Ouni,20,Comptabilité,vidéos,17.46,youssef.ouni870@univ.tn,SemmNa5mQ5
+871,Omar,Bilkhire,24,Comptabilité,vidéos,11.73,omar.bilkhire871@univ.tn,aoYZ99ZxZc
+872,Khaled,Bouazizi,24,Gestion,projets pratiques,10.71,khaled.bouazizi872@univ.tn,ipP2AJ1Mm2
+873,Imane,Jaziri,19,Mécanique,QCM,14.44,imane.jaziri873@univ.tn,TqQzzr3YEL
+874,Abdelwahab,Ben Romdhane,25,Informatique,QCM,12.09,abdelwahab.ben romdhane874@univ.tn,MyRBPnNh3E
+875,Nour,Sassi,25,Comptabilité,exercices moyens,8.25,nour.sassi875@univ.tn,lu6pQ5yHrJ
+876,Yasmine,Ouni,24,Comptabilité,vidéos,9.56,yasmine.ouni876@univ.tn,ghZ26IEh9D
+877,Karim,Trabelsi,26,Gestion,exercices faciles,15.16,karim.trabelsi877@univ.tn,goZlVXoMBi
+878,Karim,Sassi,26,Mécanique,QCM,14.59,karim.sassi878@univ.tn,Lc5VlntJ6v
+879,Sarra,Bilkhire,24,Mécanique,projets pratiques,8.27,sarra.bilkhire879@univ.tn,65vmNyjsdl
+880,Molka,Ayari,26,Réseaux,exercices faciles,10.22,molka.ayari880@univ.tn,mOB2epGIi7
+881,Jihed,Chaari,18,Mécanique,QCM,10.31,jihed.chaari881@univ.tn,dQzHMk5wig
+882,Sana,Gharbi,23,Mathématiques,vidéos,14.72,sana.gharbi882@univ.tn,oxIYVhnMIe
+883,Youssef,Bouzid,26,Physique,QCM,8.2,youssef.bouzid883@univ.tn,O46NrMBUQL
+884,Mohamed Dhya,Ben Romdhane,19,Chimie,vidéos,9.04,mohamed dhya.ben romdhane884@univ.tn,v9C5jHwiNk
+885,Mariem,Khairi,19,Économie,QCM,16.0,mariem.khairi885@univ.tn,792wbXiCSH
+886,Imane,Trabelsi,21,Génie civil,exercices moyens,9.79,imane.trabelsi886@univ.tn,oy0v6AzTBy
+887,Hana,Sassi,23,Finance,projets pratiques,14.53,hana.sassi887@univ.tn,wuySmnlm2O
+888,Rania,Jouini,20,Réseaux,QCM,10.38,rania.jouini888@univ.tn,M3HVzNnigO
+889,Yasmine,Nebli,18,Économie,exercices moyens,8.99,yasmine.nebli889@univ.tn,sZWMdnIjxG
+890,Walid,Trabelsi,24,Informatique,projets pratiques,10.43,walid.trabelsi890@univ.tn,lBRxPqUIjy
+891,Khaled,Sassi,23,Génie logiciel,exercices moyens,15.22,khaled.sassi891@univ.tn,WmzD1i5t5L
+892,Jasser,Ayari,24,Informatique,exercices faciles,16.56,jasser.ayari892@univ.tn,T2PWfa1d0t
+893,Mdalela,Ben Youssef,19,Mathématiques,vidéos,16.3,mdalela.ben youssef893@univ.tn,3mjn0w4KZD
+894,Molka,Mzoughi,18,Mécanique,projets pratiques,11.97,molka.mzoughi894@univ.tn,RrgI3jzHMj
+895,Mdalela,Chebbi,19,Mathématiques,QCM,14.68,mdalela.chebbi895@univ.tn,ID8Q48PjBU
+896,Nour,Mzoughi,22,Informatique,QCM,10.05,nour.mzoughi896@univ.tn,ixxkbQY5Kl
+897,Salma,Ben Romdhane,21,Génie civil,exercices difficiles,10.93,salma.ben romdhane897@univ.tn,386J292eis
+898,Khaled,Bouzid,26,Économie,QCM,16.96,khaled.bouzid898@univ.tn,yj9XP7tS6f
+899,Hassan,Hmani,26,Informatique,vidéos,8.13,hassan.hmani899@univ.tn,LXa3zk0lrG
+900,Walid,Chaari,26,Gestion,vidéos,8.86,walid.chaari900@univ.tn,4E4dotBAcU
+901,Abdelwahab,Bouzid,21,Mécanique,QCM,10.08,abdelwahab.bouzid901@univ.tn,VCeIi8MTbx
+902,Amine,Fakhfakh,25,Mathématiques,projets pratiques,8.27,amine.fakhfakh902@univ.tn,4xcPRuX0Wz
+903,Aya,Jouini,23,Chimie,exercices moyens,9.81,aya.jouini903@univ.tn,v6SIEq44fP
+904,Amine,Khairi,24,Réseaux,exercices difficiles,13.83,amine.khairi904@univ.tn,tFhYXgexjX
+905,Aya,Fakhfakh,25,Gestion,vidéos,12.21,aya.fakhfakh905@univ.tn,W1aaY1MjM2
+906,Ahmed,Khairi,26,Comptabilité,exercices difficiles,16.93,ahmed.khairi906@univ.tn,C2WghRmUff
+907,Amine,Ben Said,20,Réseaux,exercices difficiles,16.17,amine.ben said907@univ.tn,6aXodetGDm
+908,Imane,Ferchichi,23,Chimie,vidéos,11.42,imane.ferchichi908@univ.tn,9LlrP1dlak
+909,Molka,Ben Youssef,18,Physique,exercices moyens,10.59,molka.ben youssef909@univ.tn,miH8RRelt9
+910,Omar,Ben Abdallah,25,Physique,exercices moyens,11.8,omar.ben abdallah910@univ.tn,kNKLFrAZTG
+911,Sarra,Jaziri,19,Gestion,vidéos,13.9,sarra.jaziri911@univ.tn,O8pUedvTMY
+912,Hana,Ayari,22,Informatique,QCM,10.68,hana.ayari912@univ.tn,eVSaUfK4wQ
+913,Jihed,Gharbi,24,Informatique,projets pratiques,14.24,jihed.gharbi913@univ.tn,Qeq0BUDEVt
+914,Yasmine,Fakhfakh,19,Réseaux,projets pratiques,12.09,yasmine.fakhfakh914@univ.tn,9lKcvCC508
+915,Aya,Ayari,19,Mécanique,QCM,13.52,aya.ayari915@univ.tn,C3CiUAbit9
+916,Amine,Daafous,20,Comptabilité,exercices difficiles,12.36,amine.daafous916@univ.tn,NyaXPkKlfy
+917,Jihed,Jaziri,23,Réseaux,projets pratiques,10.94,jihed.jaziri917@univ.tn,jubys7IoES
+918,Houneida,Jaziri,22,Chimie,QCM,17.48,houneida.jaziri918@univ.tn,A6j8d7euDr
+919,Salma,Nebli,23,Génie logiciel,exercices difficiles,15.64,salma.nebli919@univ.tn,o6XzatjNQA
+920,Skander,Ben Said,25,Physique,projets pratiques,9.4,skander.ben said920@univ.tn,hirSY1w8dB
+921,Karim,Chebbi,21,Génie civil,projets pratiques,16.68,karim.chebbi921@univ.tn,zmuo2t48WI
+922,Khaled,Khairi,26,Physique,QCM,12.87,khaled.khairi922@univ.tn,JumhtN8oKo
+923,Salma,Ben Youssef,25,Gestion,projets pratiques,16.95,salma.ben youssef923@univ.tn,YEDbFfUMfE
+924,Hana,Chebbi,23,Génie logiciel,exercices moyens,16.0,hana.chebbi924@univ.tn,L37qBWXri0
+925,Imane,Nebli,25,Gestion,exercices moyens,12.25,imane.nebli925@univ.tn,dpNuZDjqt9
+926,Imane,Ben Romdhane,19,Comptabilité,exercices moyens,8.22,imane.ben romdhane926@univ.tn,LHZO7LhTTm
+927,Sana,Nebli,25,Sciences des données,QCM,10.69,sana.nebli927@univ.tn,XrXAYaqibO
+928,Houssem,Trabelsi,25,Biologie,projets pratiques,13.42,houssem.trabelsi928@univ.tn,VeC4jMIKVg
+929,Jamel,Jouini,23,Mécanique,exercices difficiles,14.33,jamel.jouini929@univ.tn,qrRCkh7h1I
+930,Ahmed,Sassi,19,Génie logiciel,projets pratiques,10.58,ahmed.sassi930@univ.tn,wtSIMOyuZc
+931,Mariem,Ben Romdhane,22,Gestion,exercices difficiles,9.39,mariem.ben romdhane931@univ.tn,rJJ2dSidej
+932,Hassan,Ben Said,18,Finance,projets pratiques,16.35,hassan.ben said932@univ.tn,G6oU8uzUEH
+933,Imane,Khairi,19,Gestion,exercices moyens,17.84,imane.khairi933@univ.tn,GNyjZYBh4q
+934,Abdelwahab,Chaari,18,Réseaux,projets pratiques,13.26,abdelwahab.chaari934@univ.tn,oNId0ncnoj
+935,Hana,Bilkhire,23,Réseaux,projets pratiques,9.72,hana.bilkhire935@univ.tn,1FuUPbVEPR
+936,Abdelwahab,Bouzid,19,Comptabilité,exercices moyens,10.72,abdelwahab.bouzid936@univ.tn,IcKmKaRKw3
+937,Houneida,Trabelsi,20,Biologie,QCM,8.18,houneida.trabelsi937@univ.tn,knH4UrIFjm
+938,Aya,Fakhfakh,21,Chimie,QCM,17.14,aya.fakhfakh938@univ.tn,LuuqhrbLOF
+939,Zeinab,Daafous,26,Sciences des données,projets pratiques,9.18,zeinab.daafous939@univ.tn,zlcXU2mJUZ
+940,Karim,Bilkhire,20,Économie,projets pratiques,13.77,karim.bilkhire940@univ.tn,P2YwdMJ2pF
+941,Youssef,Sassi,26,Sciences des données,exercices difficiles,10.74,youssef.sassi941@univ.tn,tnluESSCyU
+942,Jihed,Ben Romdhane,20,Gestion,projets pratiques,13.54,jihed.ben romdhane942@univ.tn,5DKXP6egab
+943,Sarra,Hmani,23,Réseaux,exercices faciles,14.51,sarra.hmani943@univ.tn,daraBT7gwO
+944,Youssef,Bouzid,26,Comptabilité,exercices difficiles,16.3,youssef.bouzid944@univ.tn,8TxrOschiC
+945,Rania,Jouini,24,Génie civil,QCM,10.06,rania.jouini945@univ.tn,584hN7X25k
+946,Zeinab,Daafous,25,Comptabilité,vidéos,8.11,zeinab.daafous946@univ.tn,gSC2RqbIdQ
+947,Nour,Ben Youssef,21,Mécanique,QCM,9.37,nour.ben youssef947@univ.tn,nyxcACka3O
+948,Imane,Ben Ali,24,Chimie,QCM,17.0,imane.ben ali948@univ.tn,72SSmqP7lQ
+949,Mohamed Dhya,Zidi,20,Gestion,projets pratiques,16.74,mohamed dhya.zidi949@univ.tn,Y9cI1IRXSU
+950,Jasser,Sassi,20,Mathématiques,projets pratiques,13.97,jasser.sassi950@univ.tn,rfwYHx3THt
+951,Mdalela,Ben Said,24,Sciences des données,vidéos,14.01,mdalela.ben said951@univ.tn,NzJx8VjP3P
+952,Houneida,Daafous,24,Mécanique,projets pratiques,14.65,houneida.daafous952@univ.tn,z7fpi5OBHQ
+953,Zeinab,Bouzid,18,Physique,projets pratiques,9.75,zeinab.bouzid953@univ.tn,3v48ivNU0J
+954,Rania,Nebli,21,Réseaux,QCM,17.14,rania.nebli954@univ.tn,8XZyZ29HGJ
+955,Moez,Trabelsi,25,Biologie,exercices difficiles,12.19,moez.trabelsi955@univ.tn,pI6TQWEuZx
+956,Jamel,Zidi,24,Finance,vidéos,11.83,jamel.zidi956@univ.tn,6GYnvzUgNC
+957,Molka,Fakhfakh,24,Comptabilité,exercices faciles,13.19,molka.fakhfakh957@univ.tn,Z3laXFgie6
+958,Aya,Miled,18,Comptabilité,QCM,8.47,aya.miled958@univ.tn,ozZHfYbbhl
+959,Skander,Ouni,21,Finance,exercices faciles,9.66,skander.ouni959@univ.tn,Wep6AwyRsy
+960,Imane,Bilkhire,21,Réseaux,exercices faciles,15.38,imane.bilkhire960@univ.tn,mAKDMcEbtb
+961,Ines,Ben Romdhane,22,Réseaux,vidéos,8.83,ines.ben romdhane961@univ.tn,R1xHgQMv8E
+962,Emna,Ben Romdhane,19,Comptabilité,exercices moyens,14.03,emna.ben romdhane962@univ.tn,bcE4DHfSS5
+963,Amine,Sassi,19,Informatique,exercices faciles,10.45,amine.sassi963@univ.tn,CUo9ctW0nz
+964,Omar,Khairallah,26,Comptabilité,projets pratiques,11.89,omar.khairallah964@univ.tn,ah1W6BFCRy
+965,Walid,Trabelsi,20,Mécanique,exercices faciles,10.89,walid.trabelsi965@univ.tn,5OdKRE3skr
+966,Abdelwahab,Ben Said,23,Biologie,exercices moyens,11.56,abdelwahab.ben said966@univ.tn,ugjZmEaWY4
+967,Houssem,Zidi,23,Physique,exercices difficiles,15.19,houssem.zidi967@univ.tn,VclvQ0oBR4
+968,Rania,Daafous,21,Chimie,exercices moyens,10.97,rania.daafous968@univ.tn,giT6IBwRbG
+969,Nour,Nebli,25,Mécanique,exercices difficiles,13.66,nour.nebli969@univ.tn,RNgDrIAeq6
+970,Houssem,Ben Romdhane,19,Informatique,projets pratiques,12.76,houssem.ben romdhane970@univ.tn,wy442hkJPB
+971,Ahmed,Ben Romdhane,22,Réseaux,exercices difficiles,14.64,ahmed.ben romdhane971@univ.tn,9xqeWlzIoj
+972,Aya,Nebli,25,Mécanique,exercices moyens,17.37,aya.nebli972@univ.tn,iRadWgPKa2
+973,Emna,Ouni,26,Gestion,exercices faciles,15.33,emna.ouni973@univ.tn,i51XlDDgyN
+974,Amine,Fakhfakh,23,Chimie,projets pratiques,10.15,amine.fakhfakh974@univ.tn,HXjhF1eF9J
+975,Rania,Khairallah,24,Mécanique,exercices difficiles,8.31,rania.khairallah975@univ.tn,pU0wnqdA1W
+976,Aya,Zidi,24,Mathématiques,exercices moyens,10.62,aya.zidi976@univ.tn,bP5yL1UhMX
+977,Salma,Hmani,19,Sciences des données,QCM,13.95,salma.hmani977@univ.tn,3OUjLrVAbe
+978,Rania,Ben Romdhane,23,Mécanique,exercices faciles,8.51,rania.ben romdhane978@univ.tn,f3jNwyCY4s
+979,Karim,Sassi,23,Génie logiciel,exercices difficiles,12.96,karim.sassi979@univ.tn,Hut6Fx2QR5
+980,Abdelwahab,Ayari,25,Économie,vidéos,13.97,abdelwahab.ayari980@univ.tn,LOJDfEvGNp
+981,Skander,Bilkhire,20,Réseaux,exercices faciles,11.34,skander.bilkhire981@univ.tn,qqrFt44Jvs
+982,Sana,Chaari,22,Gestion,QCM,15.71,sana.chaari982@univ.tn,ZGzqAOV3iV
+983,Mohamed Dhya,Miled,19,Comptabilité,projets pratiques,9.07,mohamed dhya.miled983@univ.tn,sQwHtXKkS2
+984,Abdelwahab,Gharbi,20,Génie logiciel,projets pratiques,8.75,abdelwahab.gharbi984@univ.tn,NmWZlOEpEq
+985,Omar,Ben Ali,23,Mathématiques,QCM,15.28,omar.ben ali985@univ.tn,JHjLp7Y8al
+986,Amine,Jouini,19,Gestion,exercices moyens,12.95,amine.jouini986@univ.tn,55C9KrJmdA
+987,Jihed,Ben Youssef,21,Gestion,projets pratiques,14.88,jihed.ben youssef987@univ.tn,8KDxhlwXd0
+988,Jasser,Mzoughi,22,Réseaux,projets pratiques,12.35,jasser.mzoughi988@univ.tn,rIqW5Qm3Ja
+989,Emna,Hmani,19,Sciences des données,QCM,10.46,emna.hmani989@univ.tn,uMrAoMJqI0
+990,Zeinab,Sassi,20,Génie logiciel,vidéos,16.19,zeinab.sassi990@univ.tn,jItnXZmM7f
+991,Youssef,Ben Abdallah,23,Physique,exercices moyens,15.99,youssef.ben abdallah991@univ.tn,T8qEf0nCkk
+992,Youssef,Gharbi,20,Comptabilité,QCM,14.95,youssef.gharbi992@univ.tn,ngotJLxngf
+993,Jihed,Chaari,26,Sciences des données,projets pratiques,10.72,jihed.chaari993@univ.tn,SBTxMxHq2E
+994,Hassan,Ouni,24,Sciences des données,exercices difficiles,13.9,hassan.ouni994@univ.tn,WGtEMZLxRL
+995,Emna,Chaari,24,Comptabilité,projets pratiques,11.61,emna.chaari995@univ.tn,RxWmtzpsoL
+996,Karim,Chebbi,20,Gestion,projets pratiques,8.92,karim.chebbi996@univ.tn,Db5pRCXyvx
+997,Khaled,Nebli,24,Économie,exercices faciles,17.17,khaled.nebli997@univ.tn,ES4fpow9Dk
+998,Zeinab,Bouazizi,24,Informatique,vidéos,9.37,zeinab.bouazizi998@univ.tn,0NLY08wVf4
+999,Salma,Ben Said,20,Finance,vidéos,17.5,salma.ben said999@univ.tn,fRde5Cs1r4
+1000,Amine,Jaziri,25,Mathématiques,vidéos,12.46,amine.jaziri1000@univ.tn,otGofdOW76

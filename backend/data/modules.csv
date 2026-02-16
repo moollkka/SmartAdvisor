@@ -1,0 +1,1001 @@
+module_id,title,type
+1,Génie logiciel 42,course
+2,Chimie 35,specialization
+3,Mécanique 99,specialization
+4,Génie logiciel 57,internship
+5,Chimie 34,specialization
+6,Mécanique 75,course
+7,Chimie 62,course
+8,Biologie 96,specialization
+9,Économie 62,specialization
+10,Chimie 13,course
+11,Réseaux 27,internship
+12,Mathématiques 99,internship
+13,Biologie 3,specialization
+14,Chimie 4,internship
+15,Réseaux 43,course
+16,Génie logiciel 9,course
+17,Finance 53,specialization
+18,Comptabilité 68,internship
+19,Gestion 85,course
+20,Sciences des données 46,specialization
+21,Gestion 57,specialization
+22,Gestion 35,specialization
+23,Finance 15,internship
+24,Mathématiques 95,internship
+25,Biologie 38,specialization
+26,Gestion 64,specialization
+27,Mathématiques 20,internship
+28,Mécanique 3,specialization
+29,Gestion 63,internship
+30,Génie logiciel 42,specialization
+31,Génie logiciel 63,internship
+32,Génie logiciel 33,internship
+33,Économie 41,course
+34,Réseaux 17,specialization
+35,Finance 50,course
+36,Physique 21,course
+37,Comptabilité 99,course
+38,Économie 30,course
+39,Sciences des données 29,internship
+40,Économie 45,internship
+41,Comptabilité 31,specialization
+42,Informatique 21,specialization
+43,Finance 66,course
+44,Économie 63,specialization
+45,Comptabilité 35,course
+46,Biologie 13,internship
+47,Mécanique 57,course
+48,Comptabilité 46,internship
+49,Génie logiciel 39,specialization
+50,Économie 6,internship
+51,Mathématiques 71,course
+52,Chimie 6,course
+53,Sciences des données 53,course
+54,Chimie 60,internship
+55,Biologie 97,internship
+56,Gestion 90,course
+57,Mathématiques 97,specialization
+58,Mécanique 49,specialization
+59,Génie logiciel 46,course
+60,Informatique 2,internship
+61,Biologie 13,internship
+62,Mathématiques 45,specialization
+63,Finance 14,internship
+64,Mathématiques 74,internship
+65,Finance 12,course
+66,Finance 42,internship
+67,Mécanique 8,internship
+68,Réseaux 5,course
+69,Comptabilité 50,course
+70,Génie civil 87,specialization
+71,Mathématiques 76,course
+72,Comptabilité 6,course
+73,Génie civil 38,course
+74,Physique 50,course
+75,Finance 19,internship
+76,Mécanique 3,specialization
+77,Comptabilité 77,internship
+78,Chimie 12,specialization
+79,Sciences des données 93,specialization
+80,Biologie 39,course
+81,Sciences des données 83,internship
+82,Informatique 18,course
+83,Physique 19,specialization
+84,Génie logiciel 82,course
+85,Physique 17,internship
+86,Physique 26,course
+87,Mathématiques 17,specialization
+88,Physique 49,course
+89,Génie logiciel 20,specialization
+90,Mathématiques 27,internship
+91,Chimie 63,internship
+92,Mathématiques 49,internship
+93,Génie logiciel 44,specialization
+94,Chimie 21,internship
+95,Mécanique 40,internship
+96,Informatique 23,course
+97,Sciences des données 77,internship
+98,Chimie 37,specialization
+99,Comptabilité 93,course
+100,Physique 76,specialization
+101,Génie civil 84,specialization
+102,Génie civil 51,specialization
+103,Chimie 9,internship
+104,Chimie 1,internship
+105,Finance 56,course
+106,Gestion 48,specialization
+107,Réseaux 8,course
+108,Mathématiques 72,course
+109,Chimie 24,internship
+110,Physique 2,course
+111,Génie civil 27,internship
+112,Chimie 14,course
+113,Génie civil 55,specialization
+114,Physique 39,internship
+115,Mécanique 11,specialization
+116,Sciences des données 62,specialization
+117,Finance 66,specialization
+118,Biologie 55,course
+119,Physique 51,course
+120,Biologie 36,internship
+121,Sciences des données 51,specialization
+122,Finance 99,course
+123,Mathématiques 14,specialization
+124,Génie civil 19,course
+125,Gestion 34,internship
+126,Finance 41,internship
+127,Génie civil 14,internship
+128,Génie civil 32,course
+129,Comptabilité 13,specialization
+130,Réseaux 20,internship
+131,Mathématiques 19,internship
+132,Chimie 97,specialization
+133,Mathématiques 93,course
+134,Gestion 23,internship
+135,Biologie 21,specialization
+136,Biologie 64,course
+137,Biologie 78,specialization
+138,Économie 4,internship
+139,Biologie 12,specialization
+140,Sciences des données 36,internship
+141,Biologie 85,course
+142,Informatique 19,internship
+143,Réseaux 80,specialization
+144,Comptabilité 8,internship
+145,Gestion 98,specialization
+146,Mécanique 80,specialization
+147,Mécanique 15,internship
+148,Mathématiques 6,internship
+149,Économie 67,course
+150,Génie civil 94,specialization
+151,Biologie 44,internship
+152,Gestion 5,internship
+153,Biologie 65,specialization
+154,Finance 29,specialization
+155,Génie civil 22,internship
+156,Sciences des données 10,course
+157,Gestion 53,internship
+158,Génie civil 24,course
+159,Réseaux 47,specialization
+160,Informatique 29,specialization
+161,Gestion 26,course
+162,Gestion 15,internship
+163,Mécanique 91,specialization
+164,Finance 24,course
+165,Physique 23,internship
+166,Sciences des données 22,internship
+167,Chimie 56,internship
+168,Réseaux 61,internship
+169,Finance 96,specialization
+170,Génie civil 14,specialization
+171,Génie logiciel 84,internship
+172,Sciences des données 32,specialization
+173,Biologie 20,specialization
+174,Finance 49,specialization
+175,Gestion 87,course
+176,Génie logiciel 46,internship
+177,Économie 70,course
+178,Chimie 46,specialization
+179,Biologie 79,specialization
+180,Génie logiciel 37,specialization
+181,Génie civil 1,course
+182,Mathématiques 57,course
+183,Comptabilité 100,internship
+184,Génie logiciel 81,internship
+185,Mécanique 1,course
+186,Génie civil 61,specialization
+187,Comptabilité 70,specialization
+188,Biologie 38,specialization
+189,Génie logiciel 98,internship
+190,Réseaux 13,specialization
+191,Finance 34,specialization
+192,Génie logiciel 89,specialization
+193,Biologie 3,specialization
+194,Génie logiciel 86,specialization
+195,Gestion 40,specialization
+196,Comptabilité 26,internship
+197,Informatique 8,specialization
+198,Gestion 2,course
+199,Informatique 58,specialization
+200,Mécanique 93,course
+201,Économie 56,internship
+202,Mathématiques 18,internship
+203,Biologie 10,internship
+204,Informatique 56,internship
+205,Génie civil 53,course
+206,Mathématiques 34,course
+207,Chimie 67,specialization
+208,Informatique 58,course
+209,Économie 59,internship
+210,Finance 7,course
+211,Sciences des données 26,course
+212,Physique 67,internship
+213,Physique 51,course
+214,Sciences des données 53,course
+215,Informatique 72,course
+216,Physique 92,specialization
+217,Biologie 55,specialization
+218,Chimie 60,specialization
+219,Chimie 41,course
+220,Sciences des données 61,internship
+221,Mathématiques 11,specialization
+222,Sciences des données 56,course
+223,Gestion 35,specialization
+224,Physique 21,internship
+225,Chimie 75,course
+226,Réseaux 16,course
+227,Gestion 31,course
+228,Mathématiques 25,specialization
+229,Physique 90,course
+230,Chimie 100,specialization
+231,Biologie 87,course
+232,Informatique 25,course
+233,Informatique 21,specialization
+234,Génie civil 54,specialization
+235,Sciences des données 3,course
+236,Mathématiques 85,specialization
+237,Gestion 89,specialization
+238,Économie 81,specialization
+239,Biologie 33,specialization
+240,Économie 39,internship
+241,Informatique 46,course
+242,Biologie 88,course
+243,Comptabilité 68,course
+244,Réseaux 45,course
+245,Sciences des données 21,internship
+246,Finance 41,course
+247,Gestion 95,course
+248,Finance 27,course
+249,Gestion 5,specialization
+250,Réseaux 94,internship
+251,Finance 52,internship
+252,Physique 77,internship
+253,Chimie 68,specialization
+254,Génie civil 65,course
+255,Comptabilité 68,specialization
+256,Mécanique 33,specialization
+257,Sciences des données 28,specialization
+258,Gestion 4,course
+259,Chimie 55,course
+260,Physique 23,course
+261,Gestion 65,internship
+262,Biologie 33,course
+263,Finance 13,course
+264,Sciences des données 1,course
+265,Finance 95,specialization
+266,Mathématiques 80,specialization
+267,Réseaux 25,internship
+268,Réseaux 78,specialization
+269,Sciences des données 50,internship
+270,Chimie 100,internship
+271,Économie 37,internship
+272,Économie 97,course
+273,Comptabilité 93,course
+274,Gestion 20,specialization
+275,Physique 39,course
+276,Économie 16,internship
+277,Finance 47,internship
+278,Sciences des données 26,course
+279,Informatique 18,course
+280,Sciences des données 80,internship
+281,Informatique 23,specialization
+282,Mécanique 20,course
+283,Mécanique 11,specialization
+284,Physique 5,course
+285,Réseaux 81,internship
+286,Sciences des données 1,specialization
+287,Réseaux 82,course
+288,Mécanique 79,specialization
+289,Réseaux 100,internship
+290,Mathématiques 84,course
+291,Mécanique 94,course
+292,Finance 30,internship
+293,Sciences des données 85,internship
+294,Mécanique 72,course
+295,Mathématiques 87,specialization
+296,Informatique 4,internship
+297,Chimie 15,internship
+298,Finance 28,internship
+299,Comptabilité 95,specialization
+300,Génie logiciel 91,specialization
+301,Réseaux 89,internship
+302,Informatique 9,internship
+303,Chimie 8,specialization
+304,Génie civil 43,course
+305,Gestion 86,course
+306,Mathématiques 47,course
+307,Mathématiques 73,specialization
+308,Sciences des données 82,specialization
+309,Biologie 1,specialization
+310,Mécanique 96,internship
+311,Informatique 1,specialization
+312,Sciences des données 8,specialization
+313,Économie 15,internship
+314,Physique 73,internship
+315,Sciences des données 64,specialization
+316,Chimie 88,internship
+317,Physique 61,course
+318,Sciences des données 20,internship
+319,Sciences des données 55,internship
+320,Génie logiciel 9,internship
+321,Économie 85,course
+322,Génie civil 84,specialization
+323,Mathématiques 32,course
+324,Génie logiciel 55,course
+325,Mathématiques 32,course
+326,Informatique 73,course
+327,Gestion 17,course
+328,Mécanique 46,internship
+329,Réseaux 86,course
+330,Mathématiques 93,internship
+331,Informatique 19,course
+332,Génie logiciel 54,course
+333,Économie 94,specialization
+334,Mécanique 40,course
+335,Mathématiques 23,specialization
+336,Gestion 82,internship
+337,Chimie 20,internship
+338,Gestion 39,internship
+339,Économie 22,specialization
+340,Chimie 57,internship
+341,Informatique 6,specialization
+342,Finance 21,internship
+343,Chimie 47,specialization
+344,Mathématiques 54,course
+345,Mécanique 71,course
+346,Finance 30,specialization
+347,Réseaux 50,internship
+348,Mécanique 49,internship
+349,Génie logiciel 82,course
+350,Gestion 100,specialization
+351,Biologie 69,internship
+352,Informatique 90,course
+353,Économie 34,course
+354,Réseaux 53,specialization
+355,Informatique 56,specialization
+356,Génie civil 6,internship
+357,Gestion 85,course
+358,Comptabilité 60,internship
+359,Réseaux 51,internship
+360,Mécanique 28,specialization
+361,Génie civil 78,internship
+362,Mécanique 97,specialization
+363,Chimie 72,specialization
+364,Finance 24,specialization
+365,Finance 52,course
+366,Finance 88,internship
+367,Génie civil 29,specialization
+368,Mathématiques 10,specialization
+369,Finance 34,course
+370,Génie civil 80,internship
+371,Comptabilité 64,internship
+372,Comptabilité 20,course
+373,Comptabilité 54,specialization
+374,Chimie 72,course
+375,Économie 57,specialization
+376,Réseaux 75,internship
+377,Génie civil 94,course
+378,Chimie 95,internship
+379,Chimie 58,course
+380,Physique 72,specialization
+381,Gestion 64,internship
+382,Chimie 45,specialization
+383,Génie logiciel 9,internship
+384,Économie 83,specialization
+385,Économie 91,specialization
+386,Mathématiques 82,internship
+387,Finance 74,specialization
+388,Génie logiciel 2,course
+389,Chimie 15,course
+390,Chimie 7,internship
+391,Sciences des données 59,course
+392,Chimie 98,specialization
+393,Mécanique 26,internship
+394,Réseaux 58,specialization
+395,Physique 32,specialization
+396,Mathématiques 67,specialization
+397,Mécanique 63,internship
+398,Physique 98,specialization
+399,Mécanique 46,course
+400,Physique 52,course
+401,Mécanique 41,course
+402,Génie civil 29,specialization
+403,Sciences des données 58,internship
+404,Mécanique 93,specialization
+405,Physique 90,course
+406,Réseaux 64,course
+407,Gestion 49,internship
+408,Comptabilité 36,internship
+409,Mécanique 1,internship
+410,Réseaux 39,course
+411,Physique 46,specialization
+412,Comptabilité 27,course
+413,Sciences des données 96,internship
+414,Informatique 61,specialization
+415,Économie 1,course
+416,Comptabilité 77,internship
+417,Mathématiques 98,internship
+418,Chimie 80,course
+419,Mathématiques 48,specialization
+420,Gestion 16,internship
+421,Économie 77,internship
+422,Mécanique 21,specialization
+423,Physique 13,specialization
+424,Génie civil 40,internship
+425,Mécanique 57,specialization
+426,Biologie 65,internship
+427,Mécanique 55,specialization
+428,Réseaux 57,internship
+429,Comptabilité 8,internship
+430,Gestion 3,internship
+431,Gestion 35,specialization
+432,Génie civil 34,course
+433,Génie civil 55,internship
+434,Chimie 40,specialization
+435,Physique 68,course
+436,Finance 2,course
+437,Génie logiciel 80,specialization
+438,Informatique 53,internship
+439,Réseaux 42,course
+440,Finance 68,course
+441,Sciences des données 24,course
+442,Sciences des données 9,internship
+443,Gestion 63,specialization
+444,Réseaux 88,course
+445,Chimie 63,specialization
+446,Mécanique 39,course
+447,Finance 76,course
+448,Économie 9,specialization
+449,Mathématiques 1,course
+450,Réseaux 80,course
+451,Sciences des données 63,specialization
+452,Biologie 7,specialization
+453,Gestion 35,internship
+454,Mathématiques 86,internship
+455,Mathématiques 28,internship
+456,Gestion 78,specialization
+457,Mécanique 1,course
+458,Sciences des données 72,internship
+459,Physique 60,internship
+460,Réseaux 85,internship
+461,Mécanique 38,internship
+462,Biologie 22,specialization
+463,Mathématiques 78,internship
+464,Économie 61,internship
+465,Physique 1,internship
+466,Finance 25,course
+467,Chimie 90,course
+468,Économie 94,internship
+469,Économie 41,internship
+470,Physique 84,internship
+471,Génie civil 45,course
+472,Physique 47,course
+473,Informatique 47,internship
+474,Mécanique 56,specialization
+475,Mécanique 81,internship
+476,Économie 16,course
+477,Biologie 79,specialization
+478,Chimie 66,specialization
+479,Comptabilité 37,course
+480,Économie 59,internship
+481,Comptabilité 1,internship
+482,Comptabilité 4,course
+483,Mathématiques 83,internship
+484,Gestion 39,course
+485,Chimie 33,internship
+486,Mécanique 97,specialization
+487,Comptabilité 12,internship
+488,Informatique 42,internship
+489,Économie 21,internship
+490,Mathématiques 21,specialization
+491,Économie 68,internship
+492,Chimie 76,course
+493,Sciences des données 90,internship
+494,Physique 10,specialization
+495,Physique 56,internship
+496,Biologie 90,specialization
+497,Génie civil 18,internship
+498,Chimie 63,course
+499,Chimie 34,course
+500,Mécanique 72,course
+501,Informatique 16,course
+502,Sciences des données 16,internship
+503,Biologie 24,specialization
+504,Informatique 71,course
+505,Finance 97,internship
+506,Gestion 33,internship
+507,Génie civil 65,specialization
+508,Économie 55,internship
+509,Réseaux 56,specialization
+510,Sciences des données 40,internship
+511,Finance 39,specialization
+512,Mécanique 78,specialization
+513,Sciences des données 50,course
+514,Chimie 98,specialization
+515,Économie 58,course
+516,Biologie 81,specialization
+517,Mécanique 19,internship
+518,Gestion 88,specialization
+519,Sciences des données 78,course
+520,Mécanique 3,internship
+521,Mécanique 100,course
+522,Chimie 22,course
+523,Économie 32,internship
+524,Génie civil 34,specialization
+525,Gestion 95,specialization
+526,Mécanique 23,specialization
+527,Sciences des données 39,specialization
+528,Gestion 93,internship
+529,Gestion 77,course
+530,Finance 78,internship
+531,Économie 32,specialization
+532,Mécanique 78,course
+533,Réseaux 69,internship
+534,Gestion 12,course
+535,Finance 95,specialization
+536,Finance 81,internship
+537,Physique 26,internship
+538,Sciences des données 70,specialization
+539,Comptabilité 74,specialization
+540,Comptabilité 48,course
+541,Comptabilité 84,course
+542,Sciences des données 99,course
+543,Biologie 86,internship
+544,Mathématiques 29,specialization
+545,Gestion 97,course
+546,Économie 4,specialization
+547,Gestion 50,specialization
+548,Génie civil 100,course
+549,Chimie 33,course
+550,Génie civil 10,specialization
+551,Gestion 15,course
+552,Finance 26,specialization
+553,Mécanique 12,specialization
+554,Informatique 40,specialization
+555,Comptabilité 62,internship
+556,Mathématiques 87,internship
+557,Informatique 13,specialization
+558,Informatique 69,internship
+559,Mécanique 13,internship
+560,Physique 85,internship
+561,Réseaux 95,course
+562,Finance 23,internship
+563,Réseaux 16,course
+564,Comptabilité 79,specialization
+565,Génie civil 78,internship
+566,Gestion 95,specialization
+567,Réseaux 69,internship
+568,Sciences des données 10,internship
+569,Économie 11,course
+570,Génie civil 96,specialization
+571,Finance 82,course
+572,Génie logiciel 18,internship
+573,Économie 80,specialization
+574,Biologie 53,specialization
+575,Génie civil 98,course
+576,Physique 85,course
+577,Réseaux 42,internship
+578,Mécanique 25,internship
+579,Informatique 25,internship
+580,Génie logiciel 27,internship
+581,Informatique 65,specialization
+582,Génie civil 87,specialization
+583,Génie logiciel 44,specialization
+584,Informatique 82,specialization
+585,Chimie 15,internship
+586,Physique 87,specialization
+587,Gestion 10,course
+588,Réseaux 41,internship
+589,Sciences des données 21,internship
+590,Gestion 87,internship
+591,Finance 34,specialization
+592,Comptabilité 80,internship
+593,Génie civil 86,course
+594,Sciences des données 61,internship
+595,Génie civil 88,internship
+596,Finance 83,course
+597,Informatique 48,internship
+598,Gestion 40,course
+599,Sciences des données 27,specialization
+600,Informatique 87,internship
+601,Chimie 41,course
+602,Physique 27,internship
+603,Physique 33,course
+604,Finance 44,specialization
+605,Génie civil 92,internship
+606,Économie 30,specialization
+607,Sciences des données 12,specialization
+608,Physique 16,course
+609,Finance 35,specialization
+610,Informatique 28,internship
+611,Finance 69,course
+612,Biologie 28,specialization
+613,Réseaux 8,specialization
+614,Économie 6,specialization
+615,Mécanique 84,internship
+616,Biologie 63,specialization
+617,Économie 76,specialization
+618,Biologie 94,course
+619,Finance 89,specialization
+620,Économie 81,internship
+621,Sciences des données 71,course
+622,Physique 23,internship
+623,Biologie 14,internship
+624,Gestion 8,specialization
+625,Génie logiciel 30,internship
+626,Mathématiques 39,internship
+627,Génie civil 14,course
+628,Sciences des données 70,internship
+629,Chimie 95,internship
+630,Mathématiques 26,internship
+631,Informatique 6,course
+632,Mathématiques 35,internship
+633,Chimie 80,specialization
+634,Réseaux 95,specialization
+635,Physique 82,specialization
+636,Chimie 95,course
+637,Mécanique 21,internship
+638,Biologie 90,specialization
+639,Économie 39,specialization
+640,Gestion 85,course
+641,Économie 11,course
+642,Réseaux 77,specialization
+643,Génie civil 46,internship
+644,Génie logiciel 97,course
+645,Réseaux 47,specialization
+646,Finance 80,course
+647,Génie civil 24,specialization
+648,Mathématiques 92,course
+649,Économie 21,course
+650,Génie logiciel 70,course
+651,Génie logiciel 77,course
+652,Réseaux 34,specialization
+653,Mécanique 80,internship
+654,Génie logiciel 29,internship
+655,Biologie 42,internship
+656,Gestion 31,course
+657,Chimie 13,specialization
+658,Biologie 70,specialization
+659,Physique 56,internship
+660,Économie 98,internship
+661,Gestion 15,specialization
+662,Mécanique 37,specialization
+663,Informatique 12,course
+664,Finance 63,internship
+665,Physique 9,specialization
+666,Sciences des données 76,specialization
+667,Sciences des données 28,internship
+668,Gestion 31,internship
+669,Comptabilité 70,specialization
+670,Génie logiciel 44,specialization
+671,Réseaux 23,course
+672,Mécanique 6,internship
+673,Génie logiciel 2,specialization
+674,Comptabilité 8,course
+675,Génie civil 67,internship
+676,Chimie 8,internship
+677,Réseaux 95,specialization
+678,Génie civil 1,internship
+679,Gestion 63,course
+680,Réseaux 48,specialization
+681,Économie 18,specialization
+682,Génie civil 17,specialization
+683,Informatique 90,specialization
+684,Informatique 9,internship
+685,Chimie 77,internship
+686,Comptabilité 67,course
+687,Physique 35,internship
+688,Chimie 26,internship
+689,Physique 62,internship
+690,Mathématiques 71,course
+691,Sciences des données 3,course
+692,Gestion 91,internship
+693,Comptabilité 68,course
+694,Physique 93,internship
+695,Finance 9,internship
+696,Biologie 89,internship
+697,Économie 8,course
+698,Physique 70,specialization
+699,Génie logiciel 5,course
+700,Physique 69,internship
+701,Économie 41,course
+702,Mathématiques 98,internship
+703,Biologie 21,specialization
+704,Finance 57,specialization
+705,Sciences des données 76,course
+706,Mathématiques 60,course
+707,Mécanique 10,course
+708,Mathématiques 31,course
+709,Biologie 69,course
+710,Informatique 45,specialization
+711,Physique 43,internship
+712,Réseaux 82,specialization
+713,Physique 57,internship
+714,Génie logiciel 70,course
+715,Biologie 18,internship
+716,Réseaux 13,course
+717,Sciences des données 26,course
+718,Économie 7,specialization
+719,Gestion 79,specialization
+720,Économie 97,course
+721,Chimie 64,course
+722,Finance 4,specialization
+723,Finance 11,course
+724,Gestion 98,internship
+725,Gestion 89,course
+726,Mathématiques 73,internship
+727,Informatique 81,specialization
+728,Chimie 39,course
+729,Mathématiques 58,specialization
+730,Génie logiciel 99,specialization
+731,Chimie 51,internship
+732,Physique 45,course
+733,Mécanique 76,specialization
+734,Chimie 100,course
+735,Mathématiques 46,internship
+736,Biologie 91,course
+737,Sciences des données 7,course
+738,Comptabilité 100,internship
+739,Mécanique 26,internship
+740,Finance 80,internship
+741,Finance 38,specialization
+742,Mécanique 5,specialization
+743,Physique 62,internship
+744,Génie logiciel 90,course
+745,Finance 30,internship
+746,Sciences des données 49,specialization
+747,Biologie 46,course
+748,Économie 82,internship
+749,Comptabilité 92,specialization
+750,Informatique 17,specialization
+751,Informatique 35,course
+752,Génie civil 54,internship
+753,Biologie 64,specialization
+754,Chimie 45,internship
+755,Réseaux 59,specialization
+756,Chimie 28,course
+757,Sciences des données 93,course
+758,Informatique 93,internship
+759,Mathématiques 78,specialization
+760,Génie civil 28,internship
+761,Chimie 67,internship
+762,Génie logiciel 73,internship
+763,Mécanique 91,internship
+764,Réseaux 7,specialization
+765,Mécanique 13,specialization
+766,Informatique 95,specialization
+767,Mathématiques 90,course
+768,Chimie 58,course
+769,Chimie 7,specialization
+770,Génie logiciel 13,course
+771,Économie 21,internship
+772,Physique 27,specialization
+773,Gestion 98,internship
+774,Mécanique 26,specialization
+775,Comptabilité 61,internship
+776,Informatique 93,specialization
+777,Génie civil 84,course
+778,Chimie 43,course
+779,Génie civil 99,internship
+780,Mécanique 48,specialization
+781,Physique 59,internship
+782,Économie 99,internship
+783,Sciences des données 52,internship
+784,Réseaux 98,course
+785,Gestion 33,course
+786,Génie logiciel 70,internship
+787,Informatique 50,internship
+788,Biologie 36,internship
+789,Mécanique 57,internship
+790,Génie logiciel 37,internship
+791,Informatique 37,internship
+792,Comptabilité 61,internship
+793,Mathématiques 80,course
+794,Chimie 28,specialization
+795,Gestion 95,specialization
+796,Génie logiciel 92,specialization
+797,Économie 95,course
+798,Réseaux 69,specialization
+799,Réseaux 35,specialization
+800,Physique 1,internship
+801,Comptabilité 94,internship
+802,Mécanique 67,course
+803,Sciences des données 73,internship
+804,Sciences des données 79,course
+805,Physique 19,internship
+806,Biologie 80,course
+807,Sciences des données 30,internship
+808,Physique 78,course
+809,Finance 80,specialization
+810,Génie logiciel 32,specialization
+811,Sciences des données 10,internship
+812,Mécanique 64,specialization
+813,Sciences des données 83,course
+814,Informatique 94,specialization
+815,Génie civil 6,internship
+816,Physique 58,course
+817,Gestion 30,internship
+818,Gestion 22,course
+819,Mathématiques 5,course
+820,Génie logiciel 89,specialization
+821,Physique 27,internship
+822,Économie 48,course
+823,Finance 70,course
+824,Mathématiques 84,specialization
+825,Comptabilité 34,course
+826,Génie civil 66,internship
+827,Mathématiques 67,internship
+828,Génie civil 47,internship
+829,Mathématiques 65,specialization
+830,Chimie 17,internship
+831,Chimie 55,internship
+832,Chimie 46,course
+833,Biologie 80,specialization
+834,Informatique 55,course
+835,Génie civil 70,course
+836,Mathématiques 78,course
+837,Physique 45,course
+838,Comptabilité 94,course
+839,Finance 73,course
+840,Économie 52,internship
+841,Génie logiciel 16,internship
+842,Informatique 60,internship
+843,Chimie 3,course
+844,Génie logiciel 76,course
+845,Sciences des données 49,course
+846,Comptabilité 75,specialization
+847,Biologie 83,specialization
+848,Économie 65,internship
+849,Mécanique 11,course
+850,Économie 60,specialization
+851,Comptabilité 18,specialization
+852,Finance 48,course
+853,Finance 31,internship
+854,Économie 2,internship
+855,Sciences des données 9,internship
+856,Physique 68,specialization
+857,Informatique 51,specialization
+858,Génie civil 91,course
+859,Biologie 78,internship
+860,Gestion 61,course
+861,Chimie 47,internship
+862,Biologie 96,course
+863,Économie 69,course
+864,Physique 82,course
+865,Mathématiques 90,course
+866,Comptabilité 94,specialization
+867,Mathématiques 57,course
+868,Chimie 99,specialization
+869,Finance 51,course
+870,Mécanique 76,specialization
+871,Comptabilité 79,internship
+872,Informatique 10,course
+873,Physique 90,internship
+874,Physique 16,course
+875,Chimie 39,course
+876,Mécanique 49,specialization
+877,Économie 36,course
+878,Génie logiciel 7,course
+879,Génie civil 18,course
+880,Génie logiciel 7,course
+881,Économie 72,internship
+882,Finance 57,course
+883,Génie civil 61,internship
+884,Génie civil 54,internship
+885,Biologie 49,specialization
+886,Chimie 64,internship
+887,Réseaux 82,course
+888,Mathématiques 31,course
+889,Comptabilité 35,internship
+890,Mathématiques 20,specialization
+891,Économie 75,internship
+892,Gestion 33,course
+893,Génie civil 31,specialization
+894,Gestion 9,specialization
+895,Chimie 52,internship
+896,Économie 72,course
+897,Biologie 83,internship
+898,Physique 9,course
+899,Génie civil 45,internship
+900,Sciences des données 5,internship
+901,Biologie 70,specialization
+902,Informatique 37,specialization
+903,Comptabilité 43,internship
+904,Mécanique 59,course
+905,Finance 77,specialization
+906,Mathématiques 31,specialization
+907,Comptabilité 100,course
+908,Comptabilité 88,specialization
+909,Biologie 28,course
+910,Économie 70,course
+911,Finance 49,course
+912,Mathématiques 52,internship
+913,Économie 1,course
+914,Comptabilité 36,specialization
+915,Physique 14,internship
+916,Mathématiques 56,internship
+917,Physique 80,specialization
+918,Génie civil 78,specialization
+919,Réseaux 17,specialization
+920,Comptabilité 57,specialization
+921,Économie 9,specialization
+922,Finance 22,internship
+923,Génie logiciel 6,internship
+924,Sciences des données 99,internship
+925,Chimie 19,internship
+926,Comptabilité 19,specialization
+927,Chimie 56,course
+928,Mathématiques 88,specialization
+929,Chimie 61,specialization
+930,Mathématiques 23,internship
+931,Biologie 18,specialization
+932,Chimie 58,course
+933,Économie 93,internship
+934,Mécanique 12,internship
+935,Physique 14,specialization
+936,Économie 94,course
+937,Mécanique 53,course
+938,Chimie 56,course
+939,Comptabilité 98,course
+940,Mathématiques 29,specialization
+941,Informatique 9,course
+942,Biologie 66,internship
+943,Économie 46,specialization
+944,Réseaux 80,internship
+945,Informatique 43,internship
+946,Comptabilité 100,internship
+947,Génie logiciel 67,internship
+948,Gestion 43,specialization
+949,Physique 62,internship
+950,Sciences des données 14,specialization
+951,Chimie 71,internship
+952,Biologie 10,course
+953,Comptabilité 62,course
+954,Économie 52,course
+955,Chimie 1,specialization
+956,Chimie 11,course
+957,Finance 15,internship
+958,Informatique 20,specialization
+959,Génie civil 28,course
+960,Génie logiciel 42,course
+961,Biologie 7,course
+962,Mathématiques 72,specialization
+963,Gestion 4,course
+964,Gestion 25,specialization
+965,Économie 8,course
+966,Génie civil 8,internship
+967,Mathématiques 22,course
+968,Économie 56,course
+969,Génie civil 6,internship
+970,Physique 43,specialization
+971,Chimie 1,specialization
+972,Comptabilité 7,specialization
+973,Génie civil 2,internship
+974,Gestion 12,course
+975,Biologie 22,course
+976,Finance 52,internship
+977,Finance 88,course
+978,Réseaux 67,course
+979,Réseaux 16,internship
+980,Mathématiques 58,specialization
+981,Économie 25,course
+982,Mathématiques 60,specialization
+983,Génie logiciel 14,specialization
+984,Réseaux 15,course
+985,Finance 20,internship
+986,Génie logiciel 49,specialization
+987,Comptabilité 19,internship
+988,Sciences des données 34,internship
+989,Génie civil 5,course
+990,Mécanique 64,internship
+991,Physique 13,course
+992,Mathématiques 99,specialization
+993,Sciences des données 68,course
+994,Physique 2,internship
+995,Mécanique 47,internship
+996,Chimie 7,internship
+997,Génie logiciel 74,course
+998,Réseaux 25,course
+999,Physique 48,course
+1000,Mécanique 39,course
