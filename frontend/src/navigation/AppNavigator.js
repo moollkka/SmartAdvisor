@@ -8,6 +8,7 @@ import CustomDrawer from '../components/layout/CustomDrawer';
 import { AuthContext } from '../context/AuthContext';
 import { ThemeContext } from '../context/ThemeContext';
 import ForgotPasswordScreen from '../screens/auth/ForgotPasswordScreen';
+import IntroScreen from '../screens/auth/IntroScreen';
 import LoginScreen from '../screens/auth/LoginScreen';
 import RegisterScreen from '../screens/auth/RegisterScreen';
 import DashboardScreen from '../screens/main/DashboardScreen';
