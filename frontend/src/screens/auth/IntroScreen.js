@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { useEffect } from 'react';
-import { Dimensions, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, ImageBackground, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Animated, {
     useAnimatedStyle,
     useSharedValue,
@@ -16,7 +16,6 @@ const IntroScreen = () => {
     const navigation = useNavigation();
 
     // Animation values
-    const logoScale = useSharedValue(0.3);
     const titleTranslateY = useSharedValue(50);
     const titleOpacity = useSharedValue(0);
     const subtitleTranslateY = useSharedValue(50);
@@ -25,20 +24,14 @@ const IntroScreen = () => {
 
     useEffect(() => {
         // Start animations sequence
-        logoScale.value = withSpring(1, { damping: 10, stiffness: 100 });
+        titleTranslateY.value = withDelay(300, withSpring(0));
+        titleOpacity.value = withDelay(300, withTiming(1, { duration: 800 }));
 
-        titleTranslateY.value = withDelay(500, withSpring(0));
-        titleOpacity.value = withDelay(500, withTiming(1, { duration: 800 }));
+        subtitleTranslateY.value = withDelay(600, withSpring(0));
+        subtitleOpacity.value = withDelay(600, withTiming(1, { duration: 800 }));
 
-        subtitleTranslateY.value = withDelay(800, withSpring(0));
-        subtitleOpacity.value = withDelay(800, withTiming(1, { duration: 800 }));
-
-        buttonScale.value = withDelay(1500, withSpring(1, { damping: 12 }));
+        buttonScale.value = withDelay(1200, withSpring(1, { damping: 12 }));
     }, []);
-
-    const animatedImageStyle = useAnimatedStyle(() => ({
-        transform: [{ scale: logoScale.value }]
-    }));
 
     const animatedTitleStyle = useAnimatedStyle(() => ({
         opacity: titleOpacity.value,
@@ -55,101 +48,96 @@ const IntroScreen = () => {
     }));
 
     return (
-        <View style={styles.container}>
-            {/* Background Image/Illustration */}
-            <Animated.View style={[styles.imageContainer, animatedImageStyle]}>
-                <Image
-                    source={require('../../../assets/intro-bg.jpg')}
-                    style={styles.introImage}
-                    resizeMode="contain"
-                />
-            </Animated.View>
+        <ImageBackground
+            source={require('../../../assets/intro-bg.jpg')}
+            style={styles.container}
+            resizeMode="cover"
+        >
+            <View style={styles.overlay}>
+                <View style={styles.contentContainer}>
+                    {/* Text Section */}
+                    <Animated.View style={[styles.textContainer, animatedTitleStyle]}>
+                        <Text style={styles.title}>SmartAdvisor</Text>
+                    </Animated.View>
 
-            <View style={styles.contentContainer}>
-                {/* Text Section */}
-                <Animated.View style={[styles.textContainer, animatedTitleStyle]}>
-                    <Text style={styles.title}>SmartAdvisor</Text>
-                </Animated.View>
+                    <Animated.View style={[styles.textContainer, animatedSubtitleStyle]}>
+                        <Text style={styles.subtitle}>
+                            Système de recommandation de parcours universitaire
+                        </Text>
+                    </Animated.View>
+                </View>
 
-                <Animated.View style={[styles.textContainer, animatedSubtitleStyle]}>
-                    <Text style={styles.subtitle}>
-                        Système de recommandation de parcours universitaire
-                    </Text>
+                {/* Button Section */}
+                <Animated.View style={[styles.buttonContainer, animatedButtonStyle]}>
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => navigation.replace('Login')}
+                    >
+                        <Text style={styles.buttonText}>Commencer</Text>
+                        <Ionicons name="arrow-forward" size={24} color="#0a4da2" />
+                    </TouchableOpacity>
                 </Animated.View>
             </View>
-
-            {/* Button Section */}
-            <Animated.View style={[styles.buttonContainer, animatedButtonStyle]}>
-                <TouchableOpacity
-                    style={styles.button}
-                    onPress={() => navigation.replace('Login')}
-                >
-                    <Text style={styles.buttonText}>Commencer</Text>
-                    <Ionicons name="arrow-forward" size={24} color="#4c669f" />
-                </TouchableOpacity>
-            </Animated.View>
-        </View>
+        </ImageBackground>
     );
 };
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0a4da2', // Matching the blue from the image
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        paddingVertical: 60,
-    },
-    imageContainer: {
-        width: width * 0.9,
-        height: height * 0.45,
-        marginTop: 20,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    introImage: {
         width: '100%',
         height: '100%',
+    },
+    overlay: {
+        flex: 1,
+        backgroundColor: 'rgba(0, 20, 60, 0.4)', // Dark blue overlay for better text contrast
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingVertical: 80,
     },
     contentContainer: {
         alignItems: 'center',
         width: '100%',
         paddingHorizontal: 20,
-        marginTop: -20,
+        marginTop: 60,
     },
     textContainer: {
         alignItems: 'center',
-        marginBottom: 10,
+        marginBottom: 15,
     },
     title: {
-        fontSize: 42,
+        fontSize: 48,
         fontWeight: 'bold',
         color: '#ffffff',
         textAlign: 'center',
         letterSpacing: 1,
-        textShadowColor: 'rgba(0, 0, 0, 0.3)',
+        textShadowColor: 'rgba(0, 0, 0, 0.75)',
         textShadowOffset: { width: 0, height: 2 },
-        textShadowRadius: 3,
+        textShadowRadius: 6,
     },
     subtitle: {
-        fontSize: 18,
-        color: '#e0e0e0',
+        fontSize: 20,
+        color: '#f0f0f0',
         textAlign: 'center',
-        lineHeight: 24,
+        lineHeight: 28,
         maxWidth: '90%',
         marginTop: 10,
+        textShadowColor: 'rgba(0, 0, 0, 0.75)',
+        textShadowOffset: { width: 0, height: 1 },
+        textShadowRadius: 4,
+        fontWeight: '500',
     },
     buttonContainer: {
         width: '100%',
         alignItems: 'center',
-        marginBottom: 20,
+        marginBottom: 40,
     },
     button: {
         flexDirection: 'row',
         backgroundColor: '#ffffff',
-        paddingVertical: 16,
-        paddingHorizontal: 40,
-        borderRadius: 30,
+        paddingVertical: 18,
+        paddingHorizontal: 45,
+        borderRadius: 50,
         alignItems: 'center',
         shadowColor: "#000",
         shadowOffset: {
@@ -162,7 +150,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: '#0a4da2',
-        fontSize: 18,
+        fontSize: 20,
         fontWeight: 'bold',
         marginRight: 10,
     },
