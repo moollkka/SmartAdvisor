@@ -1,20 +1,20 @@
-import React, { useContext } from 'react';
-import { View, ActivityIndicator } from 'react-native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Ionicons } from '@expo/vector-icons';
+import { createStackNavigator } from '@react-navigation/stack';
+import { useContext } from 'react';
+import { ActivityIndicator, View } from 'react-native';
+import CustomDrawer from '../components/layout/CustomDrawer';
 import { AuthContext } from '../context/AuthContext';
 import { ThemeContext } from '../context/ThemeContext';
+import ForgotPasswordScreen from '../screens/auth/ForgotPasswordScreen';
 import LoginScreen from '../screens/auth/LoginScreen';
 import RegisterScreen from '../screens/auth/RegisterScreen';
-import ForgotPasswordScreen from '../screens/auth/ForgotPasswordScreen';
 import DashboardScreen from '../screens/main/DashboardScreen';
+import HistoryScreen from '../screens/main/HistoryScreen';
+import ModulesScreen from '../screens/main/ModulesScreen';
 import ProfileScreen from '../screens/main/ProfileScreen';
 import RecommendationsScreen from '../screens/main/RecommendationsScreen';
-import ModulesScreen from '../screens/main/ModulesScreen';
-import HistoryScreen from '../screens/main/HistoryScreen';
-import CustomDrawer from '../components/layout/CustomDrawer';
 const AuthStack = createStackNavigator();
 const MainTab = createBottomTabNavigator();
 const MainDrawer = createDrawerNavigator();
@@ -35,6 +35,7 @@ function AuthStackNavigator() {
         cardStyle: { backgroundColor: theme.colors.background }
       }}
     >
+      <AuthStack.Screen name="Intro" component={IntroScreen} />
       <AuthStack.Screen name="Login" component={LoginScreen} />
       <AuthStack.Screen name="Register" component={RegisterScreen} />
       <AuthStack.Screen name="ForgotPassword" component={ForgotPasswordScreen} />
@@ -43,7 +44,7 @@ function AuthStackNavigator() {
 }
 function MainTabNavigator() {
   const { theme } = useContext(ThemeContext);
-  
+
   return (
     <MainTab.Navigator
       screenOptions={({ route }) => ({
@@ -79,7 +80,7 @@ function MainTabNavigator() {
 
 function MainDrawerNavigator() {
   const { theme } = useContext(ThemeContext);
-  
+
   return (
     <MainDrawer.Navigator
       drawerContent={(props) => <CustomDrawer {...props} />}
@@ -97,8 +98,8 @@ function MainDrawerNavigator() {
         },
       }}
     >
-      <MainDrawer.Screen 
-        name="Main" 
+      <MainDrawer.Screen
+        name="Main"
         component={MainTabNavigator}
         options={{
           title: 'Smart Advisor',
@@ -107,8 +108,8 @@ function MainDrawerNavigator() {
           ),
         }}
       />
-      <MainDrawer.Screen 
-        name="Profile" 
+      <MainDrawer.Screen
+        name="Profile"
         component={ProfileScreen}
         options={{
           drawerIcon: ({ color, size }) => (
