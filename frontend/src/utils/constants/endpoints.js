@@ -3,7 +3,7 @@ import { Platform } from 'react-native';
 
 const getApiUrl = () => {
   if (Platform.OS === 'web') {
-    return 'http://localhost:5000/api';
+    return '/api';
   }
   if (Platform.OS === 'android' && !Constants.isDevice) {
     return 'http://10.0.2.2:5000/api';

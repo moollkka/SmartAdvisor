@@ -1,6 +1,6 @@
 export const apiConfig = {
-  baseURL: process.env.EXPO_PUBLIC_API_URL || 'http://localhost:5000/api',
-  
+  baseURL: process.env.EXPO_PUBLIC_API_URL || '/api',
+
   endpoints: {
     auth: {
       login: '/auth/login',
@@ -21,11 +21,11 @@ export const apiConfig = {
       search: '/modules/search',
     },
   },
-  
+
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
   },
-  
+
   timeout: 30000,
 };
