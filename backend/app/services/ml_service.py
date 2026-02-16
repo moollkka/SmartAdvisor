@@ -1,8 +1,3 @@
-import pandas as pd
-import numpy as np
-from sklearn.neighbors import NearestNeighbors
-from sklearn.preprocessing import StandardScaler
-import joblib
 import os
 import traceback
 from datetime import datetime
@@ -11,23 +6,43 @@ from app.extensions import db
 from app.models.models import Student, Module, Rating
 from sqlalchemy import text
 
+# Try to import ML libraries, or fall back to Lite mode
+try:
+    import pandas as pd
+    import numpy as np
+    from sklearn.neighbors import NearestNeighbors
+    from sklearn.preprocessing import StandardScaler
+    import joblib
+    ML_AVAILABLE = True
+except ImportError:
+    ML_AVAILABLE = False
+    print("Warning: ML libraries not found. Running in Lite Mode (no ML features).")
+
 class MLService:
     _instance = None
+
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(MLService, cls).__new__(cls)
         return cls._instance
+
     def __init__(self):
-        if not hasattr(self, 'initialisé'):
+        if not hasattr(self, 'initialized'):
             self.base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
             self.models_dir = os.path.join(self.base_dir, 'models')
             self.model_path = os.path.join(self.models_dir, 'knn_model.joblib')
             os.makedirs(self.models_dir, exist_ok=True)
             self.model = None
-            self.scaler = StandardScaler()
+            self.scaler = None
             self.features = None
             self.initialized = True
+            
+            if ML_AVAILABLE:
+                self.scaler = StandardScaler()
+
     def load_data_from_db(self):
+        if not ML_AVAILABLE:
+            return None, None, None
         try:
             if not current_app:
                 return None, None, None
@@ -39,8 +54,9 @@ class MLService:
         except Exception as e:
             print(f"Erreur de chargement de la base de données: {e}")
             return None, None, None
+
     def prepare_features(self, students_df):
-        if students_df is None or students_df.empty:
+        if not ML_AVAILABLE or students_df is None or students_df.empty:
             return None            
         df = students_df.copy()
         numeric_features = []
@@ -59,7 +75,12 @@ class MLService:
             features.index = df['etudiant_id']
         features.columns = features.columns.astype(str)
         return features
+
     def train_model(self):
+        if not ML_AVAILABLE:
+            print("Mode Lite activé : Pas d'entraînement ML.")
+            return False
+            
         if not current_app:
             return False
         print("Entraînement du modèle ML...")
@@ -82,9 +103,13 @@ class MLService:
             }, self.model_path)
             print("Modèle entraîné et enregistré avec succès.")
         except Exception as e:
-            print(f"Impossible d'enregistrer le modèle sur le disque (problème d'autorisations ?) : {e}")
+            print(f"Impossible d'enregistrer le modèle sur le disque (problème d'autorisations ?): {e}")
         return True
+
     def _ensure_model_loaded(self):
+        if not ML_AVAILABLE:
+            return
+
         if self.model is None:
             if os.path.exists(self.model_path):
                 try:
@@ -93,18 +118,63 @@ class MLService:
                     self.scaler = data['scaler']
                     self.features = data['features']
                     if not all(isinstance(x, str) for x in self.features.columns):
-                        print("Fichier de modèle corrompu détecté (types de colonnes mixtes). Réentraînement en cours…")
+                        print("Fichier de modèle corrompu détecté (types de colonnes mixtes). Réentraînement en cours...")
                         raise ValueError("Modèle corrompu")
                 except Exception as e:
                     print(f"Échec du chargement du modèle({e}). Recyclage...")
                     self.train_model()
             else:
                 self.train_model()
+
     def get_recommendations(self, student_id, n_recommendations=5):
+        # Always use fallback if ML is not available
+        if not ML_AVAILABLE:
+            return self._get_fallback_recommendations(n_recommendations)
+
         self._ensure_model_loaded()
             
-        def get_fallback_recommendations():
-            print("KNN n'a trouvé aucune correspondance. Passage à la méthode de repli.")
+        if self.model is None or self.features is None:
+            return self._get_fallback_recommendations(n_recommendations)
+        if student_id not in self.features.index:
+            return self._get_fallback_recommendations(n_recommendations)   
+        try:
+            student_features = self.features.loc[[student_id]] 
+            scaled_features = self.scaler.transform(student_features)
+            distances, indices = self.model.kneighbors(scaled_features)
+            similar_student_ids = self.features.iloc[indices[0]].index.tolist()
+            if student_id in similar_student_ids:
+                similar_student_ids.remove(student_id)
+            
+            if not similar_student_ids:
+                return self._get_fallback_recommendations(n_recommendations)
+            recommendations = db.session.query(
+                Module, 
+                db.func.avg(Rating.rating).label('avg_rating')
+            ).join(Rating).filter(
+                Rating.etudiant_id.in_(similar_student_ids),
+                Rating.rating >= 3,
+                Module.module_id.notin_(
+                    db.session.query(Rating.module_id).filter_by(etudiant_id=student_id)
+                )
+            ).group_by(Module.module_id)\
+             .order_by(db.desc('avg_rating'))\
+             .limit(n_recommendations).all()
+            if not recommendations:
+                return self._get_fallback_recommendations(n_recommendations)
+            return [{
+                'module_id': m.Module.module_id,
+                'title': m.Module.title,
+                'code': m.Module.code,
+                'note_prédite': round(m.avg_rating, 2),
+                'match_reason': 'Basé sur des étudiants similaires'
+            } for m in recommendations]  
+        except Exception as e:
+            print(f"Erreur lors de l'exécution de get_recommendations : {e}")
+            return self._get_fallback_recommendations(n_recommendations)
+
+    def _get_fallback_recommendations(self, n_recommendations):
+        print("Using fallback recommendations (SQL only).")
+        try:
             popular = db.session.query(
                 Module, 
                 db.func.avg(Rating.rating).label('avg_rating')
@@ -120,6 +190,7 @@ class MLService:
                     'note_prédite': round(m.avg_rating, 2),
                     'match_reason': 'Populaire auprès des étudiants'
                 } for m in popular]
+            
             print("Aucune évaluation trouvée. Retour de modules aléatoires.")
             random_modules = Module.query.limit(n_recommendations).all()
             return [{
@@ -129,41 +200,6 @@ class MLService:
                 'note_prédite': 0,
                 'match_reason': 'Nouveau cours'
             } for m in random_modules]
-        if self.model is None or self.features is None:
-            return get_fallback_recommendations()
-        if student_id not in self.features.index:
-            return get_fallback_recommendations()   
-        try:
-            student_features = self.features.loc[[student_id]] 
-            scaled_features = self.scaler.transform(student_features)
-            distances, indices = self.model.kneighbors(scaled_features)
-            similar_student_ids = self.features.iloc[indices[0]].index.tolist()
-            if student_id in similar_student_ids:
-                similar_student_ids.remove(student_id)
-            
-            if not similar_student_ids:
-                return get_fallback_recommendations()
-            recommendations = db.session.query(
-                Module, 
-                db.func.avg(Rating.rating).label('avg_rating')
-            ).join(Rating).filter(
-                Rating.etudiant_id.in_(similar_student_ids),
-                Rating.rating >= 3,
-                Module.module_id.notin_(
-                    db.session.query(Rating.module_id).filter_by(etudiant_id=student_id)
-                )
-            ).group_by(Module.module_id)\
-             .order_by(db.desc('avg_rating'))\
-             .limit(n_recommendations).all()
-            if not recommendations:
-                return get_fallback_recommendations()
-            return [{
-                'module_id': m.Module.module_id,
-                'title': m.Module.title,
-                'code': m.Module.code,
-                'note_prédite': round(m.avg_rating, 2),
-                'match_reason': 'Basé sur des étudiants similaires'
-            } for m in recommendations]  
         except Exception as e:
-            print(f"Erreur lors de l'exécution de get_recommendations : {e}")
-            return get_fallback_recommendations()
+            print(f"Error in fallback recommendations: {e}")
+            return []
