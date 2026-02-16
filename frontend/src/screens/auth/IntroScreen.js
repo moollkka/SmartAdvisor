@@ -51,9 +51,9 @@ const IntroScreen = () => {
             style={styles.container}
             resizeMode="cover"
         >
-            {/* Blue Gradient Overlay */}
+            {/* Light Blue Gradient Overlay */}
             <LinearGradient
-                colors={['rgba(10, 77, 162, 0.85)', 'rgba(76, 102, 159, 0.9)']} // Strong Blue Gradient
+                colors={['rgba(41, 182, 246, 0.85)', 'rgba(2, 136, 209, 0.9)']} // Light Blue Gradient
                 style={styles.overlay}
             >
                 <View style={styles.safeArea}>
@@ -61,7 +61,7 @@ const IntroScreen = () => {
                     {/* Icon Section */}
                     <Animated.View style={[styles.iconContainer, animatedIconStyle]}>
                         <View style={styles.iconCircle}>
-                            <Ionicons name="school" size={90} color="#0a4da2" />
+                            <Ionicons name="school" size={90} color="#29B6F6" />
                         </View>
                     </Animated.View>
 
@@ -81,7 +81,7 @@ const IntroScreen = () => {
                             style={styles.button}
                         >
                             <Text style={styles.buttonText}>Commencer</Text>
-                            <Ionicons name="arrow-forward" size={22} color="#0a4da2" />
+                            <Ionicons name="arrow-forward" size={22} color="#29B6F6" />
                         </TouchableOpacity>
                     </Animated.View>
 
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     buttonText: {
         fontSize: 18,
         fontWeight: 'bold',
-        color: '#0a4da2', // Blue text to match theme
+        color: '#29B6F6', // Light Blue text to match theme
         marginRight: 10,
     },
 });
